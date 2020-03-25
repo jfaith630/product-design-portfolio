@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
-    <title>Portfolio | James Faith</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio | James Faith</title>
+    <link href="styles/reset.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto&display=swap" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -13,85 +15,113 @@
 
     <!--HEADER-->
     <header>
-      <a href="index.html"><img src="../images/personal-logo.png" alt="logo" height="83"></a>
-      <nav>
-        <ul class="nav-links">
-          <li class="nav-link"><a href="#work">Work</a></li>
-          <li class="nav-link"><a href="about.html">About</a></li>
-          <li class="nav-link"><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="header-content">
+        <a href="index.html"><img class="logo" src="../images/personal-logo.svg" alt="logo"></a>
+        <nav>
+          <ul class="nav-links-container">
+            <li class="nav-link"><a href="#work">Work</a></li>
+            <li class="nav-link"><a href="about.html">About</a></li>
+            <li class="nav-link"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <main>
+    <div class="container">
 
-      <!--HERO-->
-      <section id="hero" class="hero">
-        <h1>GREETINGS.</h1>
-        <p class="intro">I’m <b>James Faith</b>, and I’m a NYC/NJ based UX/UI Designer & Developer with a passion for optimizing and organizing.</p>
-        <img src="../images/8-bit-alien-1.svg" alt="8-bit-alien" height="111">
-        <img src="../images/8-bit-alien-2.svg" alt="8-bit-alien" height="111">
-        <img src="../images/8-bit-alien-3.svg" alt="8-bit-alien" height="111">
-        <a class="my-work-element" href="#work">
-          <p>My Work</p>
-          <i class="fas fa-chevron-down"></i>
-        </a>
+      <main>
+
+        <!--HERO-->
+        <section id="hero" class="hero">
+          <div class="hero-content">
+            <h1>GREETINGS.</h1>
+            <p class="intro">I’m <strong>James Faith</strong>, a New Jersey based UX/UI Designer & Developer with a passion for optimizing and organizing.</p>
+            <img class="eight-bit-alien-1" src="../images/8-bit-alien-1.svg" alt="8-bit-alien">
+            <img class="eight-bit-alien-2" src="../images/8-bit-alien-2.svg" alt="8-bit-alien">
+            <img class="eight-bit-alien-3" src="../images/8-bit-alien-3.svg" alt="8-bit-alien">
+          </div>
+          <a class="my-work-element" href="#work">
+            <p class="label">My Work</p>
+            <p class="label"><i class="fa fa-chevron-down"></i></p>
+          </a>
+        </section>
+
+        <!--WORK-->
+        <section id="work" class="work">
+          <div class="work-content">
+            <div class="project-card">
+              <a href="project-4.html"><img class="project-image" src="../images/project-4.png" alt="project-4-image"></a>
+              <div class="project-roles">UX/UI Design • Branding • Development</div>
+              <h3>Secure Dr. Chat</h3>
+              <p class="project-description">Secure Dr. Chat is lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam.</p>
+              <div class="project-card-button-wrapper">
+                <a href="project-4.html"><div class="button-style-1">VIEW CASE STUDY</div></a>
+              </div>
+            </div>
+            <div class="project-card">
+              <a href="project-3.html"><img class="project-image" src="../images/project-3.png" alt="project-3-image"></a>
+              <div class="project-roles">UX/UI Design • Visual Design • Branding</div>
+              <h3>Cloud Storage App</h3>
+              <p class="project-description">Stratus is a cloud storage tool for all users of technology, no matter their technology experience level.</p>
+              <div class="project-card-button-wrapper">
+                <a href="project-3.html"><div class="button-style-1">VIEW CASE STUDY</div></a>
+              </div>
+            </div>
+            <div class="project-card">
+              <a href="https://codepen.io/jfaith630/pen/QWbmBLp" target="_blank"><img class="project-image" src="../images/project-2.png" alt="project-2-image"></a>
+              <div class="project-roles">Development</div>
+              <h3>To-Do App</h3>
+              <p class="project-description">This application is a basic showcase of my HTML, CSS, & Javascript skills.</p>
+              <div class="project-card-button-wrapper">
+                <a href="https://codepen.io/jfaith630/pen/QWbmBLp" target="_blank"><div class="button-style-2">VIEW PROJECT</div></a>
+              </div>
+            </div>
+            <div class="project-card">
+              <a href="https://jamesmfaith.wordpress.com/" target="_blank"><img class="project-image" src="../images/project-1.png" alt="project-1-image"></a>
+              <div class="project-roles">Personal Project</div>
+              <h3>3D Printer/PC Build</h3>
+              <p class="project-description">Check out a couple of DIY projects I undertook during my free time...</p>
+              <div class="project-card-button-wrapper">
+                <a href="https://jamesmfaith.wordpress.com/" target="_blank"><div class="button-style-3">VIEW BLOG POSTS</div></a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </main>
+
+      <!--CONTACT-->
+      <section id="contact" class="contact">
+        <div class="contact-content">
+          <h2>Take me to your leader!</h2>
+          <div class="resume-email-element">
+            <a class="email-element" href="mailto:jfaith630@gmail.com" target="_blank">
+              <div class="email">
+                <img class="email-1" src="../images/email-1.svg" alt="email">
+                <img class="email-2" src="../images/email-2.svg" alt="email">
+              </div>
+              <h3 class="label">Email</h3>
+            </a>
+            <a class="resume-element" href="https://drive.google.com/file/d/1HleOgw_dALKauXlMi9Ra-KkcdqJr9qnd/view?usp=sharing" target="_blank">
+              <div class="resume">
+                <img class="resume-1" src="../images/resume-1.svg" alt="resume">
+                <img class="resume-2" src="../images/resume-2.svg" alt="resume">
+              </div>
+              <h3 class="label">Resume</h3>
+            </a>
+          </div>
+          <div class="social-media">
+            <ul class="social-media-links">
+              <li class="social-media-link"><a href="https://github.com/jfaith630" target="_blank"><img class="social-icon" src="../images/github.svg" alt="github"></a></li>
+              <li class="social-media-link"><a href="https://codepen.io/jfaith630" target="_blank"><img class="social-icon" src="../images/codepen.svg" alt="codepen"></a></li>
+              <li class="social-media-link"><a href="https://www.linkedin.com/in/jamesmfaith/" target="_blank"><img class="social-icon" src="../images/linkedin.svg" alt="linkedin"></a></li>
+              <li class="social-media-link"><a href="https://angel.co/james-faith" target="_blank"><img class="social-icon" src="../images/angellist.svg" alt="angellist"></a></li>
+            </ul>
+          </div>
+        </div>
       </section>
 
-      <!--WORK-->
-      <section id="work" class="work">
-        <div class="project-card">
-          <a href="project-4.html"><img src="../images/project-4.png" alt="project-4-image" height="292"></a>
-          <div class="project-roles">UX/UI Design • Branding • Development</div>
-          <h3>Secure Dr. Chat</h3>
-          <p><b>Secure Dr. Chat</b> is lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam.</p>
-          <a href="project-4.html"><div class="button-style-1">VIEW CASE STUDY</div></a>
-        </div>
-        <div class="project-card">
-          <a href="project-3.html"><img src="../images/project-3.png" alt="project-3-image" height="292"></a>
-          <div class="project-roles">UX/UI Design • Visual Design • Branding</div>
-          <h3>Cloud Storage App</h3>
-          <p><b>Stratus</b> is a cloud storage tool for all users of technology, no matter their technology experience level.</p>
-          <a href="project-3.html"><div class="button-style-1">VIEW CASE STUDY</div></a>
-        </div>
-        <div class="project-card">
-          <a href="https://codepen.io/jfaith630/pen/QWbmBLp" target="_blank"><img src="../images/project-2.png" alt="project-2-image" height="292"></a>
-          <div class="project-roles">Development</div>
-          <h3>To-Do App</h3>
-          <p>This application is a basic showcase of my HTML, CSS, & Javascript skills.</p>
-          <a href="https://codepen.io/jfaith630/pen/QWbmBLp" target="_blank"><div class="button-style-1">VIEW PROJECT</div></a>
-        </div>
-        <div class="project-card">
-          <a href="https://jamesmfaith.wordpress.com/" target="_blank"><img src="../images/project-1.png" alt="project-1-image" height="292"></a>
-          <div class="project-roles">Personal Project</div>
-          <h3>3D Printer/PC Build</h3>
-          <p>Check out a couple of DIY projects I undertook during my free time...</p>
-          <a href="https://jamesmfaith.wordpress.com/" target="_blank"><div class="button-style-1">VIEW BLOG POSTS</div></a>
-        </div>
-      </section>
-
-    </main>
-
-    <!--CONTACT-->
-    <section id="contact" class="contact">
-      <h2>Take me to your leader!</h2>
-      <a class="email-element" href="mailto:jfaith630@gmail.com" target="_blank">
-        <img src="../images/email.svg" alt="email" height="64">
-        <h3>Email</h3>
-      </a>
-      <a class="resume-element" href="https://drive.google.com/file/d/1HleOgw_dALKauXlMi9Ra-KkcdqJr9qnd/view?usp=sharing" target="_blank">
-        <img src="../images/resume.svg" alt="resume" height="112">
-        <h3>Resume</h3>
-      </a>
-      <div class="social-media">
-        <ul class="social-media-links">
-          <li class="social-media-link"><a href="https://github.com/jfaith630" target="_blank"><img src="../images/github.svg" alt="github" height="72"></a></li>
-          <li class="social-media-link"><a href="https://codepen.io/jfaith630" target="_blank"><img src="../images/codepen.svg" alt="codepen" height="72"></a></li>
-          <li class="social-media-link"><a href="https://www.linkedin.com/in/jamesmfaith/" target="_blank"><img src="../images/linkedin.svg" alt="linkedin" height="72"></a></li>
-          <li class="social-media-link"><a href="https://angel.co/james-faith" target="_blank"><img src="../images/angellist.svg" alt="angellist" height="72"></a></li>
-        </ul>
-      </div>
-    </section>
+    </div>
 
     <!--FOOTER-->
     <footer>© 2020 | Designed & Developed by James Faith</footer>

@@ -1,12 +1,110 @@
-*:before, *:after {
-  box-sizing: border-box;
+/*---TYPOGRAPHY-----------------------------------------------------------*/
+
+html {
+  font-size: 10px; /* 1rem = 10px */
 }
+
+body, p, div {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  line-height: 167.23%;
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 5.6rem;
+  line-height: 100%;
+}
+
+h2 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 4.8rem;
+  line-height: 167.23%;
+}
+
+h3 {
+  font-size: 3.4rem;
+  line-height: 120%;
+}
+
+h4 {
+  font-size: 2.4rem;
+  line-height: 120%;
+}
+
+h5 {
+  font-size: 2rem;
+  line-height: 120%;
+}
+
+h6 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 120%;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.nav-link {
+  font-size: 2.0rem;
+}
+
+.label {
+  font-size: 2.4rem;
+}
+
+.button-style-1, .button-style-2, .button-style-3 {
+  font-weight: medium;
+  line-height: 100%;
+}
+
+.intro {
+  font-size: 3.4rem;
+}
+
+.about-intro {
+  font-size: 2.4rem;
+}
+
+.eight-bit-textbox {
+  font-size: 3.2rem;
+}
+
+.big-quotation-mark {
+  font-size: 9.6rem;
+}
+
+blockquote p {
+  font-size: 2.4rem;
+}
+
+.closing {
+  font-size: 2.4rem;
+}
+
+.user-survey-stat {
+  font-size: 3.4rem;
+}
+
+
+
+/*---COLOR----------------------------------------------------------------*/
 
 body {
   background-color: #121212;
   color: #FFFFFF;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+}
+
+.case-study-header {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.07) 99.99%);
+  background-color: #121212;
 }
 
 .case-study-main {
@@ -14,33 +112,738 @@ body {
   color: #000000;
 }
 
-h1 {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 56px;
+.hero, .about-hero {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.07) 99.99%);
 }
 
-h2 {
-  font-family: 'Press Start 2P', cursive;
-  font-size: 32px;
+.contact {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0) 99.99%);
 }
 
-h3 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 34px;
+a {
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: #00B8A2;
+}
+
+.button-style-1 {
+  background-color: #00796B;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button-style-2 {
+  background-color: #45266A;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button-style-3 {
+  background-color: #E1261C;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.project-card-button-wrapper a:hover, .button-wrapper a:hover {
+  color: #FFFFFF;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.project-card:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.project-roles {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.eight-bit-highlight {
+  color: #E1261C;
+}
+
+.heading-block {
+  background-color: #00796B;
+}
+
+.quote-container {
+  background-color: rgba(255, 255, 255, 0.07);
+}
+
+.big-quotation-mark {
+  color: #00796B;
+}
+
+.grey-out-text {
+  opacity: 0.6;
+}
+
+
+
+/*---IMAGES---------------------------------------------------------------*/
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.logo {
+  float: left;
+  height: 8.3rem;
+}
+
+.eight-bit-alien {
+  height: 11.1rem;
+}
+
+.project-image {
+  border-radius: 0.4rem 0.4rem 0 0;
+}
+
+.email {
+  height: 6.4rem;
+}
+
+.resume {
+  height: 9.5rem;
+}
+
+.social-icon {
+  height: 5.6rem;
+}
+
+.profile-image {
+  height: 52.8rem;
+}
+
+.tshirt-wall {
+  /*USED AUTO ABOVE*/
+}
+
+.stratus-logo {
+  height: 7.4rem;
+}
+
+.stratus-humaaans {
+  height: 23.9rem;
+}
+
+.stratus-on-devices-1 {
+  height: 38.4rem;
+}
+
+.stratus-on-devices-2 {
+  height: 63.9rem;
+}
+
+.stratus-simple-structured-seamless {
+  height: 24.2rem;
+}
+
+.role-icon {
+  height: 5.7rem;
+}
+
+.deliverables-icon {
+  height: 6.3rem;
+}
+
+.tools-icon {
+  height: 6.3rem;
+}
+
+.comp-analy-logo {
+  height: 21rem;
+}
+
+.user-persona {
+  height: 27.2rem;
+}
+
+.user-persona-scale {
+  height: 3.2rem;
+}
+
+.basic-file-management-operations-user-flow {
+  height: 79.8rem;
+}
+
+.sharing-links-user-flow {
+  height: 59.8rem;
+}
+
+.wireframe-sketch {
+  height: 43.2rem;
+}
+
+.digital-wireframe {
+  width: 54.6rem;
+}
+
+.usability-testing-persona {
+  height: 14.7rem;
+}
+
+.branding-sketch-1 {
+  height: 51.3rem;
+}
+
+.branding-sketch-2 {
+  height: 42.7rem;
+}
+
+.branding-sketch-3 {
+  height: 38.4rem;
+}
+
+.branding-sketch-4 {
+  height: 32.8rem;
+}
+
+.moodboard {
+  height: 36.5rem;
+}
+
+.logo-iterations {
+  height: 57.5rem;
+}
+
+.brand-colors {
+  height: 17.4rem;
+}
+
+.brand-typography {
+  height: 20rem;
+}
+
+.right-arrow {
+  height: 5rem;
+}
+
+.down-arrow {
+  height: 5.5rem;
+}
+
+.highfi-mockup-1 {
+  height: 43.2rem;
+}
+
+.highfi-mockup-2 {
+  height: 43.2rem;
+}
+
+.highfi-mockup-3 {
+  height: 35.9rem;
+}
+
+.highfi-mockup-4 {
+  height: 35.9rem;
+}
+
+.highfi-mockup-5 {
+  height: 38.6rem;
+}
+
+.highfi-mockup-6 {
+  height: 38.6rem;
+}
+
+.preference-testing-1 {
+  height: 38.6rem;
+}
+
+.preference-testing-2 {
+  height: 35.9rem;
+}
+
+.preference-testing-3 {
+  height: 44.1rem;
+}
+
+.preference-testing-4 {
+  height: 44.1rem;
+}
+
+.usability-testing-results-1 {
+  height: 49.1rem;
+}
+
+.usability-testing-results-2 {
+  height: 49.1rem;
+}
+
+.usability-testing-results-3 {
+  height: 25.1rem;
+}
+
+.usability-testing-results-4 {
+  height: 25.1rem;
+}
+
+.usability-testing-results-5 {
+  height: 35rem;
+}
+
+.usability-testing-results-6 {
+  height: 35rem;
+}
+
+
+
+/*---LAYOUT---------------------------------------------------------------*/
+
+*:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+/*---HEADER---------------------*/
+
+header {
+  padding: 4rem 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.header-content {
+  margin: 0 auto;
+  width: 82%;
+}
+
+nav {
+  float: right;
+  margin-top: 2.7rem;
+}
+
+.nav-links-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-link {
+  margin: 0 1.6rem;
+}
+
+/*---FOOTER---------------------*/
+
+footer {
+  bottom: 0;
+  padding: 2.4rem 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+/*---CONTACT--------------------*/
+
+.contact {
+  overflow: auto;
+  position: relative;
+}
+
+.contact-content {
+  height: 51.3rem;
+  left: 50%;
+  margin: 12.8rem 0 10.8rem -38.1rem;
+  position: relative;
+  width: 76.2rem;
+}
+
+.contact h2 {
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+.resume-email-element {
+  display: flex;
+  direction: row;
+  left: 50%;
+  margin-left: -21.4rem;
+  position: absolute;
+  top: 19.2rem;
+}
+
+.email-element, .resume-element {
+  height: 16rem;
+  margin: 0 5.9rem;
+  text-align: center;
+  width: 9.6rem;
+}
+
+.email-element:hover .email-2, .resume-element:hover .resume-2 {
+  display: inline;
+}
+
+.email {
+  display: inline-block;
+  margin: 2.7rem auto 2rem;
+  position: relative;
+}
+
+.email-1, .email-2 {
+  margin: 0 auto;
+}
+
+.email-2 {
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.resume {
+  display: inline-block;
+  margin: 0 auto 1.6rem;
+  position: relative;
+}
+
+.resume-1, .resume-2 {
+  margin: 0 auto 1.6rem;
+}
+
+.resume-2 {
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.social-media {
+  bottom: 0;
+  left: 50%;
+  margin-left: -24rem;
+  position: absolute;
+}
+
+.social-media-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.social-media-link {
+  margin: 0 3.2rem;
+}
+
+/*---HERO-----------------------*/
+
+.hero {
+  height: 100vh;
+  min-height: 82.5rem;
+  overflow: auto;
+  position: relative;
+}
+
+.hero-content {
+  height: 51.3rem;
+  left: 50%;
+  margin: -23.65rem 0 0 -46.7rem;
+  position: relative;
+  top: 45%;
+  width: 93.4rem;
+}
+
+.hero-content h1 {
+  position: absolute;
+  top: 11.2rem;
+}
+
+.intro {
+  position: absolute;
+  top: 23.2rem;
+  width: 70rem;
+}
+
+.eight-bit-alien-1 {
+  position: absolute;
+  right: 15.2rem;
+}
+
+.eight-bit-alien-2 {
+  margin-top: -5.55rem;
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+.eight-bit-alien-3 {
+  bottom: 0;
+  position: absolute;
+  right: 15.2rem;
+}
+
+.my-work-element {
+  position: absolute;
+  bottom: 4rem;
+  left: 50%;
+  margin-left: -4.75rem;
+}
+
+.label {
+  text-align: center;
+}
+
+/*---WORK-----------------------*/
+
+.work {
+  overflow: auto;
+}
+
+.work-content {
+  display: grid;
+  grid-auto-rows: minmax(auto, auto);
+  grid-gap: 6.4rem;
+  grid-template-columns: 1fr 1fr;
+  margin: 7.2rem auto;
+  max-width: 106.4rem;
+  width: 73%;
+}
+
+.project-card {
+  border-radius: 0.4rem;
+  box-shadow: 0px 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  padding-bottom: 3.2rem;
+  position: relative;
+}
+
+.project-card:hover {
+  box-shadow: 0px 1rem 1rem rgba(0, 0, 0, 0.25);
+  transform: translate(-1rem, -1rem);
+}
+
+.project-roles {
+  padding: 1.2rem 0 1rem 3.2rem;
+}
+
+.project-card h3 {
+  margin: 2.4rem 3.2rem 0;
+}
+
+.project-description {
+  margin: 1.6rem 3.2rem 9.6rem;
+}
+
+.project-card-button-wrapper {
+  bottom: 3.2rem;
+  margin-left: 3.2rem;
+  position: absolute;
+}
+
+.button-style-1, .button-style-2, .button-style-3 {
+  border-radius: 0.4rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  padding: 2rem;
+}
+
+/*---ABOUT HERO-----------------*/
+
+.about-hero {
+  height: 100vh;
+  min-height: 82.5rem;
+  overflow: auto;
+  position: relative;
+}
+
+.about-hero-content {
+  height: 56rem;
+  left: 50%;
+  margin: -23.65rem 0 0 -45rem;
+  position: relative;
+  top: 45%;
+  width: 90rem;
+}
+
+.profile-image {
+  border: 6px solid #E3E3E3;
+  border-radius: 0.2rem;
+  border-style: inset;
+  bottom: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: absolute;
+}
+
+.eight-bit-textbox {
+  background-color: #000000;
+  border: 6px solid #FFFFFF;
+  border-radius: 0.2rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  right: 0;
+  padding: 2.4rem 0 2.4rem 4rem;
+  position: absolute;
+  top: 0;
+  width: 60.5rem;
+}
+
+.about-hero-content h1 {
+  left: 36rem;
+  position: absolute;
+  top: 21.8rem;
+}
+
+.about-intro {
+  left: 36rem;
+  position: absolute;
+  top: 30.8rem;
+  width: 55rem;
+}
+
+.read-more-element {
+  position: absolute;
+  bottom: 4rem;
+  left: 50%;
+  margin-left: -5.85rem;
+}
+
+/*---BIO----------------------*/
+
+.bio {
+  padding: 0.8rem 0 4.8rem;
+}
+
+.text-container {
+  margin: 0 auto;
+  width: 60rem;
+}
+
+.img-container {
+  margin: 4rem auto 2rem;
+  width: 70%;
+}
+
+.heading-block {
+  border-radius: 0.2rem;
+  float: left;
+  height: 3.5rem;
+  margin-top: 3.2rem;
+  width: 1.6rem;
+}
+
+.text-container p {
+  margin-bottom: 1.6rem;
+}
+
+.body-copy-list {
+  list-style: initial;
+  margin-left: 1.6em;
+}
+
+.body-copy-list li {
+  margin: 0.8rem 0;
 }
 
 h4 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 24px;
+  display: inline-block;
+  margin: 3rem 0 1.6rem 0;
+  padding: 0.7rem 0 0 1.6rem;
 }
 
 h5 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  margin: 2.4rem 0 1.6rem 0;
 }
 
-h6 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-weight: bold;
+.quote-container {
+  height: 20.2rem;
+  margin: 4rem 0 4rem;
+  position: relative;
+}
+
+.quote {
+  height: 11.7rem;
+  left: 48%;
+  margin: 2.4rem 0 0 -32.5rem;
+  position: absolute;
+  width: 65rem;
+}
+
+.big-quotation-mark {
+  left: 0;
+  position: absolute;
+  top: -1.4rem;
+}
+
+blockquote {
+  bottom: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 60rem;
+}
+
+.closing {
+  margin-top: 5.6rem;
+}
+
+/*---CASE STUDY HERO------------*/
+
+.case-study-hero {
+  height: 100vh;
+  min-height: 82.5rem;
+  overflow: auto;
+  position: relative;
+}
+
+.case-study-hero-content {
+  margin-top: 18rem;
+
+}
+
+.stratus-logo {
+  margin: 0 auto;
+}
+
+.case-study-intro {
+  margin: 2.4rem auto 0;
+  width: 62.5rem;
+  background-color: blue; /*TEST*/
+}
+
+.case-study-hero-img-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 65%;
+}
+
+.case-study-hero-content p {
+
+}
+
+.button-wrapper {
+  margin: 0 auto;
+  background-color: blue;
+}
+
+.stratus-humaaans, .stratus-on-devices-1, .stratus-simple-structured-seamless {
+
+}
+
+/*---CASE STUDY-----------------*/
+
+.chartjs-wrapper {
+  width: 50%;
+}
+
+
+
+/*---MEDIA QUERIES--------------------------------------------------------*/
+
+@media screen and (min-width: 60.4rem) {
+
+/*To make this "mobile-first" all the layout I do above should actually go here and then the mobile layout should go above... RIGHT? - Use min or max width?*/
+
+}
+
+@media screen and (max-width: 37.5rem) {
+
+/*To make this "mobile-first" all the layout I do above should actually go here and then the mobile layout should go above... RIGHT? - Use min or max width?*/
+
 }
