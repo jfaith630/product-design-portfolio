@@ -1,0 +1,146 @@
+/*---COLOR----------------------------------------------------------------*/
+
+body {
+  background-color: #121212;
+  color: #FFFFFF;
+}
+
+.case-study-header {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.07) 99.99%);
+  background-color: #121212;
+}
+
+.case-study-main {
+  background-color: #E3E3E3;
+  color: #000000;
+}
+
+.hero, .about-hero {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.07) 99.99%);
+}
+
+.contact {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0) 99.99%);
+}
+
+.case-study-contact {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0) 99.99%);
+}
+
+a {
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: #00B8A2;
+}
+
+.back-to-top-element, .back-to-top-element:hover {
+  color: #000000;
+}
+
+.button-style-1 {
+  background-color: #00796B;
+}
+
+.button-style-2 {
+  background-color: #45266A;
+}
+
+.button-style-3 {
+  background-color: #E1261C;
+}
+
+.project-card-button-wrapper a:hover, .button-wrapper a:hover {
+  color: #FFFFFF;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.project-card:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.project-roles {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.eight-bit-highlight {
+  color: #E1261C;
+}
+
+.heading-block {
+  background-color: #00796B;
+}
+
+.quote-container {
+  background-color: rgba(255, 255, 255, 0.07);
+}
+
+.big-quotation-mark {
+  color: #00796B;
+}
+
+.grey-out-text {
+  opacity: 0.6;
+}
+
+hr {
+  background-color: #878787;
+}
+
+.section-title {
+  background-color: #E3E3E3;
+}
+
+.border-break-role, .border-break-tools {
+  background-color: #E3E3E3;
+}
+
+.chartjs-wrapper {
+  background-color: #DADADA;
+}
+
+.user-survey-stat-container {
+  background-color: #DADADA;
+}
+
+.user-persona-card {
+  background-color: #FFFFFF;
+}
+
+.persona-background {
+  background-color: #121212;
+}
+
+.user-persona-job {
+  background-color: #4D4D4D;
+  color: #FFFFFF;
+}
+
+.user-persona-big-quotation-mark-1 {
+  color: #00796B;
+}
+
+.user-persona-big-quotation-mark-2 {
+  color: #45266A;
+}
+
+.user-persona-big-quotation-mark-3 {
+  color: #E1261C;
+}
+
+.first-column-title {
+  border-right-color: #FFFFFF;
+}
+
+th {
+  background-color: #121212;
+  color: #FFFFFF;
+}
+
+tr {
+  background-color: #FFFFFF;
+}
