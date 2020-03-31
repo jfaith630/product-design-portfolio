@@ -9,13 +9,13 @@
     <link href="styles/typography.css" rel="stylesheet">
     <link href="styles/colors.css" rel="stylesheet">
     <link href="styles/imageslayout.css" rel="stylesheet">
-    <link href="styles/layout.css" rel="stylesheet">
+    <link href="styles/layoutmobile.css" rel="stylesheet">
+    <link href="styles/layoutdesktop.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto&display=swap" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
 
-  <!--<body onLoad="window.scroll(0, 177)">-->
-  <body>
+  <body onLoad="window.scroll(0, 177)">
 
     <!--HEADER-->
     <header class="case-study-header">
@@ -41,9 +41,9 @@
             <img class="stratus-logo" src="../images/project-3/stratus-logo.svg" alt="stratus-logo">
             <h3 class="case-study-intro">Cloud storage for all users of technology.</h3>
             <div class="case-study-hero-img-container">
-              <div class="flexbox-img-container>"><img class="stratus-humaaans" src="../images/project-3/stratus-humaaans-1.svg" alt="stratus-humaaans-1"></div>
-              <div class="flexbox-img-container>"><img class="stratus-on-devices-1" src="../images/project-3/stratus-on-devices.png" alt="stratus-on-devices"></div>
-              <div class="flexbox-img-container>"><img class="stratus-simple-structured-seamless" src="../images/project-3/stratus-simple-structured-seamless.png" alt="stratus-simple-structured-seamless"></div>
+              <div><img class="stratus-humaaans" src="../images/project-3/stratus-humaaans-1.svg" alt="stratus-humaaans-1"></div>
+              <div><img class="stratus-on-devices-1" src="../images/project-3/stratus-on-devices.png" alt="stratus-on-devices"></div>
+              <div><img class="stratus-simple-structured-seamless" src="../images/project-3/stratus-simple-structured-seamless.png" alt="stratus-simple-structured-seamless"></div>
             </div>
             <p>Stratus is a cloud storage tool for all users, no matter their technology experience level. It’s a simple and intuitive approach to cloud storage that just works.</p>
             <div class="button-wrapper">
@@ -209,10 +209,8 @@
             <div class="text-container">
               <div class="heading-block"></div>
               <h4>User Personas</h4>
-              <p>With all of this information gathered, I created personas to reflect the typical types of users I expected to be using the application.</p>
+              <p>Based on the results of my user surveys and the major takeaways from my competitive analysis, I put together user personas to represent the three main groups of users expected to use the application.</p>
             </div>
-
-
 
             <div class="flex-content">
 
@@ -401,15 +399,17 @@
               <h5>Sketches</h5>
               <p>With all of the above preparations completed, it was finally time to start putting pen to paper and fleshing out the layout of the application. The “My Files” and other file management screens went through some iterations until I found a layout I thought best. To be specific, I thought a lot about how I wanted to represent the file management screen the user was currently working on (“My Files”, “Recent”, or “Trash”). My first idea shows a sidebar with the current screen underlined, but I ultimately decided on using more of a “tab” design.</p>
             </div>
-            <div class="flex-content">
-                <div class="wireframe-sketches-container-1">
-                  <img class="wireframe-sketch-1" src="../images/project-3/wireframe-sketch-1.png" alt="wireframe-sketch-1">
-                  <img class="wireframe-sketch-2" src="../images/project-3/wireframe-sketch-2.png" alt="wireframe-sketch-2">
-                </div>
-                <div class="wireframe-sketches-container-2">
-                  <img class="wireframe-sketch-3" src="../images/project-3/wireframe-sketch-3.png" alt="wireframe-sketch-3">
-                  <img class="wireframe-sketch-4" src="../images/project-3/wireframe-sketch-4.png" alt="wireframe-sketch-4">
-                </div>
+            <div class="wireframe-sketches">
+              <div class="flex-content">
+                  <div class="wireframe-sketches-container-1">
+                    <img class="wireframe-sketch-1" src="../images/project-3/wireframe-sketch-1.png" alt="wireframe-sketch-1">
+                    <img class="wireframe-sketch-2" src="../images/project-3/wireframe-sketch-2.png" alt="wireframe-sketch-2">
+                  </div>
+                  <div class="wireframe-sketches-container-2">
+                    <img class="wireframe-sketch-3" src="../images/project-3/wireframe-sketch-3.png" alt="wireframe-sketch-3">
+                    <img class="wireframe-sketch-4" src="../images/project-3/wireframe-sketch-4.png" alt="wireframe-sketch-4">
+                  </div>
+              </div>
             </div>
             <div class="text-container">
               <h5>Digital Wireframes</h5>
@@ -480,8 +480,8 @@
             </div>
             <div class="flex-content">
               <img class="branding-sketch-2" src="../images/project-3/branding-sketch-2.png" alt="branding-sketch-2">
-              <img class="branding-sketch-3" src="../images/project-3/branding-sketch-3.png" alt="branding-sketch-3">
               <img class="branding-sketch-4" src="../images/project-3/branding-sketch-4.png" alt="branding-sketch-4">
+              <img class="branding-sketch-3" src="../images/project-3/branding-sketch-3.png" alt="branding-sketch-3">
             </div>
             <div class="flex-content">
               <div class="flex-text-container">
@@ -501,13 +501,13 @@
                 <p>I played with a number of ideas, but ultimately settled on a design that I feel is a bit different from other cloud storage logos while still being recognizable as an image related to a cloud. Of note is the fact that the “cloud” in the logo is flipped upside-down compared to other logo designs. The arrows pointing up and down are meant to represent the ability to deposit and retrieve files from the cloud service.</p>
               </div>
             </div>
-            <div class="flex-content">
-              <div class="flex-text-container">
-                <h5>Color</h5>
-                <p>The primary logo and branding colors I chose were Teal and Venice Blue as they evoke feelings of security, but also lightness.</p>
-              </div>
+            <div class="flex-content-alt">
               <div class="flex-img-container">
                 <img class="brand-colors" src="../images/project-3/brand-colors.svg" alt="brand-colors">
+              </div>
+              <div class="flex-text-container">
+                <h5>Color</h5>
+                <p>The primary logo and branding colors I chose were Teal and Venice Blue as they evoke feelings of security, but also lightness. I also included a violet for highlighting other minor aspects of the UI.</p>
               </div>
             </div>
             <div class="flex-content-alt">
@@ -608,7 +608,7 @@
                 </ol>
               </div>
             </div>
-            <iframe class="document-iframe" src="https://docs.google.com/document/d/e/2PACX-1vQUq05OqqLkjRBHmln9nJOCjuZXtD_AHtasHq6bu2S74O9qMUHR24DdBW_DLRMQP6aaG4LT2NNNHpjY/pub?embedded=true"></iframe>
+            <iframe class="document-iframe" src="https://docs.google.com/document/d/e/2PACX-1vQzfKaCQcXLI_jJrELPEED6xRxkJdWcDtCZNc29hVdOR8dJRER4cNGFOHWSMNfuMASkfUAr5xTwg8j1/pub?embedded=true"></iframe>
             <div class="text-container">
               <h5>Results</h5>
               <p>This second round of usability testing opened my eyes to a couple of important modifications in my design. Here are the major changes I made to the design based off of usability testing:</p>

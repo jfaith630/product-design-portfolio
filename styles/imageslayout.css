@@ -1,5 +1,7 @@
 /*---IMAGES LAYOUT--------------------------------------------------------*/
 
+/*---MOBILE---------------------------------------------*/
+
 img {
   display: block;
   height: auto;
@@ -15,8 +17,8 @@ img {
 
 /*---HERO-----------------------*/
 
-.eight-bit-alien {
-  height: 11.1rem;
+.eight-bit-alien-1, .eight-bit-alien-2, .eight-bit-alien-3 {
+  height: 9.4rem;
 }
 
 /*---WORK-----------------------*/
@@ -45,12 +47,6 @@ img {
   height: 52.8rem;
 }
 
-/*---BIO----------------------*/
-
-.tshirt-wall {
-  /*USED AUTO ABOVE*/
-}
-
 /*---CASE STUDY-----------------*/
 
 .stratus-logo {
@@ -64,10 +60,6 @@ img {
 
 .stratus-on-devices-1 {
   max-height: 50rem;
-}
-
-.stratus-on-devices-2 {
-  max-height: 63.9rem;
 }
 
 .stratus-simple-structured-seamless {
@@ -87,7 +79,7 @@ img {
 }
 
 .comp-analy-logo-1, .comp-analy-logo-2, .comp-analy-logo-3 {
-  height: 21rem;
+  height: 25.5rem;
 }
 
 .user-persona {
@@ -114,18 +106,13 @@ img {
   width: 54.6rem;
 }
 
+.usability-testing-persona {
+  height: 14.7rem;
+}
+
 .video-iframe {
   height: 74.5rem;
   width: 128rem;
-}
-
-.document-iframe {
-  height: 74.5rem;
-  width: 80rem;
-}
-
-.usability-testing-persona {
-  height: 14.7rem;
 }
 
 .branding-sketch-1 {
@@ -141,23 +128,23 @@ img {
 }
 
 .branding-sketch-4 {
-  height: 38.4rem;
+  height: 42.7rem;
 }
 
 .moodboard {
-  height: 36.5rem;
+  width: 50rem;
 }
 
 .logo-iterations {
-  height: 40rem;
+  width: 50rem;
 }
 
 .brand-colors {
-  height: 17.4rem;
+  width: 50rem;
 }
 
 .brand-typography {
-  height: 20rem;
+  width: 50rem;
 }
 
 .right-arrow {
@@ -208,6 +195,11 @@ img {
   height: 44.1rem;
 }
 
+.document-iframe {
+  height: 85rem;
+  width: 80rem;
+}
+
 .usability-testing-results-1 {
   height: 49.1rem;
 }
@@ -232,17 +224,274 @@ img {
   height: 35rem;
 }
 
-
-/*---MEDIA QUERIES--------------------------------------------------------*/
-
-@media screen and (min-width: 60.4rem) {
-
-/*To make this "mobile-first" all the layout I do above should actually go here and then the mobile layout should go above... RIGHT? - Use min or max width?*/
-
+.stratus-on-devices-2 {
+  max-height: 63.9rem;
 }
 
-@media screen and (max-width: 37.5rem) {
+/*---DESKTOP--------------------------------------------*/
 
-/*To make this "mobile-first" all the layout I do above should actually go here and then the mobile layout should go above... RIGHT? - Use min or max width?*/
+@media screen and (min-width: 900px) {
+
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+
+  /*---HEADER---------------------*/
+
+  .logo {
+    float: left;
+    height: 8.3rem;
+  }
+
+  /*---HERO-----------------------*/
+
+  .eight-bit-alien-1, .eight-bit-alien-2, .eight-bit-alien-3 {
+    height: 9.4rem;
+  }
+
+  /*---WORK-----------------------*/
+
+  .project-image {
+    border-radius: 0.4rem 0.4rem 0 0;
+  }
+
+  /*---CONTACT--------------------*/
+
+  .email {
+    height: 6.4rem;
+  }
+
+  .resume {
+    height: 9.5rem;
+  }
+
+  .social-icon {
+    height: 5.6rem;
+  }
+
+  /*---ABOUT HERO-----------------*/
+
+  .profile-image {
+    height: 43.2rem;
+  }
+
+  /*---CASE STUDY-----------------*/
+
+  .stratus-logo {
+    height: 7.4rem;
+  }
+
+  .stratus-humaaans {
+    height: 28rem;
+    max-height: 28rem;
+  }
+
+  .stratus-on-devices-1 {
+    max-height: 50rem;
+  }
+
+  .stratus-simple-structured-seamless {
+    max-height: 31.5rem;
+  }
+
+  .role-icon {
+    height: 5.7rem;
+  }
+
+  .deliverables-icon {
+    height: 6.3rem;
+  }
+
+  .tools-icon {
+    height: 6.3rem;
+  }
+
+  .comp-analy-logo-1, .comp-analy-logo-2, .comp-analy-logo-3 {
+    height: 25.5rem;
+  }
+
+  .user-persona {
+    height: 27.2rem;
+  }
+
+  .user-persona-scale {
+    height: 3.2rem;
+  }
+
+  .basic-file-management-operations-user-flow {
+    height: 79.8rem;
+  }
+
+  .sharing-links-user-flow {
+    height: 59.8rem;
+  }
+
+  .wireframe-sketch-1, .wireframe-sketch-2, .wireframe-sketch-3, .wireframe-sketch-4 {
+    max-height: 43.2rem;
+  }
+
+  .digital-wireframe {
+    width: 54.6rem;
+  }
+
+  .usability-testing-persona {
+    height: 14.7rem;
+  }
+
+  .video-iframe {
+    height: 46.5rem;
+    width: 80rem;
+  }
+
+  .branding-sketch-1 {
+    height: 42.7rem;
+  }
+
+  .branding-sketch-2 {
+    height: 42.7rem;
+  }
+
+  .branding-sketch-3 {
+    height: 38.4rem;
+  }
+
+  .branding-sketch-4 {
+    height: 42.7rem;
+  }
+
+  .moodboard {
+    width: 50rem;
+  }
+
+  .logo-iterations {
+    width: 50rem;
+  }
+
+  .brand-colors {
+    width: 50rem;
+  }
+
+  .brand-typography {
+    width: 50rem;
+  }
+
+  .right-arrow {
+    height: 5rem;
+  }
+
+  .down-arrow {
+    height: 5.5rem;
+  }
+
+  .highfi-mockup-1 {
+    height: 43.2rem;
+  }
+
+  .highfi-mockup-2 {
+    height: 43.2rem;
+  }
+
+  .highfi-mockup-3 {
+    height: 35.9rem;
+  }
+
+  .highfi-mockup-4 {
+    height: 35.9rem;
+  }
+
+  .highfi-mockup-5 {
+    height: 38.6rem;
+  }
+
+  .highfi-mockup-6 {
+    height: 38.6rem;
+  }
+
+  .preference-testing-1 {
+    height: 35.9rem;
+  }
+
+  .preference-testing-2 {
+    height: 35.9rem;
+  }
+
+  .preference-testing-3 {
+    height: 44.1rem;
+  }
+
+  .preference-testing-4 {
+    height: 44.1rem;
+  }
+
+  .document-iframe {
+    height: 85rem;
+    width: 80rem;
+  }
+
+  .usability-testing-results-1 {
+    height: 49.1rem;
+  }
+
+  .usability-testing-results-2 {
+    height: 49.1rem;
+  }
+
+  .usability-testing-results-3 {
+    height: 25.1rem;
+  }
+
+  .usability-testing-results-4 {
+    height: 25.1rem;
+  }
+
+  .usability-testing-results-5 {
+    height: 35rem;
+  }
+
+  .usability-testing-results-6 {
+    height: 35rem;
+  }
+
+  .stratus-on-devices-2 {
+    max-height: 63.9rem;
+  }
+
+  /*---MEDIA QUERIES--------------*/
+
+  @media screen and (min-width: 1200px) {
+
+    /*---HERO-----------------------*/
+
+    .eight-bit-alien-1, .eight-bit-alien-2, .eight-bit-alien-3 {
+      height: 11.1rem;
+    }
+
+    /*---ABOUT HERO-----------------*/
+
+    .profile-image {
+      height: 52.8rem;
+    }
+
+    /*---CASE STUDY-----------------*/
+
+    .video-iframe {
+      height: 58.2rem;
+      width: 100rem;
+    }
+
+  }
+
+  @media screen and (min-width: 1420px) {
+
+    /*---CASE STUDY-----------------*/
+
+    .video-iframe {
+      height: 74.5rem;
+      width: 128rem;
+    }
+
+  }
 
 }
