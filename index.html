@@ -15,21 +15,19 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
 
-  <script>
-
-  </script>
-
-  <body>
+  <body id="body" onresize="windowResizeNavFix(); heroCurtain()" onLoad="heroCurtain()">
 
     <!--HEADER-->
     <header>
       <div class="header-content">
         <a href="index.html"><img class="logo" src="images/personal-logo.svg" alt="logo"></a>
-        <nav>
+        <div onclick="showOnClick()" class="hamburger-menu"><img class="hamburger-menu-icon" src="images/hamburger-menu-icon.svg" alt="hamburger-menu-icon"></div>
+        <div onclick="showOnClick()" id="close-nav-menu" class="close-nav-menu"><img class="close-nav-menu-icon" src="images/close-nav-menu-icon.svg" alt="close-nav-menu-icon"></div>
+        <nav id="nav">
           <ul class="nav-links-container">
-            <li class="nav-link"><a href="#work">Work</a></li>
-            <li class="nav-link"><a href="about.html">About</a></li>
-            <li class="nav-link"><a href="#contact">Contact</a></li>
+            <li onclick="showOnClick()" class="nav-link"><a href="#work">Work</a></li>
+            <li onclick="showOnClick()" class="nav-link"><a href="about.html">About</a></li>
+            <li onclick="showOnClick()" class="nav-link"><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -53,6 +51,9 @@
             <p class="label"><i class="fa fa-chevron-down"></i></p>
           </a>
         </section>
+
+        <div id="hamburger-menu-backing-hero-curtain" class="hamburger-menu-backing-hero-curtain"></div>
+        <div class="hamburger-menu-backing"></div>
 
         <!--WORK-->
         <section id="work" class="work">
@@ -133,6 +134,11 @@
 
     <!--FOOTER-->
     <footer>© 2020 | Designed & Developed by James Faith</footer>
+
+    <!--LOAD JS-->
+    <script src="scripts/herocurtain.js"></script>
+    <script src="scripts/windowresizenavfix.js"></script>
+    <script src="scripts/showonclick.js"></script>
 
   </body>
 

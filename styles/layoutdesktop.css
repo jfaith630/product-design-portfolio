@@ -4,137 +4,74 @@
 
 @media screen and (min-width: 900px) {
 
-  body {
-    position: relative;
-  }
-
   /*---HEADER---------------------*/
 
   header {
     min-width: 56.4rem;
     overflow: hidden;
     padding: 4rem 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 1;
   }
 
   .header-content {
-    margin: 0 auto;
     width: 82%;
   }
 
+  .hamburger-menu, .close-nav-menu {
+    display: none;
+  }
+
   nav {
+    display: block;
     float: right;
-    margin-top: 2.7rem;
+    margin: 2.7rem 0 0 0;
+    position: static;
+    width: auto;
   }
 
   .nav-links-container {
-    display: flex;
     flex-direction: row;
+    margin-top: 0;
+    position: static;
   }
 
   .nav-link {
     margin: 0 1.6rem;
   }
 
-  /*---FOOTER---------------------*/
-
-  footer {
-    bottom: 0;
-    padding: 2.4rem 0;
-    position: absolute;
-    text-align: center;
-    width: 100%;
-  }
-
   /*---CONTACT--------------------*/
-
-  .contact, .case-study-contact {
-    overflow: auto;
-    position: relative;
-  }
 
   .contact-content {
     height: 51.3rem;
-    left: 50%;
     margin: 12.8rem 0 10.8rem -38.1rem;
-    position: relative;
     width: 76.2rem;
   }
 
-  .contact h2, .case-study-contact h2 {
-    left: 0;
-    position: absolute;
-    right: 0;
-    text-align: center;
-  }
-
   .resume-email-element {
-    direction: row;
-    display: flex;
-    left: 50%;
     margin-left: -21.4rem;
-    position: absolute;
     top: 19.2rem;
   }
 
   .email-element, .resume-element {
     height: 16rem;
     margin: 0 5.9rem;
-    text-align: center;
     width: 9.6rem;
   }
 
-  .email-element:hover .email-2, .resume-element:hover .resume-2 {
-    display: inline;
-  }
-
   .email {
-    display: inline-block;
     margin: 2.7rem auto 2rem;
     position: relative;
   }
 
-  .email-1, .email-2 {
-    margin: 0 auto;
-  }
-
-  .email-2 {
-    display: none;
-    left: 0;
-    position: absolute;
-    top: 0;
-  }
-
   .resume {
-    display: inline-block;
-    margin: 0 auto 1.6rem;
-    position: relative;
+    margin-bottom: 1.6rem;
   }
 
   .resume-1, .resume-2 {
-    margin: 0 auto 1.6rem;
-  }
-
-  .resume-2 {
-    display: none;
-    left: 0;
-    position: absolute;
-    top: 0;
+    margin-bottom: 1.6rem;
   }
 
   .social-media {
-    bottom: 0;
-    left: 50%;
     margin-left: -24rem;
-    position: absolute;
-  }
-
-  .social-media-links {
-    display: flex;
-    flex-direction: row;
   }
 
   .social-media-link {
@@ -144,39 +81,17 @@
   /*---HERO-----------------------*/
 
   .hero {
-    height: 100vh;
     min-height: 82.5rem;
-    overflow: hidden;
-    position: relative;
+  }
+
+  .hamburger-menu-backing-hero-curtain, .hamburger-menu-backing {
+    display: none;
   }
 
   .hero-content {
     height: 43.5rem;
-    left: 50%;
     margin: -21.75rem 0 0 -39.6rem;
-    position: relative;
-    top: 50%;
     width: 79.2rem;
-
-    animation: fadein ease 1.5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-
-    -webkit-animation: fadein ease 1.5s;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-fill-mode: forwards;
-
-    -moz-animation: fadein ease 1.5s;
-    -moz-animation-iteration-count: 1;
-    -moz-animation-fill-mode: forwards;
-
-    -ms-animation: fadein ease 1.5s;
-    -ms-animation-iteration-count: 1;
-    -ms-animation-fill-mode: forwards;
-
-    -o-animation: fadein ease 1.5s;
-    -o-animation-iteration-count: 1;
-    -o-animation-fill-mode: forwards;
 
   }
 
@@ -190,7 +105,7 @@
     }
     60% {
       opacity: 1;
-      width: 79.2rem;
+      width: 80rem;
     }
   }
 
@@ -204,7 +119,7 @@
     }
     60% {
       opacity: 1;
-      width: 79.2rem;
+      width: 80rem;
     }
   }
 
@@ -218,7 +133,7 @@
     }
     60% {
       opacity: 1;
-      width: 79.2rem;
+      width: 80rem;
     }
   }
 
@@ -232,7 +147,7 @@
     }
     60% {
       opacity: 1;
-      width: 79.2rem;
+      width: 80rem;
     }
   }
 
@@ -246,139 +161,61 @@
     }
     60% {
       opacity: 1;
-      width: 79.2rem;
+      width: 80rem;
     }
   }
 
   .hero-content h1 {
-    position: absolute;
+    left: 0%;
+    margin-left: 0;
     top: 9.5rem;
   }
 
   .intro {
-    position: absolute;
+    text-align: left;
     top: 19.7rem;
     width: 59.3rem;
   }
 
   .eight-bit-alien-1 {
-    position: absolute;
     right: 12.9rem;
+    top: 0;
   }
 
   .eight-bit-alien-2 {
     margin-top: -4.75rem;
-    position: absolute;
     right: 0;
     top: 50%;
   }
 
   .eight-bit-alien-3 {
     bottom: 0;
-    position: absolute;
+    left: auto;
     right: 12.9rem;
+  }
+
+  .eight-bit-alien-1 {
+    animation: fadein2 0s;
+  }
+
+  .eight-bit-alien-2, .eight-bit-alien-3 {
+    animation: fadein3 0s;
   }
 
   .my-work-element {
     bottom: 4rem;
-    left: 50%;
     margin-left: -4.75rem;
-    position: absolute;
-
-    animation: bounce 1s infinite;
-    -webkit-animation: bounce 1s infinite;
-    -moz-animation: bounce 1s infinite;
-    -ms-animation: bounce 1s infinite;
-    -o-animation: bounce 1s infinite;
-
-  }
-
-  @keyframes bounce {
-    0%    { bottom:4rem; }
-    12.5% { bottom:4.1rem; }
-    25%   { bottom:4.2rem; }
-    37.5% { bottom:4.3rem; }
-    50%   { bottom:4.4rem; }
-    62.5% { bottom:4.3rem; }
-    75%   { bottom:4.2rem; }
-    87.5% { bottom:4.1rem; }
-    100%  {bottom:4rem;}
-  }
-
-  @-webkit-keyframes bounce {
-    0%    { bottom:4rem; }
-    12.5% { bottom:4.1rem; }
-    25%   { bottom:4.2rem; }
-    37.5% { bottom:4.3rem; }
-    50%   { bottom:4.4rem; }
-    62.5% { bottom:4.3rem; }
-    75%   { bottom:4.2rem; }
-    87.5% { bottom:4.1rem; }
-    100%  {bottom:4rem;}
-  }
-
-  @-moz-keyframes bounce {
-    0%    { bottom:4rem; }
-    12.5% { bottom:4.1rem; }
-    25%   { bottom:4.2rem; }
-    37.5% { bottom:4.3rem; }
-    50%   { bottom:4.4rem; }
-    62.5% { bottom:4.3rem; }
-    75%   { bottom:4.2rem; }
-    87.5% { bottom:4.1rem; }
-    100%  {bottom:4rem;}
-  }
-
-  @-ms-keyframes bounce {
-    0%    { bottom:4rem; }
-    12.5% { bottom:4.1rem; }
-    25%   { bottom:4.2rem; }
-    37.5% { bottom:4.3rem; }
-    50%   { bottom:4.4rem; }
-    62.5% { bottom:4.3rem; }
-    75%   { bottom:4.2rem; }
-    87.5% { bottom:4.1rem; }
-    100%  {bottom:4rem;}
-  }
-
-  @-o-keyframes bounce {
-    0%    { bottom:4rem; }
-    12.5% { bottom:4.1rem; }
-    25%   { bottom:4.2rem; }
-    37.5% { bottom:4.3rem; }
-    50%   { bottom:4.4rem; }
-    62.5% { bottom:4.3rem; }
-    75%   { bottom:4.2rem; }
-    87.5% { bottom:4.1rem; }
-    100%  {bottom:4rem;}
-  }
-
-  .label {
-    text-align: center;
   }
 
   /*---WORK-----------------------*/
 
-  .work {
-    overflow: hidden;
-  }
-
   .work-content {
-    display: grid;
-    grid-auto-rows: minmax(auto, auto);
     grid-gap: 6.4rem;
     grid-template-columns: 1fr 1fr;
     margin: 7.2rem auto;
     max-width: 106.4rem;
     min-width: 73.7rem;
     width: 73%;
-  }
-
-  .project-card {
-    border-radius: 0.4rem;
-    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-    padding-bottom: 3.2rem;
-    position: relative;
   }
 
   .project-card:hover {
@@ -437,45 +274,20 @@
     }
   }
 
-  .project-roles {
-    padding: 1.2rem 3.2rem 1rem;
-  }
-
-  .project-card h3 {
-    margin: 2.4rem 3.2rem 0;
-  }
-
-  .project-description {
-    margin: 1.6rem 3.2rem 9.6rem;
-  }
-
-  .project-card-button-wrapper {
-    bottom: 3.2rem;
-    margin-left: 3.2rem;
-    position: absolute;
-  }
-
-  .button-style-1, .button-style-2, .button-style-3 {
-    border-radius: 0.4rem;
-    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.1);
-    display: inline-block;
-    padding: 2rem;
-  }
-
   /*---ABOUT HERO-----------------*/
 
   .about-hero {
     height: 100vh;
     min-height: 82.5rem;
-    overflow: auto;
-    position: relative;
+  }
+
+  .hamburger-menu-backing-about-hero-curtain {
+    display: none;
   }
 
   .about-hero-content {
     height: 45.9rem;
-    left: 50%;
     margin: -23rem 0 0 -36.75rem;
-    position: relative;
     top: 50%;
     width: 73.5rem;
   }
@@ -485,96 +297,64 @@
     border-radius: 0.2rem;
     border-style: inset;
     bottom: 0;
-    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-    position: absolute;
   }
 
   .eight-bit-textbox {
-    background-color: #000000;
     border: 0.6rem solid #FFFFFF;
     border-radius: 0.2rem;
-    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-    right: 0;
     padding: 2rem 0 2rem 3.2rem;
-    position: absolute;
-    top: 0;
     width: 49.5rem;
   }
 
   .about-hero-content h1 {
     left: 31rem;
-    position: absolute;
     top: 20rem;
   }
 
   .about-intro {
     left: 31rem;
-    position: absolute;
     top: 28.2rem;
     width: 45rem;
   }
 
   .read-more-element {
     bottom: 4rem;
-    left: 50%;
     margin-left: -5.85rem;
-    position: absolute;
-
-    animation:bounce 1s infinite;
-    -webkit-animation: bounce 1s infinite;
-    -moz-animation: bounce 1s infinite;
-    -ms-animation: bounce 1s infinite;
-    -o-animation: bounce 1s infinite;
-
   }
 
   /*---BIO----------------------*/
 
-  .bio {
-    padding: 0.8rem 0 4.8rem;
+  .bio .img-container {
+    display: block;
+  }
+
+  .about-desktop-heading {
+    display: inline-block;
+  }
+
+  .about-desktop-list-item {
+    display: list-item;
+  }
+
+  .about-mobile-heading, .about-mobile-list-item {
+    display: none;
   }
 
   .quote-container {
     height: 20.2rem;
-    margin: 4rem 0;
-    position: relative;
   }
 
   .quote {
     height: 11.7rem;
-    left: 48%;
     margin: 2.4rem 0 0 -32.5rem;
-    position: absolute;
     width: 65rem;
   }
 
-  .big-quotation-mark {
-    left: 0;
-    position: absolute;
-    top: -1.4rem;
-  }
-
   blockquote {
-    bottom: 0;
-    margin: 0 auto;
-    position: absolute;
-    right: 0;
     width: 60rem;
   }
 
-  .closing {
-    margin-top: 5.6rem;
-  }
-
   /*---CASE STUDY-----------------*/ /*******************************************************************/
-
-  .case-study-header {
-    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.25);
-  }
-
-  .case-study-contact {
-    box-shadow: 0 -1rem 1rem rgba(0, 0, 0, 0.25);
-  }
 
   /*---SECTIONS-------*/
 
@@ -583,23 +363,15 @@
     width: 75%;
   }
 
-  hr {
-     border: 0 none;
-     height: 0.2rem;
-  }
-
   .section-title {
-    display: inline-block;
-    padding-right: 5rem;
-    position: relative;
-    top: -3rem;
+    left: 0;
+    padding: 0 5rem 0 0;
+    transform: none;
   }
 
   /*---CONTAINERS-----*/
 
   .text-container {
-    margin: 0 auto;
-    text-align: left;
     width: 60rem;
   }
 
@@ -634,41 +406,6 @@
     margin-top: 4rem;
     overflow: auto;
     padding: 0 2rem;
-  }
-
-  /*---HEADINGS-------*/
-
-  .heading-block {
-    border-radius: 0.2rem;
-    float: left;
-    height: 3.5rem;
-    margin-top: 3.2rem;
-    width: 1.6rem;
-  }
-
-  h4 {
-    display: inline-block;
-    margin: 3rem 0 1.6rem;
-    padding: 0.7rem 0 0 1.6rem;
-  }
-
-  h5 {
-    margin: 2.4rem 0 1.6rem;
-  }
-
-  /*---BODY TEXT------*/
-
-  .text-container p {
-    margin-bottom: 1.6rem;
-  }
-
-  .body-copy-list {
-    list-style: initial;
-    margin-left: 1.6em;
-  }
-
-  .body-copy-list li {
-    margin: 0.8rem 0;
   }
 
   /*---BUTTONS--------*/
@@ -1331,7 +1068,7 @@
       }
       60% {
         opacity: 1;
-        width: 93.4rem;
+        width: 94.4rem;
       }
     }
 
@@ -1345,7 +1082,7 @@
       }
       60% {
         opacity: 1;
-        width: 93.4rem;
+        width: 94.4rem;
       }
     }
 
@@ -1359,7 +1096,7 @@
       }
       60% {
         opacity: 1;
-        width: 93.4rem;
+        width: 94.4rem;
       }
     }
 
@@ -1373,7 +1110,7 @@
       }
       60% {
         opacity: 1;
-        width: 93.4rem;
+        width: 94.4rem;
       }
     }
 
@@ -1387,7 +1124,7 @@
       }
       60% {
         opacity: 1;
-        width: 93.4rem;
+        width: 94.4rem;
       }
     }
 
@@ -1418,7 +1155,6 @@
       height: 56rem;
       left: 50%;
       margin: -23.65rem 0 0 -45rem;
-      position: relative;
       top: 45%;
       width: 90rem;
     }

@@ -1,12 +1,14 @@
 /*---COLOR----------------------------------------------------------------*/
 
+/*---MOBILE---------------------------------------------*/
+
 body {
   background-color: #121212;
   color: #FFFFFF;
 }
 
 .case-study-header {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.07) 99.99%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.07) 100%);
   background-color: #121212;
 }
 
@@ -15,16 +17,30 @@ body {
   color: #000000;
 }
 
-.hero, .about-hero {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.07) 99.99%);
+nav {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 100%);
+  background-color: #121212;
 }
 
 .contact {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0) 99.99%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 .case-study-contact {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0) 99.99%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.hero, .about-hero {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.07) 100%);
+}
+
+.hamburger-menu-backing-hero-curtain, .hamburger-menu-backing-about-hero-curtain {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.07) 100%);
+  background-color: #121212;
+}
+
+.hamburger-menu-backing {
+  background-color: #232323;
 }
 
 a {
@@ -57,10 +73,6 @@ a:hover {
 
 .project-card {
   background: rgba(255, 255, 255, 0.07);
-}
-
-.project-card:hover {
-  background: rgba(255, 255, 255, 0.1);
 }
 
 .project-roles {
@@ -143,4 +155,18 @@ th {
 
 tr {
   background-color: #FFFFFF;
+}
+
+/*---DESKTOP--------------------------------------------*/
+
+@media screen and (min-width: 900px) {
+
+  nav {
+    background: transparent;
+  }
+
+  .project-card:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
 }

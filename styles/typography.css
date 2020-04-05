@@ -8,19 +8,19 @@ html {
 
 body, p, div {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 167.23%;
 }
 
 h1 {
   font-family: 'Press Start 2P', cursive;
-  font-size: 4.8rem;
+  font-size: 2.6rem;
   line-height: 100%;
 }
 
 h2 {
   font-family: 'Press Start 2P', cursive;
-  font-size: 4.8rem;
+  font-size: 2.6rem;
   line-height: 167.23%;
 }
 
@@ -55,11 +55,11 @@ strong {
 }
 
 .nav-link {
-  font-size: 2.0rem;
+  font-size: 3.4rem;
 }
 
 .label {
-  font-size: 2.4rem;
+  font-size: 2rem;
 }
 
 .button-style-1, .button-style-2, .button-style-3 {
@@ -68,15 +68,15 @@ strong {
 }
 
 .intro {
-  font-size: 3rem;
-}
-
-.about-intro {
   font-size: 2.4rem;
 }
 
+.about-intro {
+  font-size: 1.6rem;
+}
+
 .eight-bit-textbox {
-  font-size: 3.2rem;
+  font-size: 2rem;
 }
 
 .big-quotation-mark {
@@ -91,21 +91,21 @@ blockquote p {
   font-size: 2.4rem;
 }
 
+.case-study-hero-content p {
+  font-size: 1.4rem;
+}
+
 .overview-list li {
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 
 .chartjs-wrapper h5 {
-  font-size: 2.4rem;
+  font-size: 2rem;
   line-height: 167.23%;
 }
 
 .user-survey-stat {
-  font-size: 2.4rem;
-}
-
-.case-study-hero-content p {
-  font-size: 2.0rem;
+  font-size: 2rem;
 }
 
 .user-persona-big-quotation-mark-1, .user-persona-big-quotation-mark-2, .user-persona-big-quotation-mark-3 {
@@ -122,16 +122,8 @@ blockquote p {
   line-height: 120%;
 }
 
-.table-column-title {
-  font-size: 2.0rem;
-}
-
-table, th, td {
-  font-size: 1.4rem;
-}
-
 .final-thanks {
-  font-size: 3.4rem;
+  font-size: 2rem;
 }
 
 /*---DESKTOP--------------------------------------------*/
@@ -139,64 +131,23 @@ table, th, td {
 @media screen and (min-width: 900px) {
 
   body, p, div {
-    font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
-    line-height: 167.23%;
   }
 
   h1 {
-    font-family: 'Press Start 2P', cursive;
     font-size: 4.8rem;
-    line-height: 100%;
   }
 
   h2 {
-    font-family: 'Press Start 2P', cursive;
     font-size: 4.8rem;
-    line-height: 167.23%;
-  }
-
-  h3 {
-    font-size: 3.4rem;
-    line-height: 120%;
-  }
-
-  h4 {
-    font-size: 2.4rem;
-    line-height: 120%;
-  }
-
-  h5 {
-    font-size: 2rem;
-    line-height: 120%;
-  }
-
-  h6 {
-    font-size: 1.6rem;
-    font-weight: bold;
-    line-height: 120%;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  strong {
-    font-weight: bold;
-    letter-spacing: 0.1rem;
   }
 
   .nav-link {
-    font-size: 2.0rem;
+    font-size: 2rem;
   }
 
   .label {
     font-size: 2.4rem;
-  }
-
-  .button-style-1, .button-style-2, .button-style-3 {
-    font-weight: medium;
-    line-height: 100%;
   }
 
   .intro {
@@ -211,16 +162,8 @@ table, th, td {
     font-size: 2.8rem;
   }
 
-  .big-quotation-mark {
-    font-size: 9.6rem;
-  }
-
-  blockquote p {
-    font-size: 2.4rem;
-  }
-
-  .closing {
-    font-size: 2.4rem;
+  .case-study-hero-content p {
+    font-size: 2rem;
   }
 
   .overview-list li {
@@ -229,33 +172,14 @@ table, th, td {
 
   .chartjs-wrapper h5 {
     font-size: 2.4rem;
-    line-height: 167.23%;
   }
 
   .user-survey-stat {
     font-size: 2.4rem;
   }
 
-  .case-study-hero-content p {
-    font-size: 2.0rem;
-  }
-
-  .user-persona-big-quotation-mark-1, .user-persona-big-quotation-mark-2, .user-persona-big-quotation-mark-3 {
-    font-size: 7.2rem;
-  }
-
-  .user-persona-card-title {
-    font-size: 2.4rem;
-    line-height: 120%;
-  }
-
-  .user-persona-card-subtitle {
-    font-size: 2rem;
-    line-height: 120%;
-  }
-
   .table-column-title {
-    font-size: 2.0rem;
+    font-size: 2rem;
   }
 
   table, th, td {

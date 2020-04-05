@@ -12,74 +12,76 @@ img {
 
 .logo {
   float: left;
-  height: 8.3rem;
+  height: 5.7rem;
 }
 
-/*---HERO-----------------------*/
-
-.eight-bit-alien-1, .eight-bit-alien-2, .eight-bit-alien-3 {
-  height: 9.4rem;
+.hamburger-menu-icon {
+  height: 2.2rem;
 }
 
-/*---WORK-----------------------*/
-
-.project-image {
-  border-radius: 0.4rem 0.4rem 0 0;
+.close-nav-menu-icon {
+  height: 2.3rem;
 }
 
 /*---CONTACT--------------------*/
 
 .email {
-  height: 6.4rem;
+  height: 4.2rem;
+}
+
+.email-1, .email-2 {
+  height: 4.2rem;
 }
 
 .resume {
-  height: 9.5rem;
+  height: 6.23rem;
+}
+
+.resume-1, .resume-2 {
+  height: 6.23rem;
 }
 
 .social-icon {
-  height: 5.6rem;
+  height: 4rem;
+}
+
+/*---HERO-----------------------*/
+
+.eight-bit-alien-1, .eight-bit-alien-2, .eight-bit-alien-3 {
+  height: 4.8rem;
 }
 
 /*---ABOUT HERO-----------------*/
 
 .profile-image {
-  height: 52.8rem;
+  height: 51.8rem;
 }
 
 /*---CASE STUDY-----------------*/
 
 .stratus-logo {
-  height: 7.4rem;
-}
-
-.stratus-humaaans {
-  height: 28rem;
-  max-height: 28rem;
+  height: 5rem;
 }
 
 .stratus-on-devices-1 {
-  max-height: 50rem;
-}
-
-.stratus-simple-structured-seamless {
-  max-height: 31.5rem;
+  max-height: 26.4rem;
+  /*Width to fill border*/
 }
 
 .role-icon {
-  height: 5.7rem;
+  height: 3.2rem;
 }
 
 .deliverables-icon {
-  height: 6.3rem;
+  height: 3.6rem;
 }
 
 .tools-icon {
-  height: 6.3rem;
+  height: 3.6rem;
 }
 
 .comp-analy-logo-1, .comp-analy-logo-2, .comp-analy-logo-3 {
-  height: 25.5rem;
+  height: 16rem;
 }
 
 .user-persona {
@@ -91,141 +93,165 @@ img {
 }
 
 .basic-file-management-operations-user-flow {
-  height: 79.8rem;
+  height: 48.5;
+  /*Width to fill border*/
 }
 
 .sharing-links-user-flow {
-  height: 59.8rem;
+  height: 35.7rem;
+  /*Width to fill border*/
 }
 
 .wireframe-sketch-1, .wireframe-sketch-2, .wireframe-sketch-3, .wireframe-sketch-4 {
   max-height: 43.2rem;
+  /*Width to fill border*/
 }
 
 .digital-wireframe {
-  width: 54.6rem;
+  width: 23.3rem;
 }
 
 .usability-testing-persona {
-  height: 14.7rem;
+  height: 5.9rem;
 }
 
 .video-iframe {
-  height: 74.5rem;
-  width: 128rem;
+  height: 19rem;
+  width: 32.7rem;
+  /*Media query for width?*/
 }
 
 .branding-sketch-1 {
-  height: 42.7rem;
+  height: 38.1rem;
+  /*Width to fill border*/
 }
 
 .branding-sketch-2 {
-  height: 42.7rem;
+  height: 37.5rem;
+  /*Width to fill border*/
 }
 
 .branding-sketch-3 {
-  height: 38.4rem;
+  height: 33.6rem;
+  /*Width to fill border*/
 }
 
 .branding-sketch-4 {
-  height: 42.7rem;
+  height: 28.8rem;
+  /*Width to fill border*/
 }
 
 .moodboard {
-  width: 50rem;
+  width: 25.3rem;
+  /*Width to fill border*/
 }
 
 .logo-iterations {
-  width: 50rem;
+  width: 24.3rem;
+  /*Width to fill border*/
 }
 
 .brand-colors {
-  width: 50rem;
+  width: 12rem;
+  /*Width to fill border*/
 }
 
 .brand-typography {
-  width: 50rem;
+  width: 15.4rem;
+  /*Width to fill border*/
 }
 
 .right-arrow {
-  height: 5rem;
+  height: 3.8rem;
 }
 
 .down-arrow {
-  height: 5.5rem;
+  height: 4.2rem;
 }
 
 .highfi-mockup-1 {
-  height: 43.2rem;
+  height: 23.3rem;
+  /*Container width to fill border*/
 }
 
 .highfi-mockup-2 {
-  height: 43.2rem;
+  height: 23.3rem;
+  /*Container width to fill border*/
 }
 
 .highfi-mockup-3 {
-  height: 35.9rem;
+  height: 27.6rem;
+  /*Container width to fill border*/
 }
 
 .highfi-mockup-4 {
-  height: 35.9rem;
+  height: 27.6rem;
+  /*Container width to fill border*/
 }
 
 .highfi-mockup-5 {
-  height: 38.6rem;
+  height: 29.9rem;
+  /*Container width to fill border*/
 }
 
 .highfi-mockup-6 {
-  height: 38.6rem;
+  height: 29.9rem;
+  /*Container width to fill border*/
 }
 
 .preference-testing-1 {
-  height: 35.9rem;
+  height: 26.3rem;
+  /*Container width to fill border*/
 }
 
 .preference-testing-2 {
-  height: 35.9rem;
+  height: 26.3rem;
+  /*Container width to fill border*/
 }
 
 .preference-testing-3 {
-  height: 44.1rem;
+  height: 29.9rem;
+  /*Container width to fill border*/
 }
 
 .preference-testing-4 {
-  height: 44.1rem;
-}
-
-.document-iframe {
-  height: 85rem;
-  width: 80rem;
+  height: 29.9rem;
+  /*Container width to fill border*/
 }
 
 .usability-testing-results-1 {
-  height: 49.1rem;
+  height: 23.2rem;
+  /*Container width to fill border*/
 }
 
 .usability-testing-results-2 {
-  height: 49.1rem;
+  height: 23.2rem;
+  /*Container width to fill border*/
 }
 
 .usability-testing-results-3 {
-  height: 25.1rem;
+  height: 20.3rem;
+  /*Container width to fill border*/
 }
 
 .usability-testing-results-4 {
-  height: 25.1rem;
+  height: 20.3rem;
+  /*Container width to fill border*/
 }
 
 .usability-testing-results-5 {
-  height: 35rem;
+  height: 28.3rem;
+  /*Container width to fill border*/
 }
 
 .usability-testing-results-6 {
-  height: 35rem;
+  height: 28.3rem;
+  /*Container width to fill border*/
 }
 
 .stratus-on-devices-2 {
-  max-height: 63.9rem;
+  max-height: 26.4rem;
+  /*Width to fill border*/
 }
 
 /*---DESKTOP--------------------------------------------*/
@@ -241,20 +267,7 @@ img {
   /*---HEADER---------------------*/
 
   .logo {
-    float: left;
     height: 8.3rem;
-  }
-
-  /*---HERO-----------------------*/
-
-  .eight-bit-alien-1, .eight-bit-alien-2, .eight-bit-alien-3 {
-    height: 9.4rem;
-  }
-
-  /*---WORK-----------------------*/
-
-  .project-image {
-    border-radius: 0.4rem 0.4rem 0 0;
   }
 
   /*---CONTACT--------------------*/
@@ -263,12 +276,26 @@ img {
     height: 6.4rem;
   }
 
+  .email-1, .email-2 {
+    height: 6.4rem;
+  }
+
   .resume {
+    height: 9.5rem;
+  }
+
+  .resume-1, .resume-2 {
     height: 9.5rem;
   }
 
   .social-icon {
     height: 5.6rem;
+  }
+
+  /*---HERO-----------------------*/
+
+  .eight-bit-alien-1, .eight-bit-alien-2, .eight-bit-alien-3 {
+    height: 9.4rem;
   }
 
   /*---ABOUT HERO-----------------*/
@@ -310,14 +337,6 @@ img {
 
   .comp-analy-logo-1, .comp-analy-logo-2, .comp-analy-logo-3 {
     height: 25.5rem;
-  }
-
-  .user-persona {
-    height: 27.2rem;
-  }
-
-  .user-persona-scale {
-    height: 3.2rem;
   }
 
   .basic-file-management-operations-user-flow {

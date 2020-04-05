@@ -15,17 +15,19 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
 
-  <body onLoad="window.scroll(0, 177)">
+  <body id="body" onLoad="window.scroll(0, 177)" onresize="windowResizeNavFix()">
 
     <!--HEADER-->
     <header class="case-study-header">
       <div class="header-content">
         <a href="index.html"><img class="logo" src="images/personal-logo.svg" alt="logo"></a>
-        <nav>
+        <div onclick="showOnClick()" class="hamburger-menu"><img class="hamburger-menu-icon" src="images/hamburger-menu-icon.svg" alt="hamburger-menu-icon"></div>
+        <div onclick="showOnClick()" id="close-nav-menu" class="close-nav-menu"><img class="close-nav-menu-icon" src="images/close-nav-menu-icon.svg" alt="close-nav-menu-icon"></div>
+        <nav id="nav">
           <ul class="nav-links-container">
-            <li class="nav-link"><a href="index.html#work">Work</a></li>
-            <li class="nav-link"><a href="about.html">About</a></li>
-            <li class="nav-link"><a href="#contact">Contact</a></li>
+            <li onclick="showOnClick()" class="nav-link"><a href="index.html">Work</a></li>
+            <li onclick="showOnClick()" class="nav-link"><a href="about.html">About</a></li>
+            <li onclick="showOnClick()" class="nav-link"><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -51,6 +53,8 @@
             </div>
           </div>
         </section>
+
+        <div class="hamburger-menu-backing"></div>
 
         <!--OVERVIEW-->
         <section id="overview" class="overview">
@@ -727,7 +731,10 @@
     <!--FOOTER-->
     <footer>© 2020 | Designed & Developed by James Faith</footer>
 
-    <!--LOAD CHARTJS-->
+    <!--JS-->
+    <script src="scripts/herocurtain.js"></script>
+    <script src="scripts/windowresizenavfix.js"></script>
+    <script src="scripts/showonclick.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.4.0/dist/chartjs-plugin-datalabels.min.js"></script>
     <script src="scripts/charts.js"></script>
