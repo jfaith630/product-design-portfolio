@@ -1,7 +1,7 @@
 function showOnClick() {
   var x = document.getElementById("nav");
   var y = document.getElementById("close-nav-menu");
-  var z = window.matchMedia("(max-width: 899px)");
+  var z = window.matchMedia("(max-width: 849px)");
   if (z.matches) {
     if (x.style.display === "none" || x.style.display === "") {
       x.style.display = "block";

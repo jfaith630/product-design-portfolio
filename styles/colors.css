@@ -7,19 +7,23 @@ body {
   color: #FFFFFF;
 }
 
+.case-study-body, .case-study-main {
+  background-color: #E3E3E3;
+  color: #000000;
+}
+
 .case-study-header {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.07) 100%);
   background-color: #121212;
 }
 
-.case-study-main {
-  background-color: #E3E3E3;
-  color: #000000;
-}
-
 nav {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 100%);
   background-color: #121212;
+}
+
+.case-study-footer {
+  color: #FFFFFF;
 }
 
 .contact {
@@ -28,6 +32,8 @@ nav {
 
 .case-study-contact {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0) 100%);
+  background-color: #121212;
+  color: #FFFFFF;
 }
 
 .hero, .about-hero {
@@ -111,7 +117,7 @@ hr {
   background-color: #E3E3E3;
 }
 
-.chartjs-wrapper {
+.chartjs-wrapper-1, .chartjs-wrapper-2 {
   background-color: #DADADA;
 }
 
@@ -159,7 +165,7 @@ tr {
 
 /*---DESKTOP--------------------------------------------*/
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 850px) {
 
   nav {
     background: transparent;

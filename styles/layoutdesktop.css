@@ -2,7 +2,7 @@
 
 /*---DESKTOP--------------------------------------------*/
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 850px) {
 
   /*---HEADER---------------------*/
 
@@ -178,6 +178,7 @@
   }
 
   .eight-bit-alien-1 {
+    margin: 0;
     right: 12.9rem;
     top: 0;
   }
@@ -376,111 +377,57 @@
   }
 
   .img-container {
-    margin: 4rem auto 0;
     min-width: 60rem;
-    overflow: auto;
-    width: 70%;
   }
 
   .flex-content, .flex-content-alt {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto 4rem;
     min-width: 60rem;
     width: 90%;
   }
 
-  .flex-content-alt {
-    flex-wrap: wrap-reverse;
-  }
-
   .flex-text-container {
     padding: 0 2rem;
-    text-align: left;
     width: 60rem;
   }
 
   .flex-img-container {
-    margin-top: 4rem;
-    overflow: auto;
     padding: 0 2rem;
-  }
-
-  /*---BUTTONS--------*/
-
-  .user-survey, .competitive-analysis, .user-personas, .user-stories-flows, .wireframes, .branding,
-  .highfi-mockups, .preference-testing, .usability-testing, .final-product, .what-i-learned, .final-thanks {
-    text-align: center;
-  }
-
-  .button-wrapper {
-    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-    display: inline-block;
-    margin: 1.6rem auto 4.8rem;
-    overflow: hidden;
   }
 
   /*---"HERO"--------*/ /*******************************************************************/
 
-  .case-study-hero {
-    overflow: auto;
-  }
-
-  .case-study-hero-content {
-    margin-top: 21.6rem;
-    text-align: center;
-  }
-
-  .stratus-logo {
-    margin: 0 auto;
-  }
-
   .case-study-intro {
-    margin: 1.6rem auto 0;
     width: 62.5rem;
   }
 
   .case-study-hero-img-container {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    margin: 4rem auto 1.6rem;
     max-width: 126rem;
-    min-width: 62.5rem;
-    width: 78.5%;
   }
 
   .stratus-humaaans {
+    display: block;
     padding-top: 1.6rem;
   }
 
   .stratus-simple-structured-seamless {
+    display: block;
     box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
     margin: 0 0 3.2rem 1.6rem;
   }
 
   .case-study-hero-content p {
-    margin: 0 auto;
-    text-align: left;
     width: 62.5rem;
   }
 
   /*---OVERVIEW------*/
 
   .roles-deliverables-tools {
-    height: 88rem;
-    margin: 4rem auto 3.2rem;
-    position: relative;
+    height: 83.5rem;
     width: 58.8rem;
   }
 
   .role, .tools {
-    border-bottom: 0.1rem solid #878787;
-    height: 42.5rem;
-    position: absolute;
-    bottom: 0;
+    height: 36rem;
     width: 22.7rem;
   }
 
@@ -489,68 +436,25 @@
   }
 
   .deliverables {
-    border-bottom: 0.1rem solid #878787;
-    top: 0;
-    height: 40rem;
-    left: 50%;
+    height: 42rem;
     margin-left: -28.4rem;
-    position: absolute;
     width: 56.8rem;
   }
 
   .tools {
-    border-left: 0.1rem solid #878787;
     right: 11.4%;
-  }
-
-  .role-icon, .deliverables-icon, .tools-icon {
-    margin: 0 auto;
-  }
-
-  .role-icon {
-    padding: 0.3rem 0;
   }
 
   .deliverables-icon {
     padding-right: 1.6rem;
   }
 
-  .role h4, .deliverables h4, .tools h4 {
-    display: block;
-    margin: 1.6rem auto 0;
-    padding: 0;
-  }
-
-  .role h4 {
-    width: 4.8rem;
-  }
-
   .deliverables h4 {
     padding-right: 1.6rem;
-    width: 13rem;
-  }
-
-  .tools h4 {
-    width: 5.9rem;
   }
 
   .role .overview-list, .tools .overview-list {
-    margin: 3.2rem auto 0;
-  }
-
-  .border-break-role, .border-break-tools {
-    bottom: 0;
-    height: 4rem;
-    position: absolute;
-    width: 0.1rem;
-  }
-
-  .border-break-role {
-    right: -0.1rem;
-  }
-
-  .border-break-tools {
-    left: -0.1rem;
+    margin-top: 3.2rem;
   }
 
   .role .overview-list {
@@ -558,8 +462,7 @@
   }
 
   .deliverables .overview-list {
-    margin: 2rem auto 0;
-    position: relative;
+    margin-top: 2rem;
   }
 
   .tools .overview-list {
@@ -567,43 +470,31 @@
   }
 
   .overview-list li {
-    margin: 1.2rem 0;
+    margin: 2rem 0;
   }
 
   .list-pt-1 {
     left: 7.1rem;
-    position: absolute;
   }
 
   .list-pt-2 {
-    position: absolute;
     right: 5.6rem;
   }
 
   /*---USER SURVEY---*/
 
-  .chartjs-wrapper {
-    border-radius: 0.4rem;
-    margin: 2rem auto 4rem;
+  .chartjs-wrapper-1, .chartjs-wrapper-2 {
+    height: 50rem;
     max-width: 85rem;
-    padding: 5%;
+    width: auto;
   }
 
-  .chartjs-wrapper h5 {
-    margin: 0 auto;
+  .chartjs-wrapper-1 h5, .chartjs-wrapper-2 h5 {
     max-width: 50rem;
-    padding-bottom: 5.6rem;
-    width: 80%;
-  }
-
-  .user-survey-stat-container {
-    margin-bottom: 4.8rem;
-    overflow: auto;
-    padding: 5.6rem 0;
+    text-align: center;
   }
 
   .user-survey-stat {
-    margin: 0 auto;
     text-align: left;
     width: 60rem;
   }
@@ -613,14 +504,12 @@
   .comp-analy-images {
     height: 55rem;
     margin: 0 2rem;
-    position: relative;
     width: 55rem;
   }
 
-  .comp-analy-logo-1, .comp-analy-logo-2, .comp-analy-logo-3 {
-    border-radius: 0.4rem;
-    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-    position: absolute;
+
+  .comp-analy-logo-1 {
+    left: auto;
   }
 
   .comp-analy-logo-2 {
@@ -628,100 +517,41 @@
   }
 
   .comp-analy-logo-3 {
-    bottom: 0.8rem;
-    left: 50%;
     margin-left: -12.8rem;
   }
 
   /*---USER PERSONAS---*/
 
   .user-persona-card {
-    border-radius: 0.4rem;
-    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
     height: 111rem;
-    margin-bottom: 1rem;
-    overflow: auto;
-    position: relative;
     width: 32.7rem;
-  }
-
-  .user-persona {
-    left: 50%;
-    margin-left: -12.5rem;
-    position: absolute;
   }
 
   .persona-background {
-    border-radius: 0.4rem 0.4rem 0 0;
-    height: 27.2rem;
-    position: absolute;
     width: 32.7rem;
   }
 
-  .user-persona-content {
-    position: relative;
-    text-align: left;
-    top: 27.2rem;
-  }
-
   .user-persona-job {
-    display: inline-block;
-    padding: 0 0.8rem;
-    position: absolute;
-    right: 0;
     top: -5.8rem;
   }
 
-  .user-persona-card-title {
-    margin: 3.2rem auto 2.4rem;
-    text-align: center;
-  }
-
-  .user-persona-scale {
-    margin: 0 auto 0.8rem;
-  }
-
-  .user-persona-scale-basic, .user-persona-scale-pro, .user-persona-scale-expert{
-    margin-top: 0.8rem;
-    text-align: center;
-  }
-
-  .user-persona-scale-basic {
-    margin-right: 13.5rem;
-  }
-
-  .user-persona-scale-expert {
-    margin-left: 13.5rem;
-  }
-
-  .user-persona-text {
-    padding: 2.4rem;
-  }
-
-  .user-persona-card-subtitle {
-    margin: 2.4rem 0 1.6rem;
-  }
-
-  .user-persona-list {
-    list-style: initial;
-    margin-left: 1.6em;
-  }
-
-  .user-persona-list li {
-    margin: 0.8rem 0;
-  }
-
   .user-persona-big-quotation-mark-1, .user-persona-big-quotation-mark-2, .user-persona-big-quotation-mark-3 {
-    left: 2.3rem;
-    position: absolute;
     top: 10.5rem;
   }
 
-  .user-persona-quote {
-    text-indent: 2.4rem;
+  /*---USER STORIES & FLOWS--*/
+
+  .information-architecture .section-break .section-title {
+    margin-top: 0;
   }
 
-  /*---USER STORIES & FLOWS--*/
+  .info-arch-line-break {
+    display: none;
+  }
+
+  .user-stories-flows .img-container {
+    display: block;
+  }
 
   table {
     border-collapse: collapse;
@@ -744,12 +574,6 @@
 
   th, td {
     padding: 0.8rem 2rem;
-  }
-
-  .basic-file-management-operations-user-flow, .sharing-links-user-flow {
-    border: 0.1rem solid #878787;
-    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-    margin-bottom: 1rem;
   }
 
   .user-stories-flows .button-wrapper {
@@ -775,6 +599,7 @@
   .wireframe-sketch-1, .wireframe-sketch-2, .wireframe-sketch-3, .wireframe-sketch-4 {
     border-radius: 0.2rem;
     box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    margin-top: 0;
     position: absolute;
     top: 6rem;
   }
@@ -791,77 +616,30 @@
     transform: rotate(10deg);
   }
 
-  .digital-wireframe {
-    border: 0.1rem solid #878787;
-    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-    margin-bottom: 1rem;
-  }
-
   /*---USABILITY TESTING 1---*/
 
   .usability-testing-container {
     margin: 4rem auto;
-    overflow: auto;
     width: 55rem;
   }
 
   .usability-testing-persona-element {
-    float: left;
     width: 14.7rem;
   }
 
-  .usability-testing-persona {
-    border-radius: 0.2rem;
-    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.1);
-  }
-
-  .usability-testing-persona-element p {
-    font-weight: bold;
-    margin-top: 1.6rem;
-  }
-
   .usability-testing-tasks-element {
-    float: right;
     margin-top: 2.4rem;
-    text-align: left;
     width: 32rem;
   }
 
-  .usability-testing-tasks-element h6 {
-    margin-left: -1.6rem;
-  }
-
-  ol {
-    list-style: decimal;
-  }
-
-  .tasks-list li {
-    margin: 0.8rem 0;
-  }
-
-  .video-iframe {
-    border: 0.1rem solid #878787;
-    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-    margin-bottom: 4rem;
-  }
-
   /*---BRANDING------*/
-
-  .branding .button-wrapper {
-    margin-top: 5.6rem;
-  }
-
-  .branding .flex-content, .branding .flex-content-alt {
-    margin-bottom: 0;
-  }
 
   .branding .flex-content .flex-text-container, .branding .flex-content-alt .flex-text-container {
     margin-top: 4rem;
   }
 
-  .branding-sketch-1, .branding-sketch-2, .branding-sketch-3, .branding-sketch-4 {
-    border-radius: 0.2rem;
-    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  .branding-sketch-2, .branding-sketch-3, .branding-sketch-4 {
+    margin: 0;
   }
 
   .branding-sketch-1 {
@@ -884,166 +662,90 @@
     margin: -2rem 0 4rem;
   }
 
-  .moodboard, .logo-iterations, .brand-colors, .brand-typography {
-    border: 0.1rem solid #878787;
-    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-    margin-bottom: 1rem;
-  }
-
   /*---HIGHFI MOCKUPS---*/
 
   .highfi-mockups-img-overlay-1 {
     height: 90.3rem;
-    position: relative;
     width: 61.6rem;
   }
 
   .highfi-mockups-img-overlay-2 {
     height: 36.9rem;
-    position: relative;
     width: 44.2rem;
   }
 
   .highfi-mockups-img-overlay-3 {
     height: 39.6rem;
     margin-top: 4rem;
-    position: relative;
     width: 44.2rem;
   }
 
-  .highfi-mockup-1 {
-    position: absolute;
-    right: 1rem;
-    top: 0;
-  }
-
-  .highfi-mockup-2 {
-    bottom: 1rem;
-    position: absolute;
-    right: 1rem;
-  }
-
   .down-arrow, .right-arrow {
-    left: 50%;
     margin: -2.5rem 0 0 -2.5rem;
-    position: absolute;
-    top: 50%;
-    z-index: 1;
   }
 
   .highfi-mockup-3, .highfi-mockup-5 {
     left: 0;
-    position: absolute;
-    top: 0;
-  }
-
-  .highfi-mockup-4, .highfi-mockup-6 {
-    position: absolute;
-    right: 1rem;
-    top: 0;
-  }
-
-  .highfi-mockup-1, .highfi-mockup-2, .highfi-mockup-3, .highfi-mockup-4,
-   .highfi-mockup-5, .highfi-mockup-6 {
-    border: 0.1rem solid #878787;
-    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
   }
 
   /*---PREFERENCE TESTING---*/
 
   .preference-test-img-overlay-1 {
     height: 58.7rem;
-    position: relative;
     width: 57.5rem;
   }
 
   .preference-test-img-overlay-2 {
     height: 54.5rem;
-    position: relative;
     width: 37.1rem;
   }
 
   .preference-testing-2, .preference-testing-4 {
     bottom: 1rem;
-    position: absolute;
     right: 1rem;
-  }
-
-  .preference-testing-1, .preference-testing-2, .preference-testing-3, .preference-testing-4 {
-    border: 0.1rem solid #878787;
-    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
   }
 
   /*---USABILITY TESTING 2---*/
 
   .document-iframe {
-   border: 0.1rem solid #878787;
-   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-   margin-bottom: 4rem;
+    display: block;
+    border: 0.1rem solid #878787;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    margin: 0 auto 4rem;
   }
 
   .usability-test-img-overlay-1 {
     height: 102.1rem;
-    position: relative;
     width: 69.5rem;
   }
 
   .usability-test-img-overlay-2 {
-    height: 53.2rem;
+    height: 56rem;
     margin-top: 4rem;
-    position: relative;
-    width: 40.4rem;
+    width: 42.4rem;
   }
 
   .usability-test-img-overlay-3 {
     height: 36rem;
-    margin-top: 4rem;
-    position: relative;
     width: 42.4rem;
   }
 
-  .usability-testing-results-1, .usability-testing-results-3, .usability-testing-results-5 {
-    position: absolute;
-    right: 1rem;
-    top: 0;
-  }
-
-  .usability-testing-results-2, .usability-testing-results-4 {
-    bottom: 1rem;
-    position: absolute;
-    right: 1rem;
-  }
-
-  .usability-testing-results-6 {
+  .usability-testing-results-5 {
     left: 0;
-    position: absolute;
-    top: 0;
-  }
-
-  .usability-testing-results-1, .usability-testing-results-2, .usability-testing-results-3,
-   .usability-testing-results-4, .usability-testing-results-5, .usability-testing-results-6 {
-    border: 0.1rem solid #878787;
-    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
   }
 
   /*---CONCLUSION---*/
 
-  .stratus-on-devices-2 {
-    margin: 0 auto;
-  }
-
   .final-thanks {
-    margin: 7.2rem 0 8.8rem;
+    margin: 7.2rem 0 14.4rem;
   }
 
   .back-to-top-element {
-    position: relative;
+    left: 50%;
+    margin: -8rem 0 0 -8rem;
+    position: absolute;
+    width: 16rem;
   }
-
-  .case-study-main {
-    padding-bottom: 6.4rem;
-  }
-
 
   /*---MEDIA QUERIES--------------------------------------------------------*/
 
@@ -1180,6 +882,10 @@
     .roles-deliverables-tools {
       height: 42.6rem;
       width: 104rem;
+    }
+
+    .role, .tools {
+      height: 42.6rem;
     }
 
     .role {

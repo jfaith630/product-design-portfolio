@@ -99,7 +99,7 @@ blockquote p {
   font-size: 1.4rem;
 }
 
-.chartjs-wrapper h5 {
+.chartjs-wrapper-1 h5, .chartjs-wrapper-2 h5 {
   font-size: 2rem;
   line-height: 167.23%;
 }
@@ -128,7 +128,7 @@ blockquote p {
 
 /*---DESKTOP--------------------------------------------*/
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 850px) {
 
   body, p, div {
     font-size: 1.6rem;
@@ -170,7 +170,7 @@ blockquote p {
     font-size: 2rem;
   }
 
-  .chartjs-wrapper h5 {
+  .chartjs-wrapper-1 h5, .chartjs-wrapper-2 h5 {
     font-size: 2.4rem;
   }
 

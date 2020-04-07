@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Case Study | Capstone Project</title>
+    <link href="styles/reset.css" rel="stylesheet">
+    <link href="styles/typography.css" rel="stylesheet">
+    <link href="styles/colors.css" rel="stylesheet">
+    <link href="styles/imageslayout.css" rel="stylesheet">
+    <link href="styles/layoutmobile.css" rel="stylesheet">
+    <link href="styles/layoutdesktop.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+
+  <body id="body" class="case-study-body" onLoad="window.scroll(0, 177)" onresize="windowResizeNavFix()">
+
+    <!--HEADER-->
+    <header class="case-study-header">
+      <div class="header-content">
+        <a href="index.html"><img class="logo" src="images/personal-logo.svg" alt="logo"></a>
+        <div onclick="showOnClick()" class="hamburger-menu"><img class="hamburger-menu-icon" src="images/hamburger-menu-icon.svg" alt="hamburger-menu-icon"></div>
+        <div onclick="showOnClick()" id="close-nav-menu" class="close-nav-menu"><img class="close-nav-menu-icon" src="images/close-nav-menu-icon.svg" alt="close-nav-menu-icon"></div>
+        <nav id="nav">
+          <ul class="nav-links-container">
+            <li onclick="showOnClick()" class="nav-link"><a href="index.html">Work</a></li>
+            <li onclick="showOnClick()" class="nav-link"><a href="about.html">About</a></li>
+            <li onclick="showOnClick()" class="nav-link"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+
+      <main class="case-study-main">
+
+        <!--HERO-->
+        <section id="hero" class="case-study-hero">
+          <div class="case-study-hero-content">
+            <h3 class="case-study-intro">Secure chat for healthcare professionals.</h3>
+            <div class="img-container">
+              <img class="placeholder-project-image-hero" src="images/project-4.png" alt="project-4-image">
+            </div>
+            <p class="placeholder-project-text-hero">The working idea for my capstone project is a secure chat application for healthcare professionals. I envision a central hub for communicating patient needs among staff as well as a place for documenting and communcating sensitive patient information.</p>
+            <div class="button-wrapper">
+              <a href="https://www.figma.com/file/CY6kim77vZiKOtCMnAqo5u/Capstone-Project?node-id=0%3A1" target="_blank"><div class="button-style-1">VIEW MY CURRENT PROGRESS</div></a>
+            </div>
+          </div>
+        </section>
+
+        <div class="hamburger-menu-backing"></div>
+
+      </main>
+
+      <!--CONTACT-->
+      <section id="contact" class="case-study-contact">
+        <div class="contact-content">
+          <h2>Take me to your leader!</h2>
+          <div class="resume-email-element">
+            <a class="email-element" href="mailto:jfaith630@gmail.com" target="_blank">
+              <div class="email">
+                <img class="email-1" src="images/email-1.svg" alt="email">
+                <img class="email-2" src="images/email-2.svg" alt="email">
+              </div>
+              <h3 class="label">Email</h3>
+            </a>
+            <a class="resume-element" href="https://drive.google.com/file/d/1HleOgw_dALKauXlMi9Ra-KkcdqJr9qnd/view?usp=sharing" target="_blank">
+              <div class="resume">
+                <img class="resume-1" src="images/resume-1.svg" alt="resume">
+                <img class="resume-2" src="images/resume-2.svg" alt="resume">
+              </div>
+              <h3 class="label">Resume</h3>
+            </a>
+          </div>
+          <div class="social-media">
+            <ul class="social-media-links">
+              <li class="social-media-link"><a href="https://github.com/jfaith630" target="_blank"><img class="social-icon" src="images/github.svg" alt="github"></a></li>
+              <li class="social-media-link"><a href="https://codepen.io/jfaith630" target="_blank"><img class="social-icon" src="images/codepen.svg" alt="codepen"></a></li>
+              <li class="social-media-link"><a href="https://www.linkedin.com/in/jamesmfaith/" target="_blank"><img class="social-icon" src="images/linkedin.svg" alt="linkedin"></a></li>
+              <li class="social-media-link"><a href="https://angel.co/james-faith" target="_blank"><img class="social-icon" src="images/angellist.svg" alt="angellist"></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!--FOOTER-->
+    <footer class="case-study-footer">© 2020 | Designed & Developed by James Faith</footer>
+
+    <!--JS-->
+    <script src="scripts/windowresizenavfix.js"></script>
+    <script src="scripts/showonclick.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@0.4.0/dist/chartjs-plugin-datalabels.min.js"></script>
+    <script src="scripts/charts.js"></script>
+
+  </body>
+
+</html>

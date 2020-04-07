@@ -11,7 +11,6 @@ img {
 /*---HEADER---------------------*/
 
 .logo {
-  float: left;
   height: 5.7rem;
 }
 
@@ -25,19 +24,11 @@ img {
 
 /*---CONTACT--------------------*/
 
-.email {
+.email, .email-1, .email-2 {
   height: 4.2rem;
 }
 
-.email-1, .email-2 {
-  height: 4.2rem;
-}
-
-.resume {
-  height: 6.23rem;
-}
-
-.resume-1, .resume-2 {
+.resume, .resume-1, .resume-2 {
   height: 6.23rem;
 }
 
@@ -65,7 +56,6 @@ img {
 
 .stratus-on-devices-1 {
   max-height: 26.4rem;
-  /*Width to fill border*/
 }
 
 .role-icon {
@@ -81,7 +71,7 @@ img {
 }
 
 .comp-analy-logo-1, .comp-analy-logo-2, .comp-analy-logo-3 {
-  height: 16rem;
+  height: 12rem;
 }
 
 .user-persona {
@@ -93,72 +83,64 @@ img {
 }
 
 .basic-file-management-operations-user-flow {
-  height: 48.5;
-  /*Width to fill border*/
+  width: 28rem;
 }
 
 .sharing-links-user-flow {
-  height: 35.7rem;
-  /*Width to fill border*/
+  width: 28rem;
 }
 
 .wireframe-sketch-1, .wireframe-sketch-2, .wireframe-sketch-3, .wireframe-sketch-4 {
-  max-height: 43.2rem;
-  /*Width to fill border*/
+  width: 28rem;
 }
 
-.digital-wireframe {
-  width: 23.3rem;
+.digital-wireframe-1, .digital-wireframe-2 {
+  width: 28rem;
+}
+
+.digital-wireframe-3, .digital-wireframe-4 {
+  width: 28rem;
 }
 
 .usability-testing-persona {
-  height: 5.9rem;
+  height: 10rem;
 }
 
 .video-iframe {
-  height: 19rem;
-  width: 32.7rem;
-  /*Media query for width?*/
+  height: 17.43rem;
+  width: 30rem;
 }
 
 .branding-sketch-1 {
-  height: 38.1rem;
-  /*Width to fill border*/
+  width: 30rem;
 }
 
 .branding-sketch-2 {
-  height: 37.5rem;
-  /*Width to fill border*/
+  width: 30rem;
 }
 
 .branding-sketch-3 {
-  height: 33.6rem;
-  /*Width to fill border*/
+  width: 30rem;
 }
 
 .branding-sketch-4 {
-  height: 28.8rem;
-  /*Width to fill border*/
+  width: 30rem;
 }
 
 .moodboard {
-  width: 25.3rem;
-  /*Width to fill border*/
+  width: 29rem;
 }
 
 .logo-iterations {
-  width: 24.3rem;
-  /*Width to fill border*/
+  width: 29rem;
 }
 
 .brand-colors {
-  width: 12rem;
-  /*Width to fill border*/
+  width: 29rem;
 }
 
 .brand-typography {
-  width: 15.4rem;
-  /*Width to fill border*/
+  width: 29rem;
 }
 
 .right-arrow {
@@ -170,98 +152,80 @@ img {
 }
 
 .highfi-mockup-1 {
-  height: 23.3rem;
-  /*Container width to fill border*/
+  width: 28rem;
 }
 
 .highfi-mockup-2 {
-  height: 23.3rem;
-  /*Container width to fill border*/
+  width: 28rem;
 }
 
 .highfi-mockup-3 {
-  height: 27.6rem;
-  /*Container width to fill border*/
+  width: 13rem;
 }
 
 .highfi-mockup-4 {
-  height: 27.6rem;
-  /*Container width to fill border*/
+  width: 13rem;
 }
 
 .highfi-mockup-5 {
-  height: 29.9rem;
-  /*Container width to fill border*/
+  width: 13rem;
 }
 
 .highfi-mockup-6 {
-  height: 29.9rem;
-  /*Container width to fill border*/
+  width: 13rem;
 }
 
 .preference-testing-1 {
-  height: 26.3rem;
-  /*Container width to fill border*/
+  width: 28rem;
 }
 
 .preference-testing-2 {
-  height: 26.3rem;
-  /*Container width to fill border*/
+  width: 28rem;
 }
 
 .preference-testing-3 {
   height: 29.9rem;
-  /*Container width to fill border*/
 }
 
 .preference-testing-4 {
   height: 29.9rem;
-  /*Container width to fill border*/
 }
 
 .usability-testing-results-1 {
-  height: 23.2rem;
-  /*Container width to fill border*/
+  width: 28rem;
 }
 
 .usability-testing-results-2 {
-  height: 23.2rem;
-  /*Container width to fill border*/
+  width: 28rem;
 }
 
 .usability-testing-results-3 {
-  height: 20.3rem;
-  /*Container width to fill border*/
+  width: 28rem;
 }
 
 .usability-testing-results-4 {
-  height: 20.3rem;
-  /*Container width to fill border*/
+  width: 28rem;
 }
 
 .usability-testing-results-5 {
-  height: 28.3rem;
-  /*Container width to fill border*/
+  width: 13rem;
 }
 
 .usability-testing-results-6 {
-  height: 28.3rem;
-  /*Container width to fill border*/
+  width: 13rem;
 }
 
 .stratus-on-devices-2 {
   max-height: 26.4rem;
-  /*Width to fill border*/
 }
 
 /*---DESKTOP--------------------------------------------*/
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 850px) {
 
   img {
     display: block;
     height: auto;
-    max-width: 100%;
   }
 
   /*---HEADER---------------------*/
@@ -272,19 +236,11 @@ img {
 
   /*---CONTACT--------------------*/
 
-  .email {
+  .email, .email-1, .email-2 {
     height: 6.4rem;
   }
 
-  .email-1, .email-2 {
-    height: 6.4rem;
-  }
-
-  .resume {
-    height: 9.5rem;
-  }
-
-  .resume-1, .resume-2 {
+  .resume, .resume-1, .resume-2 {
     height: 9.5rem;
   }
 
@@ -341,18 +297,27 @@ img {
 
   .basic-file-management-operations-user-flow {
     height: 79.8rem;
+    width: auto;
   }
 
   .sharing-links-user-flow {
     height: 59.8rem;
+    width: auto;
   }
 
   .wireframe-sketch-1, .wireframe-sketch-2, .wireframe-sketch-3, .wireframe-sketch-4 {
-    max-height: 43.2rem;
+    height: 43.2rem;
+    width: auto;
   }
 
-  .digital-wireframe {
-    width: 54.6rem;
+  .digital-wireframe-1, .digital-wireframe-2 {
+    height: 38.9rem;
+    width: auto;
+  }
+
+  .digital-wireframe-3, .digital-wireframe-4 {
+    height: 48.6rem;
+    width: auto;
   }
 
   .usability-testing-persona {
@@ -366,34 +331,42 @@ img {
 
   .branding-sketch-1 {
     height: 42.7rem;
+    width: auto;
   }
 
   .branding-sketch-2 {
     height: 42.7rem;
+    width: auto;
   }
 
   .branding-sketch-3 {
     height: 38.4rem;
+    width: auto;
   }
 
   .branding-sketch-4 {
     height: 42.7rem;
+    width: auto;
   }
 
   .moodboard {
-    width: 50rem;
+    height: 36.5rem;
+    width: auto;
   }
 
   .logo-iterations {
-    width: 50rem;
+    height: 37.2rem;
+    width: auto;
   }
 
   .brand-colors {
-    width: 50rem;
+    height: 18.4rem;
+    width: auto;
   }
 
   .brand-typography {
-    width: 50rem;
+    height: 21.2rem;
+    width: auto;
   }
 
   .right-arrow {
@@ -406,34 +379,42 @@ img {
 
   .highfi-mockup-1 {
     height: 43.2rem;
+    width: auto;
   }
 
   .highfi-mockup-2 {
     height: 43.2rem;
+    width: auto;
   }
 
   .highfi-mockup-3 {
     height: 35.9rem;
+    width: auto;
   }
 
   .highfi-mockup-4 {
     height: 35.9rem;
+    width: auto;
   }
 
   .highfi-mockup-5 {
     height: 38.6rem;
+    width: auto;
   }
 
   .highfi-mockup-6 {
     height: 38.6rem;
+    width: auto;
   }
 
   .preference-testing-1 {
     height: 35.9rem;
+    width: auto;
   }
 
   .preference-testing-2 {
     height: 35.9rem;
+    width: auto;
   }
 
   .preference-testing-3 {
@@ -451,26 +432,32 @@ img {
 
   .usability-testing-results-1 {
     height: 49.1rem;
+    width: auto;
   }
 
   .usability-testing-results-2 {
     height: 49.1rem;
+    width: auto;
   }
 
   .usability-testing-results-3 {
-    height: 25.1rem;
+    height: 26rem;
+    width: auto;
   }
 
   .usability-testing-results-4 {
-    height: 25.1rem;
+    height: 26rem;
+    width: auto;
   }
 
   .usability-testing-results-5 {
     height: 35rem;
+    width: auto;
   }
 
   .usability-testing-results-6 {
     height: 35rem;
+    width: auto;
   }
 
   .stratus-on-devices-2 {

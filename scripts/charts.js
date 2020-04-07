@@ -23,6 +23,7 @@ var chart = new Chart(ctxOne, {
 
     // Configuration options go here
     options: {
+      maintainAspectRatio: false,
       legend: {
         display: false,
       },
@@ -66,6 +67,7 @@ var chart = new Chart(ctxTwo, {
 
     // Configuration options go here
     options: {
+      maintainAspectRatio: false,
       legend: {
         position: 'bottom',
         labels: {
