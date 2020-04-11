@@ -89,10 +89,6 @@ a:hover {
   color: #E1261C;
 }
 
-.heading-block {
-  background-color: #00796B;
-}
-
 .quote-container {
   background-color: rgba(255, 255, 255, 0.07);
 }
@@ -111,6 +107,10 @@ hr {
 
 .section-title {
   background-color: #E3E3E3;
+}
+
+.heading-block {
+  background-color: #00796B;
 }
 
 .border-break-role, .border-break-tools {
@@ -165,7 +165,7 @@ tr {
 
 /*---DESKTOP--------------------------------------------*/
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 900px) {
 
   nav {
     background: transparent;

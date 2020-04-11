@@ -35,6 +35,12 @@ var chart = new Chart(ctxOne, {
           ticks: {
             beginAtZero: true
           }
+        }],
+        xAxes: [{
+          ticks: {
+            fontSize: 14,
+            lineHeight: 1.1,
+          }
         }]
       },
       plugins: {

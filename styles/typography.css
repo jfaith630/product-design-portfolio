@@ -13,15 +13,15 @@ body, p, div {
 }
 
 h1 {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', sans-serif;
   font-size: 2.6rem;
   line-height: 100%;
 }
 
 h2 {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Press Start 2P', sans-serif;
   font-size: 2.6rem;
-  line-height: 167.23%;
+  line-height: 173%;
 }
 
 h3 {
@@ -79,6 +79,10 @@ strong {
   font-size: 2rem;
 }
 
+.mobile-heading-text-fix-1 {
+  line-height: 140%;
+}
+
 .big-quotation-mark {
   font-size: 9.6rem;
 }
@@ -92,7 +96,7 @@ blockquote p {
 }
 
 .case-study-hero-content p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .overview-list li {
@@ -100,12 +104,12 @@ blockquote p {
 }
 
 .chartjs-wrapper-1 h5, .chartjs-wrapper-2 h5 {
-  font-size: 2rem;
-  line-height: 167.23%;
+  font-size: 1.8rem;
+  line-height: 160%;
 }
 
 .user-survey-stat {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .user-persona-big-quotation-mark-1, .user-persona-big-quotation-mark-2, .user-persona-big-quotation-mark-3 {
@@ -122,16 +126,45 @@ blockquote p {
   line-height: 120%;
 }
 
+.usability-testing-persona-element p {
+  font-weight: bold;
+}
+
 .final-thanks {
-  font-size: 2rem;
+  font-size: 2.4rem;
+}
+
+@media screen and (min-width: 600px) {
+
+  h1 {
+    font-size: 3.4rem;
+  }
+
+  .about-intro {
+    font-size: 1.6rem;
+  }
+
+  .eight-bit-textbox {
+    font-size: 2rem;
+  }
+
+  .mobile-heading-text-fix-1 {
+    line-height: 120%;
+  }
+
+  .overview-list li {
+    font-size: 2rem;
+  }
+
 }
 
 /*---DESKTOP--------------------------------------------*/
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 900px) {
 
   body, p, div {
     font-size: 1.6rem;
+    line-height: 173%;
   }
 
   h1 {
@@ -140,6 +173,7 @@ blockquote p {
 
   h2 {
     font-size: 4.8rem;
+    line-height: 180%;
   }
 
   .nav-link {
@@ -166,12 +200,9 @@ blockquote p {
     font-size: 2rem;
   }
 
-  .overview-list li {
-    font-size: 2rem;
-  }
-
   .chartjs-wrapper-1 h5, .chartjs-wrapper-2 h5 {
     font-size: 2.4rem;
+    line-height: 167.2%;
   }
 
   .user-survey-stat {
@@ -190,24 +221,24 @@ blockquote p {
     font-size: 3.4rem;
   }
 
-  @media screen and (min-width: 1200px) {
+}
 
-    h1 {
-      font-size: 5.6rem;
-    }
+@media screen and (min-width: 1200px) {
 
-    .intro {
-      font-size: 3.4rem;
-    }
+  h1 {
+    font-size: 5.6rem;
+  }
 
-    .about-intro {
-      font-size: 2.4rem;
-    }
+  .intro {
+    font-size: 3.4rem;
+  }
 
-    .eight-bit-textbox {
-      font-size: 3.2rem;
-    }
+  .about-intro {
+    font-size: 2.4rem;
+  }
 
+  .eight-bit-textbox {
+    font-size: 3.2rem;
   }
 
 }

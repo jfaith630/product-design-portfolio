@@ -148,12 +148,12 @@ footer {
 
 .resume {
   display: inline-block;
-  margin: 0 auto 0.8rem;
+  margin: 0 auto 1rem;
   position: relative;
 }
 
 .resume-1, .resume-2 {
-  margin: 0 auto 0.8rem;
+  margin: 0 auto 0.6rem;
 }
 
 .resume-2 {
@@ -208,11 +208,11 @@ footer {
 }
 
 .hero-content {
-  height: 34.5rem;
+  height: 40rem;
   left: 50%;
   margin: -17.25rem 0 0 -15rem;
   position: relative;
-  top: 50%;
+  top: 47%;
   width: 30rem;
   z-index: 4;
 
@@ -315,7 +315,7 @@ footer {
 .eight-bit-alien-1 {
   margin-right: -3.35rem;
   position: absolute;
-  right: 15rem;
+  right: 50%;
   top: 3.6rem;
 }
 
@@ -716,7 +716,7 @@ footer {
 
 /*---BIO----------------------*/
 
-.bio .img-container, .about-desktop-heading, .about-desktop-list-item {
+.bio .img-container, .about-desktop-list-item {
   display: none;
 }
 
@@ -724,32 +724,30 @@ footer {
   padding: 0.8rem 0 4.8rem;
 }
 
+.mobile-heading-text-fix-1 {
+  margin-top: 2.8rem;
+  width: 23rem;
+}
+
 .quote-container {
-  height: 30.4rem;
   margin: 4rem 0;
-  position: relative;
+  padding: 6rem 0;
 }
 
 .quote {
-  height: 23.5rem;
-  left: 48%;
-  margin: 2.4rem 0 0 -16rem;
-  position: absolute;
-  width: 30.2rem;
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
 }
 
 .big-quotation-mark {
-  left: 0;
-  position: absolute;
-  top: -1.4rem;
+  height: 10rem;
+  margin: -5.5rem 0.8rem 0 0;
+  width: 4rem;
 }
 
 blockquote {
-  bottom: 0;
-  margin: 0 auto;
-  position: absolute;
-  right: 0;
-  width: 26rem;
+  width: auto;
 }
 
 .closing {
@@ -791,23 +789,21 @@ hr {
 
 .text-container {
   margin: 0 auto;
+  max-width: 54rem;
   text-align: left;
-  width: 30rem;
+  width: 85%;
 }
 
 .img-container {
   margin: 4rem auto 0;
-  min-width: 30rem;
-  width: 70%;
+  max-width: 60rem;
+  width: 85%;
 }
 
 .flex-content, .flex-content-alt {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   margin: 0 auto 4rem;
-  width: 30rem;
+  max-width: 60rem;
+  width: 85%;
 }
 
 .flex-content-alt {
@@ -815,13 +811,13 @@ hr {
 }
 
 .flex-text-container {
+  margin: 0 auto;
+  max-width: 54rem;
   text-align: left;
-  width: 30rem;
 }
 
 .flex-img-container {
-  margin-top: 4rem;
-  overflow: auto;
+  margin: 4rem auto 0;
 }
 
 /*---HEADINGS-------*/
@@ -863,6 +859,7 @@ h5 {
 
 .user-survey, .competitive-analysis, .user-personas, .user-stories-flows, .wireframes, .branding,
 .highfi-mockups, .preference-testing, .usability-testing, .final-product, .what-i-learned, .final-thanks {
+  overflow: auto;
   text-align: center;
 }
 
@@ -890,7 +887,7 @@ h5 {
 
 .case-study-intro {
   margin: 1.6rem auto 0;
-  width: 30rem;
+  max-width: 85%;
 }
 
 .case-study-hero-img-container {
@@ -899,7 +896,11 @@ h5 {
   justify-content: space-between;
   margin: 4rem auto 1.6rem;
   min-width: 30rem;
-  width: 78.5%;
+  width: 85%;
+}
+
+.stratus-on-devices-1 {
+  margin-top: 0.8rem;
 }
 
 .stratus-humaaans, .stratus-simple-structured-seamless {
@@ -907,9 +908,10 @@ h5 {
 }
 
 .case-study-hero-content p {
-  margin: 0 auto;
+  margin: 0 auto 2.4rem;
+  max-width: 54rem;
   text-align: left;
-  width: 30rem;
+  width: 85%;
 }
 
 /*---FOR PLACEHOLDER PAGE:---*/
@@ -1032,7 +1034,7 @@ h5 {
 
 .list-pt-2 {
   position: absolute;
-  right: 1.7rem;
+  right: 2.2rem;
   text-align: right;
   top: 0;
 }
@@ -1042,22 +1044,21 @@ h5 {
 .chartjs-wrapper-1, .chartjs-wrapper-2 {
   border-radius: 0.4rem;
   margin: 2rem auto 4rem;
-  height: 40rem;
-  padding: 5%;
-  padding-bottom: 24rem;
-  width: 24rem;
+  height: 45rem;
+  padding: 2rem 5% 19rem;
+  width: 85%;
 }
 
 .chartjs-wrapper-2 {
   height: 35rem;
-  padding-bottom: 18rem;
+  padding: 2rem 5% 15rem;
 }
 
 .chartjs-wrapper-1 h5, .chartjs-wrapper-2 h5 {
   margin: 0 auto;
-  padding-bottom: 4rem;
+  padding: 2rem 0 4rem;
   text-align: left;
-  width: 80%;
+  width: 85%;
 }
 
 .user-survey-stat-container {
@@ -1068,15 +1069,17 @@ h5 {
 
 .user-survey-stat {
   margin: 0 auto;
-  width: 30rem;
+  max-width: 54rem;
+  width: 85%;
 }
 
 /*---COMP ANALY----*/
 
 .comp-analy-images {
-  height: 28rem;
+  height: 27rem;
+  margin: 0 auto;
   position: relative;
-  width: 30rem;
+  width: 26rem;
 }
 
 .comp-analy-logo-1, .comp-analy-logo-2, .comp-analy-logo-3 {
@@ -1086,11 +1089,11 @@ h5 {
 }
 
 .comp-analy-logo-1 {
-  left: 1.6rem;
+  left: 0;
 }
 
 .comp-analy-logo-2 {
-  right: 1.6rem;
+  right: 0;
 }
 
 .comp-analy-logo-3 {
@@ -1101,11 +1104,15 @@ h5 {
 
 /*---USER PERSONAS---*/
 
+.user-personas .flex-content {
+  width: 100%;
+}
+
 .user-persona-card {
   border-radius: 0.4rem;
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
   height: 106rem;
-  margin-bottom: 1rem;
+  margin: 0 auto 1rem;
   overflow: auto;
   position: relative;
   width: 30rem;
@@ -1113,13 +1120,13 @@ h5 {
 
 .user-persona {
   left: 50%;
-  margin-left: -12.5rem;
+  margin-left: -12.3rem;
   position: absolute;
 }
 
 .persona-background {
   border-radius: 0.4rem 0.4rem 0 0;
-  height: 27.2rem;
+  height: 27.3rem;
   position: absolute;
   width: 30rem;
 }
@@ -1127,15 +1134,15 @@ h5 {
 .user-persona-content {
   position: relative;
   text-align: left;
-  top: 27.2rem;
+  top: 27.3rem;
 }
 
 .user-persona-job {
   display: inline-block;
-  padding: 0 0.8rem;
+  padding: 0.4rem 0.8rem;
   position: absolute;
   right: 0;
-  top: -5.4rem;
+  top: -6.25rem;
 }
 
 .user-persona-card-title {
@@ -1203,8 +1210,13 @@ h5 {
   margin-bottom: 1rem;
 }
 
+.user-stories-flows-buttons {
+  margin: 0 auto;
+  max-width: 85%;
+}
+
 .user-stories-flows .button-wrapper {
-  margin: 0 auto 1.6rem;
+  margin: 0 2rem 1.6rem;
 }
 
 .user-stories-flows {
@@ -1213,10 +1225,15 @@ h5 {
 
 /*---WIREFRAMES----*/
 
+.wireframe-sketches-container-1, .wireframe-sketches-container-2 {
+  margin: 0 auto;
+  max-width: 40rem;
+}
+
 .wireframe-sketch-1, .wireframe-sketch-2, .wireframe-sketch-3, .wireframe-sketch-4 {
   border-radius: 0.2rem;
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-  margin-top: 4rem;
+  margin: 4rem auto 0;
   top: 6rem;
 }
 
@@ -1234,8 +1251,9 @@ h5 {
 
 .usability-testing-container {
   margin: 4rem auto 2rem;
+  min-width: 28rem;
   overflow: auto;
-  width: 30rem;
+  width: 60%;
 }
 
 .usability-testing-persona-element {
@@ -1249,14 +1267,12 @@ h5 {
 }
 
 .usability-testing-persona-element p {
-  font-weight: bold;
   margin-top: 1.6rem;
 }
 
 .usability-testing-tasks-element {
-  float: right;
   text-align: left;
-  width: 17rem;
+  margin-left: 14rem;
 }
 
 .usability-testing-tasks-element h6 {
@@ -1269,6 +1285,7 @@ ol {
 
 .tasks-list li {
   margin: 0.8rem 0;
+  width: auto;
 }
 
 .video-iframe {
@@ -1279,8 +1296,13 @@ ol {
 
 /*---BRANDING------*/
 
-.branding .flex-content, .branding .flex-content-alt {
-  margin-bottom: 0;
+.branding .flex-content-alt {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.branding .flex-img-container {
+  max-width: 37rem;
 }
 
 .branding-sketch-1, .branding-sketch-2, .branding-sketch-3, .branding-sketch-4 {
@@ -1288,54 +1310,66 @@ ol {
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
 }
 
-.branding-sketch-2, .branding-sketch-3, .branding-sketch-4 {
-  margin-top: 4rem;
-}
-
-.branding-sketch-3 {
-  margin-bottom: 4rem;
-}
-
 .moodboard, .logo-iterations, .brand-colors, .brand-typography {
   border: 0.1rem solid #878787;
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-  margin-bottom: 1rem;
-}
-
-.branding .button-wrapper {
-  margin-top: 5.6rem;
 }
 
 /*---HIGHFI MOCKUPS---*/
 
+.highfi-mockups .flex-content {
+  width: 100%;
+}
+
 .highfi-mockups-img-overlay-1 {
   height: 43rem;
+  margin: 0 auto;
   position: relative;
-  width: 30rem;
+  width: 29rem;
 }
 
 .highfi-mockups-img-overlay-2 {
-  height: 28.6rem;
+  height: 24rem;
+  margin: 0 auto;
   position: relative;
-  width: 30rem;
+  width: 29rem;
 }
 
 .highfi-mockups-img-overlay-3 {
-  height: 31rem;
+  height: 26rem;
+  margin: 2rem auto 0;
   position: relative;
-  width: 30rem;
+  width: 29rem;
+}
+
+.highfi-mockup-1, .highfi-mockup-2, .highfi-mockup-3, .highfi-mockup-4,
+ .highfi-mockup-5, .highfi-mockup-6 {
+  border: 0.1rem solid #878787;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
 }
 
 .highfi-mockup-1 {
   position: absolute;
-  right: 1rem;
+  left: 0.5rem;
   top: 0;
 }
 
 .highfi-mockup-2 {
-  bottom: 1rem;
+  bottom: 0.5rem;
   position: absolute;
-  right: 1rem;
+  left: 0.5rem;
+}
+
+.highfi-mockup-3, .highfi-mockup-5 {
+  left: 0.5rem;
+  position: absolute;
+  top: 0;
+}
+
+.highfi-mockup-4, .highfi-mockup-6 {
+  position: absolute;
+  right: 0.5rem;
+  top: 0;
 }
 
 .down-arrow, .right-arrow {
@@ -1346,36 +1380,29 @@ ol {
   z-index: 1;
 }
 
-.highfi-mockup-3, .highfi-mockup-5 {
-  left: 1rem;
-  position: absolute;
-  top: 0;
-}
-
-.highfi-mockup-4, .highfi-mockup-6 {
-  position: absolute;
-  right: 1rem;
-  top: 0;
-}
-
-.highfi-mockup-1, .highfi-mockup-2, .highfi-mockup-3, .highfi-mockup-4,
- .highfi-mockup-5, .highfi-mockup-6 {
-  border: 0.1rem solid #878787;
-  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-}
-
 /*---PREFERENCE TESTING---*/
+
+.preference-testing .flex-content {
+  width: 100%;
+}
 
 .preference-test-img-overlay-1 {
   height: 43.3rem;
+  margin: 0 auto;
   position: relative;
   width: 30rem;
 }
 
 .preference-test-img-overlay-2 {
   height: 36.3rem;
+  margin: 0 auto;
   position: relative;
   width: 24.5rem;
+}
+
+.preference-testing-1, .preference-testing-2, .preference-testing-3, .preference-testing-4 {
+  border: 0.1rem solid #878787;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
 }
 
 .preference-testing-2, .preference-testing-4 {
@@ -1384,58 +1411,62 @@ ol {
   right: 0.5rem;
 }
 
-.preference-testing-1, .preference-testing-2, .preference-testing-3, .preference-testing-4 {
-  border: 0.1rem solid #878787;
-  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-}
-
 /*---USABILITY TESTING 2---*/
 
 .document-iframe {
  display: none;
 }
 
+.usability-testing .flex-content {
+  width: 100%;
+}
+
 .usability-test-img-overlay-1 {
   height: 43rem;
+  margin: 0 auto;
   position: relative;
-  width: 30rem;
+  width: 28.5rem;
 }
 
 .usability-test-img-overlay-2 {
-  height: 39rem;
+  height: 38.8rem;
+  margin: 0 auto;
   position: relative;
-  width: 30rem;
+  width: 28.5rem;
 }
 
 .usability-test-img-overlay-3 {
-  height: 29.5rem;
-  margin-top: 4rem;
+  height: 25rem;
+  margin: 4rem auto 0;
   position: relative;
-  width: 30rem;
-}
-
-.usability-testing-results-1, .usability-testing-results-3, .usability-testing-results-6 {
-  position: absolute;
-  right: 1rem;
-  top: 0;
-}
-
-.usability-testing-results-2, .usability-testing-results-4 {
-  bottom: 1rem;
-  position: absolute;
-  right: 1rem;
-}
-
-.usability-testing-results-5 {
-  left: 1rem;
-  position: absolute;
-  top: 0;
+  width: 28.5rem;
 }
 
 .usability-testing-results-1, .usability-testing-results-2, .usability-testing-results-3,
  .usability-testing-results-4, .usability-testing-results-5, .usability-testing-results-6 {
   border: 0.1rem solid #878787;
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+}
+
+.usability-testing-results-1, .usability-testing-results-3, .usability-testing-results-6 {
+  position: absolute;
+  top: 0;
+}
+
+.usability-testing-results-2, .usability-testing-results-4 {
+  bottom: 0.5rem;
+  position: absolute;
+}
+
+.usability-testing-results-5 {
+  position: absolute;
+  top: 0;
+}
+
+.usability-testing-results-6 {
+  right: 0.5rem;
+  position: absolute;
+  top: 0;
 }
 
 /*---CONCLUSION---*/
@@ -1457,4 +1488,264 @@ ol {
 
 .case-study-main {
   padding-bottom: 6.4rem;
+}
+
+/*---MEDIA QUERIES--------------------------------------------------------*/
+
+@media screen and (min-width: 400px) {
+
+  /*---BIO----------------------*/
+
+  .mobile-heading-text-fix-1 {
+    width: 28rem;
+  }
+
+}
+
+@media screen and (min-width: 450px) {
+
+  /*---BIO----------------------*/
+
+  .mobile-heading-text-fix-1 {
+    width: auto;
+  }
+
+}
+
+@media screen and (min-width: 600px) {
+
+  /*---HERO-----------------------*/
+
+  .hero {
+    min-height: 70rem;
+  }
+
+  .hero-content {
+    height: 50rem;
+    margin: -25rem 0 0 -20rem;
+    top: 50%;
+    width: 40rem;
+  }
+
+  .hero-content h1 {
+    margin-left: -16rem;
+    top: 20rem;
+  }
+
+  .intro {
+    top: 28rem;
+    width: 40rem;
+  }
+
+  .eight-bit-alien-1 {
+    margin-right: -4.5rem;
+    top: 8rem;
+  }
+
+  .eight-bit-alien-2 {
+    right: 4rem;
+  }
+
+  .eight-bit-alien-3 {
+    left: 4rem;
+  }
+
+  /*---ABOUT HERO-----------------*/
+
+  .about-hero {
+    height: 82rem;
+  }
+
+  .hamburger-menu-backing-about-hero-curtain {
+    height: 82rem;
+    margin-top: -82rem;
+  }
+
+  .about-hero-content {
+    height: 48rem;
+    margin: -23rem 0 0 -27rem;
+    width: 54rem;
+    top: 50%;
+  }
+
+  .profile-image {
+    bottom: 0;
+  }
+
+  .eight-bit-textbox {
+    right: 20rem;
+  }
+
+  .about-hero-content h1 {
+    left: 29rem;
+    top: 16rem;
+  }
+
+  .about-intro {
+    left: 29rem;
+    top: 21rem;
+    width: 25rem;
+  }
+
+  /*---BIO----------------------*/
+
+  .quote {
+    max-width: 61rem;
+  }
+
+  /*---CONTAINERS-----*/
+
+  .img-container {
+    max-width: none;
+  }
+
+  .flex-content, .flex-content-alt {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: none;
+  }
+
+  .flex-text-container {
+    margin: 0;
+    max-width: none;
+    padding: 0 2rem;
+    width: 54rem;
+  }
+
+  .flex-img-container {
+    margin: 4rem 0 0;
+    max-width: 54rem;
+    padding: 0 1rem;
+  }
+
+  /*---OVERVIEW------*/
+
+  .roles-deliverables-tools {
+    height: 83.5rem;
+    width: 58.8rem;
+  }
+
+  .role, .tools {
+    height: 36rem;
+    width: 22.7rem;
+  }
+
+  .role {
+    left: 11.4%;
+  }
+
+  .deliverables {
+    height: 42rem;
+    margin-left: -27rem;
+    width: 54rem;
+  }
+
+  .tools {
+    right: 11.4%;
+  }
+
+  .role .overview-list, .tools .overview-list {
+    margin-top: 3.2rem;
+  }
+
+  .role .overview-list {
+    width: 12.1rem;
+  }
+
+  .deliverables .overview-list {
+    margin-top: 1.1rem;
+  }
+
+  .tools .overview-list {
+    width: 12.5rem;
+  }
+
+  .overview-list li {
+    margin: 2rem 0;
+  }
+
+  .list-pt-1 {
+    left: 7.1rem;
+  }
+
+  .list-pt-2 {
+    right: 8rem;
+  }
+
+  /*---USER SURVEY---*/
+
+  .chartjs-wrapper-1, .chartjs-wrapper-2 {
+    max-width: 54rem;
+    padding-bottom: 14rem;
+    width: auto;
+  }
+
+  .chartjs-wrapper-2 {
+    height: 50rem;
+  }
+
+  .chartjs-wrapper-1 h5, .chartjs-wrapper-2 h5 {
+    max-width: 50rem;
+    text-align: center;
+  }
+
+  /*---COMP ANALY----*/
+
+  .comp-analy-images {
+    height: 41rem;
+    margin: 0 2rem;
+    width: 41rem;
+  }
+
+  .comp-analy-logo-1 {
+    left: auto;
+  }
+
+  .comp-analy-logo-2 {
+    right: 0;
+  }
+
+  .comp-analy-logo-3 {
+    margin-left: -9.5rem;
+  }
+
+  /*---USER PERSONAS---*/
+
+  .user-personas .flex-content {
+    width: 85%;
+  }
+
+  /*---USABILITY TESTING 1---*/
+
+  .usability-testing-container {
+    margin: 4rem auto;
+    width: 50rem;
+  }
+
+  /*---BRANDING------*/
+
+  .branding-sketch-1 {
+    margin-bottom: -4rem;
+  }
+
+  /*---HIGHFI MOCKUPS---*/
+
+  .highfi-mockups .flex-content {
+    width: 85%;
+  }
+
+  /*---PREFERENCE TESTING---*/
+
+  .preference-testing .flex-content {
+    width: 85%;
+  }
+
+  /*---USABILITY TESTING 2---*/
+
+  .usability-testing .flex-content {
+    width: 85%;
+  }
+
 }

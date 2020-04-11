@@ -2,7 +2,7 @@
 
 /*---DESKTOP--------------------------------------------*/
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 900px) {
 
   /*---HEADER---------------------*/
 
@@ -48,7 +48,7 @@
 
   .resume-email-element {
     margin-left: -21.4rem;
-    top: 19.2rem;
+    top: 21rem;
   }
 
   .email-element, .resume-element {
@@ -59,7 +59,6 @@
 
   .email {
     margin: 2.7rem auto 2rem;
-    position: relative;
   }
 
   .resume {
@@ -91,8 +90,8 @@
   .hero-content {
     height: 43.5rem;
     margin: -21.75rem 0 0 -39.6rem;
+    top: 50%;
     width: 79.2rem;
-
   }
 
   @keyframes fadein {
@@ -297,13 +296,13 @@
     border: 0.6rem solid #E3E3E3;
     border-radius: 0.2rem;
     border-style: inset;
-    bottom: 0;
   }
 
   .eight-bit-textbox {
     border: 0.6rem solid #FFFFFF;
     border-radius: 0.2rem;
     padding: 2rem 0 2rem 3.2rem;
+    right: 0;
     width: 49.5rem;
   }
 
@@ -329,30 +328,16 @@
     display: block;
   }
 
-  .about-desktop-heading {
-    display: inline-block;
-  }
-
   .about-desktop-list-item {
     display: list-item;
   }
 
-  .about-mobile-heading, .about-mobile-list-item {
+  .about-mobile-list-item {
     display: none;
   }
 
-  .quote-container {
-    height: 20.2rem;
-  }
-
   .quote {
-    height: 11.7rem;
-    margin: 2.4rem 0 0 -32.5rem;
-    width: 65rem;
-  }
-
-  blockquote {
-    width: 60rem;
+    max-width: 68rem;
   }
 
   /*---CASE STUDY-----------------*/ /*******************************************************************/
@@ -373,25 +358,12 @@
   /*---CONTAINERS-----*/
 
   .text-container {
+    max-width: none;
     width: 60rem;
-  }
-
-  .img-container {
-    min-width: 60rem;
-  }
-
-  .flex-content, .flex-content-alt {
-    min-width: 60rem;
-    width: 90%;
   }
 
   .flex-text-container {
-    padding: 0 2rem;
     width: 60rem;
-  }
-
-  .flex-img-container {
-    padding: 0 2rem;
   }
 
   /*---"HERO"--------*/ /*******************************************************************/
@@ -409,6 +381,10 @@
     padding-top: 1.6rem;
   }
 
+  .stratus-on-devices-1 {
+    margin-top: 0;
+  }
+
   .stratus-simple-structured-seamless {
     display: block;
     box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
@@ -416,85 +392,25 @@
   }
 
   .case-study-hero-content p {
+    max-width: none;
     width: 62.5rem;
   }
 
-  /*---OVERVIEW------*/
+  /*---CONTAINERS-----*/
 
-  .roles-deliverables-tools {
-    height: 83.5rem;
-    width: 58.8rem;
-  }
-
-  .role, .tools {
-    height: 36rem;
-    width: 22.7rem;
-  }
-
-  .role {
-    left: 11.4%;
-  }
-
-  .deliverables {
-    height: 42rem;
-    margin-left: -28.4rem;
-    width: 56.8rem;
-  }
-
-  .tools {
-    right: 11.4%;
-  }
-
-  .deliverables-icon {
-    padding-right: 1.6rem;
-  }
-
-  .deliverables h4 {
-    padding-right: 1.6rem;
-  }
-
-  .role .overview-list, .tools .overview-list {
-    margin-top: 3.2rem;
-  }
-
-  .role .overview-list {
-    width: 12.1rem;
-  }
-
-  .deliverables .overview-list {
-    margin-top: 2rem;
-  }
-
-  .tools .overview-list {
-    width: 12.5rem;
-  }
-
-  .overview-list li {
-    margin: 2rem 0;
-  }
-
-  .list-pt-1 {
-    left: 7.1rem;
-  }
-
-  .list-pt-2 {
-    right: 5.6rem;
+  .flex-img-container {
+    max-width: none;
+    padding: 0 2rem;
   }
 
   /*---USER SURVEY---*/
 
   .chartjs-wrapper-1, .chartjs-wrapper-2 {
-    height: 50rem;
-    max-width: 85rem;
-    width: auto;
-  }
-
-  .chartjs-wrapper-1 h5, .chartjs-wrapper-2 h5 {
-    max-width: 50rem;
-    text-align: center;
+    padding-bottom: 18rem;
   }
 
   .user-survey-stat {
+    max-width: none;
     text-align: left;
     width: 60rem;
   }
@@ -502,11 +418,10 @@
   /*---COMP ANALY----*/
 
   .comp-analy-images {
-    height: 55rem;
+    height: 54rem;
     margin: 0 2rem;
-    width: 55rem;
+    width: 53rem;
   }
-
 
   .comp-analy-logo-1 {
     left: auto;
@@ -523,7 +438,7 @@
   /*---USER PERSONAS---*/
 
   .user-persona-card {
-    height: 111rem;
+    height: 115rem;
     width: 32.7rem;
   }
 
@@ -532,7 +447,7 @@
   }
 
   .user-persona-job {
-    top: -5.8rem;
+    top: -6.65rem;
   }
 
   .user-persona-big-quotation-mark-1, .user-persona-big-quotation-mark-2, .user-persona-big-quotation-mark-3 {
@@ -582,18 +497,20 @@
 
   /*---WIREFRAMES----*/
 
+  .wireframes .wireframe-sketches {
+    overflow: hidden;
+  }
+
   .wireframe-sketches {
     margin: 6rem 0 8rem;
   }
 
   .wireframe-sketches-container-1, .wireframe-sketches-container-2 {
     height: 54rem;
+    margin: -4rem -10rem;
+    max-width: none;
     position: relative;
     width: 70rem;
-  }
-
-  .wireframe-sketches-container-1, .wireframe-sketches-container-2 {
-    margin: -4rem -10rem;
   }
 
   .wireframe-sketch-1, .wireframe-sketch-2, .wireframe-sketch-3, .wireframe-sketch-4 {
@@ -628,22 +545,18 @@
   }
 
   .usability-testing-tasks-element {
-    margin-top: 2.4rem;
+    margin: 2.4rem 0 0 22rem;
     width: 32rem;
   }
 
   /*---BRANDING------*/
 
-  .branding .flex-content .flex-text-container, .branding .flex-content-alt .flex-text-container {
-    margin-top: 4rem;
-  }
-
-  .branding-sketch-2, .branding-sketch-3, .branding-sketch-4 {
-    margin: 0;
+  .branding .flex-img-container {
+    max-width: none;
   }
 
   .branding-sketch-1 {
-    margin: 2rem 0;
+    margin: 2rem 2rem -10rem;
   }
 
   .branding-sketch-2 {
@@ -651,15 +564,13 @@
   }
 
   .branding-sketch-3 {
-    transform: rotate(10deg);
+    margin: -8rem 0 0 0;
+    transform: rotate(0deg);
   }
 
   .branding-sketch-4 {
-    z-index: 1;
-  }
-
-  .branding-sketch-3, .branding-sketch-4 {
-    margin: -2rem 0 4rem;
+    margin: -4rem 0 0 -4rem;
+    transform: rotate(5deg);
   }
 
   /*---HIGHFI MOCKUPS---*/
@@ -676,16 +587,19 @@
 
   .highfi-mockups-img-overlay-3 {
     height: 39.6rem;
-    margin-top: 4rem;
     width: 44.2rem;
-  }
-
-  .down-arrow, .right-arrow {
-    margin: -2.5rem 0 0 -2.5rem;
   }
 
   .highfi-mockup-3, .highfi-mockup-5 {
     left: 0;
+  }
+
+  .highfi-mockup-6 {
+    right: 0.75rem;
+  }
+
+  .down-arrow, .right-arrow {
+    margin: -2.5rem 0 0 -2.5rem;
   }
 
   /*---PREFERENCE TESTING---*/
@@ -747,163 +661,183 @@
     width: 16rem;
   }
 
-  /*---MEDIA QUERIES--------------------------------------------------------*/
+}
 
-  @media screen and (min-width: 1200px) {
+/*---MEDIA QUERIES--------------------------------------------------------*/
 
-    /*---HERO-----------------------*/
+@media screen and (min-width: 1200px) {
 
-    .hero-content {
-      height: 51.3rem;
-      margin: -23.65rem 0 0 -46.7rem;
-      top: 45%;
-      width: 93.4rem;
+  /*---HERO-----------------------*/
+
+  .hero-content {
+    height: 51.3rem;
+    margin: -23.65rem 0 0 -46.7rem;
+    top: 45%;
+    width: 93.4rem;
+  }
+
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+      width: 0;
     }
-
-    @keyframes fadein {
-      0% {
-        opacity: 0;
-        width: 0;
-      }
-      30% {
-        opacity: 0;
-      }
-      60% {
-        opacity: 1;
-        width: 94.4rem;
-      }
+    30% {
+      opacity: 0;
     }
-
-    @-webkit-keyframes fadein {
-      0% {
-        opacity: 0;
-        width: 0;
-      }
-      30% {
-        opacity: 0;
-      }
-      60% {
-        opacity: 1;
-        width: 94.4rem;
-      }
+    60% {
+      opacity: 1;
+      width: 94.4rem;
     }
+  }
 
-    @-moz-keyframes fadein {
-      0% {
-        opacity: 0;
-        width: 0;
-      }
-      30% {
-        opacity: 0;
-      }
-      60% {
-        opacity: 1;
-        width: 94.4rem;
-      }
+  @-webkit-keyframes fadein {
+    0% {
+      opacity: 0;
+      width: 0;
     }
-
-    @-ms-keyframes fadein {
-      0% {
-        opacity: 0;
-        width: 0;
-      }
-      30% {
-        opacity: 0;
-      }
-      60% {
-        opacity: 1;
-        width: 94.4rem;
-      }
+    30% {
+      opacity: 0;
     }
-
-    @-o-keyframes fadein {
-      0% {
-        opacity: 0;
-        width: 0;
-      }
-      30% {
-        opacity: 0;
-      }
-      60% {
-        opacity: 1;
-        width: 94.4rem;
-      }
+    60% {
+      opacity: 1;
+      width: 94.4rem;
     }
+  }
 
-    .hero-content h1 {
-      top: 11.2rem;
+  @-moz-keyframes fadein {
+    0% {
+      opacity: 0;
+      width: 0;
     }
-
-    .intro {
-      top: 23.2rem;
-      width: 70rem;
+    30% {
+      opacity: 0;
     }
-
-    .eight-bit-alien-1 {
-      right: 15.2rem;
+    60% {
+      opacity: 1;
+      width: 94.4rem;
     }
+  }
 
-    .eight-bit-alien-2 {
-      margin-top: -5.55rem;
+  @-ms-keyframes fadein {
+    0% {
+      opacity: 0;
+      width: 0;
     }
-
-    .eight-bit-alien-3 {
-      right: 15.2rem;
+    30% {
+      opacity: 0;
     }
-
-    /*---ABOUT HERO-----------------*/
-
-    .about-hero-content {
-      height: 56rem;
-      left: 50%;
-      margin: -23.65rem 0 0 -45rem;
-      top: 45%;
-      width: 90rem;
+    60% {
+      opacity: 1;
+      width: 94.4rem;
     }
+  }
 
-    .eight-bit-textbox {
-      padding: 2.4rem 0 2.4rem 4rem;
-      width: 60.5rem;
+  @-o-keyframes fadein {
+    0% {
+      opacity: 0;
+      width: 0;
     }
-
-    .about-hero-content h1 {
-      left: 36rem;
-      top: 21.8rem;
+    30% {
+      opacity: 0;
     }
-
-    .about-intro {
-      left: 36rem;
-      top: 30.8rem;
-      width: 55rem;
+    60% {
+      opacity: 1;
+      width: 94.4rem;
     }
+  }
 
-    /*---CASE STUDY-OVERVIEW--------*/
+  .hero-content h1 {
+    top: 11.2rem;
+  }
 
-    .roles-deliverables-tools {
-      height: 42.6rem;
-      width: 104rem;
-    }
+  .intro {
+    top: 23.2rem;
+    width: 70rem;
+  }
 
-    .role, .tools {
-      height: 42.6rem;
-    }
+  .eight-bit-alien-1 {
+    right: 15.2rem;
+  }
 
-    .role {
-      border-right: 0.1rem solid #878787;
-      left: 0;
-    }
+  .eight-bit-alien-2 {
+    margin-top: -5.55rem;
+  }
 
-    .deliverables {
-      bottom: 0;
-      height: 42.5rem;
-      margin-left: -29.4rem;
-      width: 58.8rem;
-    }
+  .eight-bit-alien-3 {
+    right: 15.2rem;
+  }
 
-    .tools {
-      right: 0;
-    }
+  /*---ABOUT HERO-----------------*/
 
+  .about-hero-content {
+    height: 56rem;
+    left: 50%;
+    margin: -23.65rem 0 0 -45rem;
+    top: 45%;
+    width: 90rem;
+  }
+
+  .eight-bit-textbox {
+    padding: 2.4rem 0 2.4rem 4rem;
+    width: 60.5rem;
+  }
+
+  .about-hero-content h1 {
+    left: 36rem;
+    top: 21.8rem;
+  }
+
+  .about-intro {
+    left: 36rem;
+    top: 30.8rem;
+    width: 55rem;
+  }
+
+  /*---CASE STUDY-OVERVIEW--------*/
+
+  .roles-deliverables-tools {
+    height: 42.6rem;
+    width: 104rem;
+  }
+
+  .role, .tools {
+    height: 42.6rem;
+  }
+
+  .role {
+    border-right: 0.1rem solid #878787;
+    left: 0;
+  }
+
+  .deliverables {
+    bottom: 0;
+    height: 42.5rem;
+    margin-left: -29.4rem;
+    width: 58.8rem;
+  }
+
+  .tools {
+    right: 0;
+  }
+
+  .list-pt-1 {
+    left: 9.5rem;
+  }
+
+  .list-pt-2 {
+    right: 9.4rem;
+  }
+
+}
+
+@media screen and (min-width: 1389px) {
+
+  .moodboard, .logo-iterations, .brand-colors, .brand-typography {
+    margin-bottom: -4rem;
+  }
+
+  .branding .button-wrapper {
+    margin-top: 5.6rem;
   }
 
 }
