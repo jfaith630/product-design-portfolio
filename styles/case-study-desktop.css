@@ -1,0 +1,380 @@
+/*---CASE-STUDY-DESKTOP---------------------------------------------------*/
+
+/*---DESKTOP-1------------------------------------------*/
+
+@media screen and (min-width: 900px) {
+
+  /*---SECTIONS-------*/
+
+  .section-break {
+    width: 75%;
+  }
+
+  .section-title {
+    left: 0;
+    padding: 0 5rem 0 0;
+    transform: none;
+  }
+
+  /*---CONTAINERS-----*/
+
+  .text-container {
+    max-width: none;
+    width: 60rem;
+  }
+
+  .flex-text-container {
+    width: 60rem;
+  }
+
+  .flex-img-container {
+    max-width: none;
+    padding: 0 2rem;
+  }
+
+  /*---CASE-STUDY-"HERO"---*/
+
+  .case-study-intro {
+    width: 62.5rem;
+  }
+
+  .case-study-hero-img-container {
+    max-width: 126rem;
+  }
+
+  .stratus-humaaans {
+    display: block;
+    padding-top: 1.6rem;
+  }
+
+  .stratus-on-devices-1 {
+    margin-top: 0;
+  }
+
+  .stratus-simple-structured-seamless {
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    display: block;
+    margin: 0 0 3.2rem 1.6rem;
+  }
+
+  .case-study-hero-content p {
+    max-width: none;
+    width: 62.5rem;
+  }
+
+  /*---USER SURVEY---*/
+
+  .chartjs-wrapper-1, .chartjs-wrapper-2 {
+    padding-bottom: 18rem;
+  }
+
+  .user-survey-stat {
+    max-width: none;
+    text-align: left;
+    width: 60rem;
+  }
+
+  /*---COMP-ANALY----*/
+
+  .comp-analy-images {
+    height: 54rem;
+    margin: 0 2rem;
+    width: 53rem;
+  }
+
+  .comp-analy-logo-1 {
+    left: auto;
+  }
+
+  .comp-analy-logo-2 {
+    right: 0;
+  }
+
+  .comp-analy-logo-3 {
+    margin-left: -12.8rem;
+  }
+
+  /*---USER-PERSONAS---*/
+
+  .user-persona-card {
+    height: 115rem;
+    width: 32.7rem;
+  }
+
+  .persona-background {
+    width: 32.7rem;
+  }
+
+  .user-persona-job {
+    top: -6.65rem;
+  }
+
+  .user-persona-big-quotation-mark-1, .user-persona-big-quotation-mark-2, .user-persona-big-quotation-mark-3 {
+    top: 10.5rem;
+  }
+
+  /*---USER-STORIES-&-FLOWS--*/
+
+  .information-architecture .section-break .section-title {
+    margin-top: 0;
+  }
+
+  .info-arch-line-break {
+    display: none;
+  }
+
+  .user-stories-flows .img-container {
+    display: block;
+  }
+
+  table {
+    border-collapse: collapse;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    margin: 0 auto 1.6rem;
+  }
+
+  .first-column, .first-column-title {
+    width: 16rem;
+  }
+
+  .first-column {
+    text-align: right;
+  }
+
+  table, th, td {
+    border: 0.1rem solid #121212;
+    text-align: left;
+  }
+
+  th, td {
+    padding: 0.8rem 2rem;
+  }
+
+  .user-stories-flows .button-wrapper {
+    margin: 0 2rem 4.8rem;
+  }
+
+  /*---WIREFRAMES----*/
+
+  .wireframes .wireframe-sketches {
+    overflow: hidden;
+  }
+
+  .wireframe-sketches-container-1, .wireframe-sketches-container-2 {
+    height: 54rem;
+    margin: 0 -10rem -4rem;
+    max-width: none;
+    position: relative;
+    width: 70rem;
+  }
+
+  .wireframe-sketch-1, .wireframe-sketch-2, .wireframe-sketch-3, .wireframe-sketch-4 {
+    margin-top: 0;
+    position: absolute;
+  }
+
+  .wireframe-sketch-1, .wireframe-sketch-3 {
+    left: 4rem;
+    margin: 0;
+    transform: rotate(-10deg);
+  }
+
+  .wireframe-sketch-2, .wireframe-sketch-4 {
+    margin: 0;
+    right: 4rem;
+    transform: rotate(10deg);
+  }
+
+  /*---USABILITY-TESTING-1---*/
+
+  .usability-testing-container {
+    margin: 4rem auto;
+    width: 55rem;
+  }
+
+  .usability-testing-persona-element {
+    width: 14.7rem;
+  }
+
+  .usability-testing-tasks-element {
+    margin: 2.4rem 0 0 22rem;
+    width: 32rem;
+  }
+
+  /*---BRANDING------*/
+
+  .branding .flex-img-container {
+    max-width: none;
+  }
+
+  .branding-sketch-1 {
+    margin: 2rem 2rem -10rem;
+  }
+
+  .branding-sketch-2 {
+    transform: rotate(-10deg);
+  }
+
+  .branding-sketch-3 {
+    margin: -8rem 0 0 0;
+    transform: rotate(0deg);
+  }
+
+  .branding-sketch-4 {
+    margin: -4rem 0 0 -4rem;
+    transform: rotate(5deg);
+  }
+
+  /*---HIGHFI-MOCKUPS---*/
+
+  .highfi-mockups-img-overlay-1 {
+    height: 90.3rem;
+    width: 61.6rem;
+  }
+
+  .highfi-mockups-img-overlay-2 {
+    height: 36.9rem;
+    width: 44.2rem;
+  }
+
+  .highfi-mockups-img-overlay-3 {
+    height: 39.6rem;
+    width: 44.2rem;
+  }
+
+  .highfi-mockup-3, .highfi-mockup-5 {
+    left: 0;
+  }
+
+  .highfi-mockup-6 {
+    right: 0.75rem;
+  }
+
+  .down-arrow, .right-arrow {
+    margin: -2.5rem 0 0 -2.5rem;
+  }
+
+  /*---PREFERENCE-TESTING---*/
+
+  .preference-test-img-overlay-1 {
+    height: 58.7rem;
+    width: 57.5rem;
+  }
+
+  .preference-test-img-overlay-2 {
+    height: 54.5rem;
+    width: 37.1rem;
+  }
+
+  .preference-testing-2, .preference-testing-4 {
+    bottom: 1rem;
+    right: 1rem;
+  }
+
+  /*---USABILITY-TESTING-2---*/
+
+  .document-iframe {
+    border: 0.1rem solid #878787;
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+    display: block;
+    margin: 0 auto 4rem;
+  }
+
+  .usability-test-img-overlay-1 {
+    height: 102.1rem;
+    width: 69.5rem;
+  }
+
+  .usability-test-img-overlay-2 {
+    height: 56rem;
+    width: 42.4rem;
+  }
+
+  .usability-test-img-overlay-3 {
+    height: 36rem;
+    width: 42.4rem;
+  }
+
+  .usability-testing-results-5 {
+    left: 0;
+  }
+
+  /*---CONCLUSION---*/
+
+  .final-thanks {
+    margin: 7.2rem 0 14.4rem;
+  }
+
+  .back-to-top-element {
+    left: 50%;
+    margin: -8rem 0 0 -8rem;
+    position: absolute;
+    width: 16rem;
+  }
+
+}
+
+/*---DESKTOP-2------------------------------------------*/
+
+@media screen and (min-width: 1200px) {
+
+  /*---OVERVIEW------*/
+
+  .roles-deliverables-tools {
+    height: 42.6rem;
+    width: 104rem;
+  }
+
+  .role, .tools {
+    height: 42.6rem;
+  }
+
+  .role {
+    border-right: 0.1rem solid #878787;
+    left: 0;
+  }
+
+  .deliverables {
+    bottom: 0;
+    height: 42.5rem;
+    margin-left: -29.4rem;
+    width: 58.8rem;
+  }
+
+  .tools {
+    right: 0;
+  }
+
+  .list-pt-1 {
+    left: 9.5rem;
+  }
+
+  .list-pt-2 {
+    right: 9.4rem;
+  }
+
+}
+
+/*---MEDIA-QUERIES---*/
+
+@media screen and (min-width: 1400px) {
+
+  /*---BRANDING------*/
+
+  .flex-content-alt .flex-text-container {
+    margin-top: 5.6rem;
+  }
+
+  .logo-iterations, .brand-colors, .brand-typography {
+    margin-bottom: -4rem;
+  }
+
+  .moodboard {
+    margin: -2rem 0 -8rem;
+  }
+
+  .branding .button-wrapper {
+    margin-top: 5.6rem;
+  }
+
+}
