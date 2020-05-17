@@ -18,8 +18,8 @@
 }
 
 hr {
-   border: 0 none;
-   height: 0.2rem;
+  border: 0 none;
+  height: 0.2rem;
 }
 
 .section-title {
@@ -98,13 +98,22 @@ h5 {
   margin: -1.3rem 0;
 }
 
-.body-copy-list {
+.body-copy-list, .ordered-body-copy-list {
   list-style: initial;
   margin-left: 1.6em;
 }
 
-.body-copy-list li {
+.ordered-body-copy-list {
+  list-style-type: upper-alpha;
+}
+
+.body-copy-list li, .ordered-body-copy-list li {
   margin: 0.8rem 0;
+}
+
+.ordered-body-copy-list li {
+  margin-left: 0.4rem;
+  padding-left: 0.8rem;
 }
 
 /*---BUTTONS--------*/
@@ -118,7 +127,7 @@ h5 {
 .button-wrapper {
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
   display: inline-block;
-  margin: 1.6rem auto 4.8rem;
+  margin: 0.8rem auto 4rem;
   overflow: hidden;
 }
 
@@ -129,7 +138,7 @@ h5 {
 }
 
 .case-study-hero-content {
-  margin-top: 21.6rem;
+  margin-top: 20rem;
   text-align: center;
 }
 
@@ -146,16 +155,16 @@ h5 {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin: 4rem auto 1.6rem;
+  margin: 4rem auto 2.4rem;
   min-width: 30rem;
   width: 85%;
 }
 
-.stratus-on-devices-1 {
+.stratus-desktop-1 {
   margin-top: 0.8rem;
 }
 
-.stratus-humaaans, .stratus-simple-structured-seamless {
+.stratus-humaaans, .stratus-mobile {
   display: none;
 }
 
@@ -183,8 +192,8 @@ h5 {
 /*---OVERVIEW------*/
 
 .roles-deliverables-tools {
-  height: 65rem;
-  margin: 4rem auto 3.2rem;
+  height: 82.5rem;
+  margin: 4rem auto 0rem;
   position: relative;
   width: 30rem;
 }
@@ -198,17 +207,17 @@ h5 {
 }
 
 .role {
-  left: 1%;
+  left: 0;
 }
 
 .tools {
   border-left: 0.1rem solid #878787;
-  right: 1%;
+  right: 0;
 }
 
 .deliverables {
   border-bottom: 0.1rem solid #878787;
-  height: 32rem;
+  height: 49rem;
   left: 50%;
   margin-left: -15rem;
   position: absolute;
@@ -236,7 +245,7 @@ h5 {
 }
 
 .role-icon {
-  padding: 0.3rem 0;
+  padding: 0.2rem 0;
 }
 
 .role h4, .deliverables h4, .tools h4 {
@@ -257,49 +266,43 @@ h5 {
   width: 5.9rem;
 }
 
-.role .overview-list, .tools .overview-list {
+.role .overview-list, .deliverables .overview-list, .tools .overview-list {
   margin: 1.6rem auto 0;
 }
 
-.role .overview-list {
+.role .overview-list, .tools .overview-list {
+  text-align: center;
   width: 9rem;
 }
 
 .deliverables .overview-list {
-  margin: 1rem auto 0;
-  position: relative;
-}
-
-.tools .overview-list {
-  width: 9rem;
+  text-align: center;
+  width: 16rem;
 }
 
 .overview-list li {
   margin: 1.2rem 0;
 }
 
-.list-pt-1 {
-  left: 1.7rem;
-  position: absolute;
-  top: 0rem;
+.problem, .solution {
+  margin: 0.8rem auto 0;
+  padding-bottom: 4.5rem;
+  width: 30rem;
 }
 
-.list-pt-2 {
-  position: absolute;
-  right: 2.2rem;
-  text-align: right;
-  top: 0;
+.problem {
+  border-bottom: 0.1rem solid #878787;
 }
 
-.solution {
-  padding-bottom: 4rem;
+.problem h4, .solution h4 {
+  padding-left: 0;
 }
 
 /*---USER-SURVEY---*/
 
 .chartjs-wrapper-1, .chartjs-wrapper-2 {
   border-radius: 0.4rem;
-  margin: 2rem auto 4rem;
+  margin: 4rem auto 0;
   height: 45rem;
   padding: 2rem 5% 19rem;
   width: 85%;
@@ -307,7 +310,7 @@ h5 {
 
 .chartjs-wrapper-2 {
   height: 35rem;
-  padding: 2rem 5% 15rem;
+  padding: 2rem 5% 15.5rem;
 }
 
 .chartjs-wrapper-1 h5, .chartjs-wrapper-2 h5 {
@@ -318,15 +321,17 @@ h5 {
 }
 
 .user-survey-stat-container {
-  margin-bottom: 4.8rem;
+  border-radius: 0.4rem;
+  margin: 0 auto 4.8rem;
   overflow: auto;
   padding: 5.6rem 0;
+  width: 80.5%;
 }
 
 .user-survey-stat {
   margin: 0 auto;
-  max-width: 54rem;
-  width: 85%;
+  max-width: 50rem;
+  padding: 0 3.2rem;
 }
 
 /*---COMP-ANALY----*/
@@ -458,6 +463,7 @@ h5 {
 
 .user-stories-flows .img-container {
   display: none;
+  margin-bottom: 1.6rem;
 }
 
 .basic-file-management-operations-user-flow, .sharing-links-user-flow {
@@ -466,14 +472,12 @@ h5 {
   margin-bottom: 1rem;
 }
 
-.user-stories-flows-buttons {
-  margin: 0 auto;
-  max-width: 85%;
-  padding: 1.6rem 0 3.2rem;
+.user-stories-flows .flex-content {
+  margin-bottom: 0;
 }
 
 .user-stories-flows .button-wrapper {
-  margin: 0 2rem 1.6rem;
+  margin-top: 4rem;
 }
 
 /*---WIREFRAMES----*/
@@ -575,14 +579,14 @@ ol {
 }
 
 .highfi-mockups-img-overlay-1 {
-  height: 43rem;
+  height: 45rem;
   margin: 0 auto;
   position: relative;
   width: 29rem;
 }
 
 .highfi-mockups-img-overlay-2 {
-  height: 24rem;
+  height: 26rem;
   margin: 0 auto;
   position: relative;
   width: 29rem;
@@ -604,7 +608,7 @@ ol {
 .highfi-mockup-1 {
   left: 0.5rem;
   position: absolute;
-  top: 0;
+  top: 2rem;
 }
 
 .highfi-mockup-2 {
@@ -616,21 +620,51 @@ ol {
 .highfi-mockup-3, .highfi-mockup-5 {
   left: 0.5rem;
   position: absolute;
-  top: 0;
+  top: 2rem;
 }
 
 .highfi-mockup-4, .highfi-mockup-6 {
   position: absolute;
   right: 0.5rem;
-  top: 0;
+  top: 2rem;
 }
 
 .down-arrow, .right-arrow {
   left: 50%;
   margin: -2rem 0 0 -2rem;
   position: absolute;
-  top: 50%;
+  top: 52%;
   z-index: 1;
+}
+
+.before, .after {
+  position: absolute;
+  z-index: 1;
+}
+
+.highfi-mockups-img-overlay-1 .before {
+  left: 2%;
+}
+
+.highfi-mockups-img-overlay-1 .after {
+  top: 49.8%;
+  left: 2%;
+}
+
+.highfi-mockups-img-overlay-2 .before {
+  left: 2%;
+}
+
+.highfi-mockups-img-overlay-2 .after {
+  left: 53%;
+}
+
+.highfi-mockups-img-overlay-3 .before {
+  left: 2%;
+}
+
+.highfi-mockups-img-overlay-3 .after {
+  left: 54%;
 }
 
 /*---PREFERENCE-TESTING---*/
@@ -675,21 +709,21 @@ ol {
 }
 
 .usability-test-img-overlay-1 {
-  height: 43rem;
+  height: 45.2rem;
   margin: 0 auto;
   position: relative;
   width: 28.5rem;
 }
 
 .usability-test-img-overlay-2 {
-  height: 38.8rem;
+  height: 41rem;
   margin: 0 auto;
   position: relative;
   width: 28.5rem;
 }
 
 .usability-test-img-overlay-3 {
-  height: 25rem;
+  height: 27rem;
   margin: 4rem auto 0;
   position: relative;
   width: 28.5rem;
@@ -701,9 +735,9 @@ ol {
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
 }
 
-.usability-testing-results-1, .usability-testing-results-3, .usability-testing-results-6 {
+.usability-testing-results-1, .usability-testing-results-3 {
   position: absolute;
-  top: 0;
+  top: 2rem;
 }
 
 .usability-testing-results-2, .usability-testing-results-4 {
@@ -713,27 +747,49 @@ ol {
 
 .usability-testing-results-5 {
   position: absolute;
-  top: 0;
+  top: 2rem;
 }
 
 .usability-testing-results-6 {
   position: absolute;
   right: 0.5rem;
-  top: 0;
+  top: 2rem;
+}
+
+.usability-test-img-overlay-1 .before {
+  left: 0.5%;
+}
+
+.usability-test-img-overlay-1 .after {
+  left: 0.5%;
+  top: 50%;
+}
+
+.usability-test-img-overlay-2 .before {
+  left: 0.5%;
+}
+
+.usability-test-img-overlay-2 .after {
+  left: 0.5%;
+  top: 49.8%;
+}
+
+.usability-test-img-overlay-3 .before {
+  left: 0.5%;
+}
+
+.usability-test-img-overlay-3 .after {
+  left: 52.5%;
 }
 
 /*---CONCLUSION---*/
 
-.stratus-on-devices-2 {
+.stratus-desktop-2 {
   margin: 0 auto -2rem;
 }
 
-.conclusion .final-product {
-  margin-top: 2rem;
-}
-
 .final-thanks {
-  margin: 4.8rem 0 8.8rem;
+  margin: 2.4rem 0 8.8rem;
 }
 
 .back-to-top-element {
@@ -781,7 +837,7 @@ ol {
   /*---OVERVIEW------*/
 
   .roles-deliverables-tools {
-    height: 83.5rem;
+    height: 103.5rem;
     width: 58.8rem;
   }
 
@@ -799,12 +855,12 @@ ol {
   }
 
   .deliverables {
-    height: 42rem;
-    margin-left: -27rem;
-    width: 54rem;
+    height: 61.5rem;
+    margin-left: -22.7rem;
+    width: 45.4rem;
   }
 
-  .role .overview-list, .tools .overview-list {
+  .role .overview-list, .deliverables .overview-list, .tools .overview-list {
     margin-top: 3.2rem;
   }
 
@@ -817,27 +873,23 @@ ol {
   }
 
   .deliverables .overview-list {
-    margin-top: 1.1rem;
+    width: 22rem;
   }
 
   .overview-list li {
     margin: 2rem 0;
   }
 
-  .list-pt-1 {
-    left: 7.1rem;
-  }
-
-  .list-pt-2 {
-    right: 8rem;
+  .problem, .solution {
+    margin-top: 1.6rem;
+    width: 45.4rem;
   }
 
   /*---USER-SURVEY---*/
 
   .chartjs-wrapper-1, .chartjs-wrapper-2 {
     max-width: 54rem;
-    padding-bottom: 14rem;
-    width: auto;
+    padding-bottom: 16rem;
   }
 
   .chartjs-wrapper-2 {
@@ -847,6 +899,10 @@ ol {
   .chartjs-wrapper-1 h5, .chartjs-wrapper-2 h5 {
     max-width: 50rem;
     text-align: center;
+  }
+
+  .user-survey-stat-container {
+    max-width: 61rem;
   }
 
   /*---COMP-ANALY----*/
@@ -908,12 +964,8 @@ ol {
 
   /*---CONCLUSION---*/
 
-  .stratus-on-devices-2 {
-    margin: 0 auto -6rem;
-  }
-
-  .conclusion .final-product {
-    margin-top: 4rem;
+  .stratus-desktop-2 {
+    margin: 0 auto;
   }
 
 }

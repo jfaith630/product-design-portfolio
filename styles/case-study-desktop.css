@@ -7,6 +7,8 @@
   /*---SECTIONS-------*/
 
   .section-break {
+    margin-top: 13.6rem;
+    padding-bottom: 3.2rem;
     width: 75%;
   }
 
@@ -32,7 +34,17 @@
     padding: 0 2rem;
   }
 
+  /*---BUTTONS--------*/
+
+  .button-wrapper {
+    margin: 1.6rem auto 6.4rem;
+  }
+
   /*---CASE-STUDY-"HERO"---*/
+
+  .case-study-hero-content {
+    margin-top: 28.2rem;
+  }
 
   .case-study-intro {
     width: 62.5rem;
@@ -44,17 +56,16 @@
 
   .stratus-humaaans {
     display: block;
-    padding-top: 1.6rem;
+    padding-top: 3.2rem;
   }
 
-  .stratus-on-devices-1 {
-    margin-top: 0;
+  .stratus-desktop-1 {
+    margin: 0 2rem 0;
   }
 
-  .stratus-simple-structured-seamless {
-    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  .stratus-mobile {
     display: block;
-    margin: 0 0 3.2rem 1.6rem;
+    margin: 0 0 -12rem 4rem;
   }
 
   .case-study-hero-content p {
@@ -62,16 +73,32 @@
     width: 62.5rem;
   }
 
+  /*---OVERVIEW------*/
+
+  .roles-deliverables-tools {
+    height: 105.5rem;
+  }
+
+  .deliverables {
+    height: 63.5rem;
+  }
+
   /*---USER SURVEY---*/
 
   .chartjs-wrapper-1, .chartjs-wrapper-2 {
+    margin: 4rem 2rem 0;
+  }
+
+  .chartjs-wrapper-1 {
+    padding-bottom: 23rem;
+  }
+
+  .chartjs-wrapper-2 {
     padding-bottom: 18rem;
   }
 
   .user-survey-stat {
-    max-width: none;
     text-align: left;
-    width: 60rem;
   }
 
   /*---COMP-ANALY----*/
@@ -130,7 +157,7 @@
   table {
     border-collapse: collapse;
     box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-    margin: 0 auto 1.6rem;
+    margin: 0 auto;
   }
 
   .first-column, .first-column-title {
@@ -150,8 +177,8 @@
     padding: 0.8rem 2rem;
   }
 
-  .user-stories-flows .button-wrapper {
-    margin: 0 2rem 4.8rem;
+  .user-stories-flows .flex-content {
+    margin-bottom: 4rem;
   }
 
   /*---WIREFRAMES----*/
@@ -228,18 +255,30 @@
   /*---HIGHFI-MOCKUPS---*/
 
   .highfi-mockups-img-overlay-1 {
-    height: 90.3rem;
+    height: 93.5rem;
     width: 61.6rem;
   }
 
   .highfi-mockups-img-overlay-2 {
-    height: 36.9rem;
+    height: 39.4rem;
     width: 44.2rem;
   }
 
   .highfi-mockups-img-overlay-3 {
     height: 39.6rem;
     width: 44.2rem;
+  }
+
+  .highfi-mockup-1, .highfi-mockup-2 {
+    left: 0;
+  }
+
+  .highfi-mockup-1 {
+    top: 2.5rem;
+  }
+
+  .highfi-mockup-3, .highfi-mockup-4, .highfi-mockup-5, .highfi-mockup-6 {
+    top: 2.5rem;
   }
 
   .highfi-mockup-3, .highfi-mockup-5 {
@@ -252,6 +291,35 @@
 
   .down-arrow, .right-arrow {
     margin: -2.5rem 0 0 -2.5rem;
+  }
+
+  .down-arrow {
+    top: 51%;
+  }
+
+  .highfi-mockups-img-overlay-1 .before {
+    left: 0;
+  }
+
+  .highfi-mockups-img-overlay-1 .after {
+    top: 50.5%;
+    left: 0.25%;
+  }
+
+  .highfi-mockups-img-overlay-2 .before {
+    left: 0;
+  }
+
+  .highfi-mockups-img-overlay-2 .after {
+    left: 53%;
+  }
+
+  .highfi-mockups-img-overlay-3 .before {
+    left: 0;
+  }
+
+  .highfi-mockups-img-overlay-3 .after {
+    left: 53.5%;
   }
 
   /*---PREFERENCE-TESTING---*/
@@ -281,28 +349,44 @@
   }
 
   .usability-test-img-overlay-1 {
-    height: 102.1rem;
+    height: 105.1rem;
     width: 69.5rem;
   }
 
   .usability-test-img-overlay-2 {
-    height: 56rem;
+    height: 58.5rem;
     width: 42.4rem;
   }
 
   .usability-test-img-overlay-3 {
-    height: 36rem;
+    height: 38.5rem;
     width: 42.4rem;
+  }
+
+  .usability-testing-results-1, .usability-testing-results-3 {
+    top: 2.5rem;
+  }
+
+  .usability-testing-results-5, .usability-testing-results-6 {
+    top: 2.5rem;
   }
 
   .usability-testing-results-5 {
     left: 0;
   }
 
+  .usability-test-img-overlay-1 .after {
+    top: 50.2%;
+  }
+
+  .usability-test-img-overlay-2 .after {
+    top: 50%;
+  }
+
   /*---CONCLUSION---*/
 
   .final-thanks {
-    margin: 7.2rem 0 14.4rem;
+    margin: 5.6rem 0 16rem;
   }
 
   .back-to-top-element {
@@ -345,12 +429,42 @@
     right: 0;
   }
 
+  .role .overview-list, .tools .overview-list {
+    text-align: left;
+  }
+
+  .list-pt-1, .list-pt-2 {
+    margin-top: -2.1rem;
+    position: absolute;
+    text-align: left;
+  }
+
   .list-pt-1 {
-    left: 9.5rem;
+    left: 7.8rem;
   }
 
   .list-pt-2 {
-    right: 9.4rem;
+    right: 7.4rem;
+  }
+
+  .problem-solution {
+    height: 28.8rem;
+    margin: 2.4rem auto 0;
+    position: relative;
+    width: 104rem;
+  }
+
+  .problem {
+    border-bottom: none;
+    border-right: 0.1rem solid #878787;
+    padding-right: 4rem;
+    position: absolute;
+    left: 2.5rem;
+  }
+
+  .solution {
+    position: absolute;
+    right: 2rem;
   }
 
 }

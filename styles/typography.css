@@ -130,6 +130,10 @@ blockquote p {
   font-weight: bold;
 }
 
+.before, .after {
+  font-weight: bold;
+}
+
 .final-thanks {
   font-size: 2.4rem;
 }
@@ -155,7 +159,7 @@ blockquote p {
   }
 
   .overview-list li {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
 }

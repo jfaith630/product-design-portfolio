@@ -54,7 +54,7 @@ img {
   height: 5rem;
 }
 
-.stratus-on-devices-1 {
+.stratus-desktop-1 {
   max-height: 40rem;
 }
 
@@ -142,7 +142,7 @@ img {
   width: 13rem;
 }
 
-.stratus-on-devices-2 {
+.stratus-desktop-2 {
   max-height: 63.9rem;
 }
 
@@ -224,15 +224,15 @@ img {
   }
 
   .stratus-humaaans {
-    height: 28rem;
+    height: 26rem;
   }
 
-  .stratus-on-devices-1 {
+  .stratus-desktop-1 {
     max-height: 50rem;
   }
 
-  .stratus-simple-structured-seamless {
-    max-height: 31.5rem;
+  .stratus-mobile {
+    max-height: 40rem;
   }
 
   .comp-analy-logo-1, .comp-analy-logo-2, .comp-analy-logo-3 {
