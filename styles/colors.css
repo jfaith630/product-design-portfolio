@@ -57,6 +57,10 @@ a:hover {
   color: #00B8A2;
 }
 
+.work-content a:hover {
+  color: #FFFFFF;
+}
+
 .back-to-top-element, .back-to-top-element:hover {
   color: #000000;
 }
