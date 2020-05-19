@@ -37,6 +37,7 @@ header {
 
 .logo {
   float: left;
+  padding-top: 0.8rem;
 }
 
 .hamburger-menu, .close-nav-menu {
@@ -58,7 +59,7 @@ header {
 nav {
   display: none;
   height: 100%;
-  margin: -5.4rem 0 -4rem -12.8%;
+  margin: -0.9rem 0 -4rem -12.8%;
   position: fixed;
   width: 112.8%;
   z-index: 5;
@@ -161,6 +162,10 @@ footer {
   left: 0;
   position: absolute;
   top: 0;
+}
+
+.contact .label, .case-study-contact .label {
+  padding: 0;
 }
 
 .social-media {
@@ -590,6 +595,7 @@ footer {
 
 .label {
   text-align: center;
+  padding: 0.65rem 0 0.65rem;
 }
 
 /*---WORK-----------------------*/
@@ -605,43 +611,51 @@ footer {
   grid-template-columns: 1fr;
   margin: 4.8rem auto 6.4rem;
   max-width: 45rem;
+  min-width: 32.25rem;
   width: 85%;
 }
 
 .project-card {
-  border-radius: 0.4rem;
+  border-radius: 0.2rem;
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-  padding-bottom: 3.2rem;
+  padding: 1.6rem 1.6rem 3.2rem;
   position: relative;
 }
 
+.project-card h3 {
+  border-radius: 0.1rem;
+  margin-bottom: 2.4rem;
+  padding: 1.6rem 2.4rem;
+}
+
 .project-image {
-  border-radius: 0.4rem 0.4rem 0 0;
+  border-radius: 0.1rem 0.1rem 0 0;
 }
 
 .project-roles {
-  padding: 1.2rem 3.2rem 1rem;
-}
-
-.project-card h3 {
-  margin: 2.4rem 3.2rem 0;
+  border-radius: 0 0 0.1rem 0.1rem;
+  padding: 1.6rem 2.4rem;
 }
 
 .project-description {
-  margin: 1.6rem 3.2rem 9.6rem;
+  border-radius: 0.1rem;
+  margin: 1.6rem 0 3.2rem;
+  padding: 1.6rem 2.4rem;
 }
 
 .project-card-button-wrapper {
-  bottom: 3.2rem;
-  margin-left: 3.2rem;
-  position: absolute;
+  text-align: center;
 }
 
-.button-style-1, .button-style-2, .button-style-3 {
-  border-radius: 0.4rem;
+.button-style-1, .button-style-2, .button-style-3, .button-style-4 {
+  border-radius: 0.2rem;
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.1);
   display: inline-block;
-  padding: 2rem;
+  padding: 2rem 2.4rem;
+}
+
+.project-card .button-style-1, .project-card .button-style-2, .project-card .button-style-3 {
+  width: 24rem;
 }
 
 /*---ABOUT-HERO-----------------*/
@@ -883,6 +897,10 @@ blockquote {
     width: 82%;
   }
 
+  .logo {
+    padding: 0.8rem 0 1.5rem;
+  }
+
   .hamburger-menu, .close-nav-menu {
     display: none;
   }
@@ -1081,8 +1099,12 @@ blockquote {
     grid-template-columns: 1fr 1fr;
     margin: 7.2rem auto;
     max-width: 106.4rem;
-    min-width: 73.7rem;
+    min-width: 77.5rem;
     width: 73%;
+  }
+
+  .project-card {
+    padding: 3.2rem 3.2rem 4rem;
   }
 
   .project-card:hover {
@@ -1139,6 +1161,14 @@ blockquote {
     to{
     transform: translate(-1rem, -1rem);
     }
+  }
+
+  .project-card h3 {
+    margin-bottom: 2.4rem;
+  }
+
+  .project-description {
+    margin: 2.4rem 0 4rem;
   }
 
   /*---ABOUT HERO-----------------*/

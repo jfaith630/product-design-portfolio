@@ -57,6 +57,10 @@ a:hover {
   color: #00B8A2;
 }
 
+.work-content a:hover {
+  color: #FFFFFF;
+}
+
 .back-to-top-element, .back-to-top-element:hover {
   color: #000000;
 }
@@ -73,6 +77,10 @@ a:hover {
   background-color: #E1261C;
 }
 
+.button-style-4 {
+  background-color: #121212;
+}
+
 .project-card-button-wrapper a:hover, .button-wrapper a:hover {
   color: #FFFFFF;
 }
@@ -81,8 +89,12 @@ a:hover {
   background: rgba(255, 255, 255, 0.07);
 }
 
-.project-roles {
-  background: rgba(255, 255, 255, 0.05);
+.project-card h3 {
+  background: rgba(255, 255, 255, 0.07);
+}
+
+ .project-roles, .project-description {
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .eight-bit-highlight {
