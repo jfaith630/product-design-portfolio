@@ -47,6 +47,7 @@
   }
 
   .case-study-intro {
+    margin-top: 3.2rem;
     width: 62.5rem;
   }
 
@@ -325,18 +326,28 @@
   /*---PREFERENCE-TESTING---*/
 
   .preference-test-img-overlay-1 {
-    height: 58.7rem;
+    height: 61.7rem;
     width: 57.5rem;
   }
 
   .preference-test-img-overlay-2 {
-    height: 54.5rem;
+    height: 57.5rem;
     width: 37.1rem;
   }
 
   .preference-testing-2, .preference-testing-4 {
-    bottom: 1rem;
+    bottom: 4rem;
     right: 1rem;
+  }
+
+  .preference-test-img-overlay-1 .percentage {
+    left: 60%;
+    margin-left: -9rem;
+  }
+
+  .preference-test-img-overlay-2 .percentage {
+    left: 41%;
+    width: auto;
   }
 
   /*---USABILITY-TESTING-2---*/
@@ -390,9 +401,7 @@
   }
 
   .back-to-top-element {
-    left: 50%;
     margin: -8rem 0 0 -8rem;
-    position: absolute;
     width: 16rem;
   }
 

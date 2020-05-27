@@ -12,34 +12,40 @@ body, p, div {
   line-height: 167.23%;
 }
 
-h1 {
+.home-about-title {
   font-family: 'Press Start 2P', sans-serif;
   font-size: 2.6rem;
   line-height: 100%;
 }
 
-h2 {
+.contact-cta {
   font-family: 'Press Start 2P', sans-serif;
   font-size: 2.6rem;
   line-height: 173%;
 }
 
-h3 {
+.eight-bit-textbox {
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 2rem;
+  line-height: 173%;
+}
+
+.large-heading {
   font-size: 3.4rem;
   line-height: 120%;
 }
 
-h4 {
+.main-heading {
   font-size: 2.4rem;
   line-height: 120%;
 }
 
-h5 {
+.sub-heading {
   font-size: 2rem;
   line-height: 120%;
 }
 
-h6 {
+.sub-sub-heading {
   font-size: 1.6rem;
   font-weight: bold;
   line-height: 120%;
@@ -62,21 +68,30 @@ strong {
   font-size: 2rem;
 }
 
+.email-element .label, .resume-element .label {
+  line-height: 120%;
+}
+
+.label-2 {
+  font-size: 1.6rem;
+}
+
 .button-style-1, .button-style-2, .button-style-3 {
-  font-weight: medium;
+  font-weight: 500;
   line-height: 100%;
 }
 
 .intro {
   font-size: 2.4rem;
+  line-height: 167.23%;
 }
 
 .about-intro {
   font-size: 1.6rem;
 }
 
-.eight-bit-textbox {
-  font-size: 2rem;
+.caption {
+  font-style: italic;
 }
 
 .mobile-heading-text-fix-1 {
@@ -103,7 +118,7 @@ blockquote p {
   font-size: 1.4rem;
 }
 
-.chartjs-wrapper-1 h5, .chartjs-wrapper-2 h5 {
+.chartjs-wrapper-1 .sub-heading, .chartjs-wrapper-2 .sub-heading {
   font-size: 1.8rem;
   line-height: 160%;
 }
@@ -130,7 +145,7 @@ blockquote p {
   font-weight: bold;
 }
 
-.before, .after {
+.before, .after, .percentage {
   font-weight: bold;
 }
 
@@ -142,16 +157,16 @@ blockquote p {
 
 @media screen and (min-width: 600px) {
 
-  h1 {
+  .home-about-title {
     font-size: 3.4rem;
-  }
-
-  .about-intro {
-    font-size: 1.6rem;
   }
 
   .eight-bit-textbox {
     font-size: 2rem;
+  }
+
+  .about-intro {
+    font-size: 1.6rem;
   }
 
   .mobile-heading-text-fix-1 {
@@ -173,12 +188,17 @@ blockquote p {
     line-height: 173%;
   }
 
-  h1 {
+  .home-about-title {
     font-size: 4.8rem;
   }
 
-  h2 {
+  .contact-cta {
     font-size: 4.8rem;
+    line-height: 180%;
+  }
+
+  .eight-bit-textbox {
+    font-size: 2.8rem;
     line-height: 180%;
   }
 
@@ -190,23 +210,24 @@ blockquote p {
     font-size: 2.4rem;
   }
 
+  .label-2 {
+    font-size: 2rem;
+  }
+
   .intro {
     font-size: 3rem;
+    line-height: 173%;
   }
 
   .about-intro {
     font-size: 2rem;
   }
 
-  .eight-bit-textbox {
-    font-size: 2.8rem;
-  }
-
   .case-study-hero-content p {
     font-size: 2rem;
   }
 
-  .chartjs-wrapper-1 h5, .chartjs-wrapper-2 h5 {
+  .chartjs-wrapper-1 .sub-heading, .chartjs-wrapper-2 .sub-heading {
     font-size: 2.4rem;
     line-height: 167.2%;
   }
@@ -233,8 +254,12 @@ blockquote p {
 
 @media screen and (min-width: 1200px) {
 
-  h1 {
+  .home-about-title {
     font-size: 5.6rem;
+  }
+
+  .eight-bit-textbox {
+    font-size: 3.2rem;
   }
 
   .intro {
@@ -243,10 +268,6 @@ blockquote p {
 
   .about-intro {
     font-size: 2.4rem;
-  }
-
-  .eight-bit-textbox {
-    font-size: 3.2rem;
   }
 
 }

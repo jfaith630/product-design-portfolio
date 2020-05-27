@@ -8,6 +8,10 @@ html {
 	scroll-behavior: smooth;
 }
 
+.case-study {
+  scroll-behavior: auto;
+}
+
 @media screen and (prefers-reduced-motion: reduce) {
 	html {
 		scroll-behavior: auto;
@@ -58,7 +62,7 @@ header {
 nav {
   display: none;
   height: 100%;
-  margin: -0.9rem 0 -4rem -12.8%;
+  margin: -2.4rem 0 -4rem -12.8%;
   position: fixed;
   width: 112.8%;
   z-index: 5;
@@ -73,8 +77,12 @@ nav {
 }
 
 .nav-link {
-  margin: 2.4rem 0;
   text-align: center;
+}
+
+.nav-link a {
+  display: block;
+  padding: 2.4rem 0;
 }
 
 /*---FOOTER---------------------*/
@@ -102,7 +110,7 @@ footer {
   width: 32rem;
 }
 
-.contact h2, .case-study-contact h2 {
+.contact-cta, .case-study-contact-cta {
   left: 0;
   position: absolute;
   right: 0;
@@ -110,10 +118,10 @@ footer {
 }
 
 .resume-email-element {
-  direction: row;
   display: flex;
+  flex-direction: row;
   left: 50%;
-  margin-left: -12.8rem;
+  margin-left: -14.4rem;
   position: absolute;
   top: 11.6rem;
 }
@@ -122,7 +130,7 @@ footer {
   height: 10rem;
   margin: 0 2.4rem;
   text-align: center;
-  width: 8rem;
+  width: 9.6rem;
 }
 
 .email-element:hover .email-2, .resume-element:hover .resume-2 {
@@ -208,6 +216,9 @@ footer {
 }
 
 .hero-content {
+  animation: fadein ease 1.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
   height: 40rem;
   left: 50%;
   margin: -17.25rem 0 0 -15rem;
@@ -215,27 +226,6 @@ footer {
   top: 47%;
   width: 30rem;
   z-index: 4;
-
-  animation: fadein ease 1.5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-
-  -webkit-animation: fadein ease 1.5s;
-  -webkit-animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-
-  -moz-animation: fadein ease 1.5s;
-  -moz-animation-iteration-count: 1;
-  -moz-animation-fill-mode: forwards;
-
-  -ms-animation: fadein ease 1.5s;
-  -ms-animation-iteration-count: 1;
-  -ms-animation-fill-mode: forwards;
-
-  -o-animation: fadein ease 1.5s;
-  -o-animation-iteration-count: 1;
-  -o-animation-fill-mode: forwards;
-
 }
 
 @keyframes fadein {
@@ -250,55 +240,7 @@ footer {
   }
 }
 
-@-webkit-keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 0;
-  }
-  60% {
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 0;
-  }
-  60% {
-    opacity: 1;
-  }
-}
-
-@-ms-keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 0;
-  }
-  60% {
-    opacity: 1;
-  }
-}
-
-@-o-keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 0;
-  }
-  60% {
-    opacity: 1;
-  }
-}
-
-.hero-content h1 {
+.hero-content .home-about-title {
   left: 50%;
   margin-left: -12.7rem;
   position: absolute;
@@ -331,24 +273,8 @@ footer {
 
 .eight-bit-alien-1 {
   animation: fadein2 ease 1.5s;
-  animation-iteration-count: 1;
   animation-fill-mode: forwards;
-
-  -webkit-animation: fadein2 ease 1.5s;
-  -webkit-animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-
-  -moz-animation: fadein2 ease 1.5s;
-  -moz-animation-iteration-count: 1;
-  -moz-animation-fill-mode: forwards;
-
-  -ms-animation: fadein2 ease 1.5s;
-  -ms-animation-iteration-count: 1;
-  -ms-animation-fill-mode: forwards;
-
-  -o-animation: fadein2 ease 1.5s;
-  -o-animation-iteration-count: 1;
-  -o-animation-fill-mode: forwards;
+  animation-iteration-count: 1;
 }
 
 @keyframes fadein2 {
@@ -361,86 +287,14 @@ footer {
   }
   90% {
     opacity: 1;
-    top: 3.6;
-  }
-}
-
-@-webkit-keyframes fadein2 {
-  0% {
-    opacity: 0;
-    top: -16.4rem;
-  }
-  30% {
-    opacity: 0;
-  }
-  90% {
-    opacity: 1;
-    top: 3.6;
-  }
-}
-
-@-moz-keyframes fadein2 {
-  0% {
-    opacity: 0;
-    top: -16.4rem;
-  }
-  30% {
-    opacity: 0;
-  }
-  90% {
-    opacity: 1;
-    top: 3.6;
-  }
-}
-
-@-ms-keyframes fadein2 {
-  0% {
-    opacity: 0;
-    top: -16.4rem;
-  }
-  30% {
-    opacity: 0;
-  }
-  90% {
-    opacity: 1;
-    top: 3.6;
-  }
-}
-
-@-o-keyframes fadein2 {
-  0% {
-    opacity: 0;
-    top: -16.4rem;
-  }
-  30% {
-    opacity: 0;
-  }
-  90% {
-    opacity: 1;
-    top: 3.6;
+    top: 3.6rem;
   }
 }
 
 .eight-bit-alien-2, .eight-bit-alien-3 {
   animation: fadein3 ease 1.5s;
-  animation-iteration-count: 1;
   animation-fill-mode: forwards;
-
-  -webkit-animation: fadein3 ease 1.5s;
-  -webkit-animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-
-  -moz-animation: fadein3 ease 1.5s;
-  -moz-animation-iteration-count: 1;
-  -moz-animation-fill-mode: forwards;
-
-  -ms-animation: fadein3 ease 1.5s;
-  -ms-animation-iteration-count: 1;
-  -ms-animation-fill-mode: forwards;
-
-  -o-animation: fadein3 ease 1.5s;
-  -o-animation-iteration-count: 1;
-  -o-animation-fill-mode: forwards;
+  animation-iteration-count: 1;
 }
 
 @keyframes fadein3 {
@@ -457,126 +311,16 @@ footer {
   }
 }
 
-@-webkit-keyframes fadein3 {
-  0% {
-    opacity: 0;
-    top: -20rem;
-  }
-  30% {
-    opacity: 0;
-  }
-  60% {
-    opacity: 1;
-    top: 0;
-  }
-}
-
-@-moz-keyframes fadein3 {
-  0% {
-    opacity: 0;
-    top: -20rem;
-  }
-  30% {
-    opacity: 0;
-  }
-  60% {
-    opacity: 1;
-    top: 0;
-  }
-}
-
-@-ms-keyframes fadein3 {
-  0% {
-    opacity: 0;
-    top: -20rem;
-  }
-  30% {
-    opacity: 0;
-  }
-  60% {
-    opacity: 1;
-    top: 0;
-  }
-}
-
-@-o-keyframes fadein3 {
-  0% {
-    opacity: 0;
-    top: -20rem;
-  }
-  30% {
-    opacity: 0;
-  }
-  60% {
-    opacity: 1;
-    top: 0;
-  }
-}
-
 .my-work-element {
+  animation: bounce 1s infinite;
   bottom: 3.2rem;
   left: 50%;
   margin-left: -4rem;
   position: absolute;
   z-index: 4;
-
-  animation: bounce 1s infinite;
-  -webkit-animation: bounce 1s infinite;
-  -moz-animation: bounce 1s infinite;
-  -ms-animation: bounce 1s infinite;
-  -o-animation: bounce 1s infinite;
-
 }
 
 @keyframes bounce {
-  0%    { bottom:4rem; }
-  12.5% { bottom:4.1rem; }
-  25%   { bottom:4.2rem; }
-  37.5% { bottom:4.3rem; }
-  50%   { bottom:4.4rem; }
-  62.5% { bottom:4.3rem; }
-  75%   { bottom:4.2rem; }
-  87.5% { bottom:4.1rem; }
-  100%  {bottom:4rem;}
-}
-
-@-webkit-keyframes bounce {
-  0%    { bottom:4rem; }
-  12.5% { bottom:4.1rem; }
-  25%   { bottom:4.2rem; }
-  37.5% { bottom:4.3rem; }
-  50%   { bottom:4.4rem; }
-  62.5% { bottom:4.3rem; }
-  75%   { bottom:4.2rem; }
-  87.5% { bottom:4.1rem; }
-  100%  {bottom:4rem;}
-}
-
-@-moz-keyframes bounce {
-  0%    { bottom:4rem; }
-  12.5% { bottom:4.1rem; }
-  25%   { bottom:4.2rem; }
-  37.5% { bottom:4.3rem; }
-  50%   { bottom:4.4rem; }
-  62.5% { bottom:4.3rem; }
-  75%   { bottom:4.2rem; }
-  87.5% { bottom:4.1rem; }
-  100%  {bottom:4rem;}
-}
-
-@-ms-keyframes bounce {
-  0%    { bottom:4rem; }
-  12.5% { bottom:4.1rem; }
-  25%   { bottom:4.2rem; }
-  37.5% { bottom:4.3rem; }
-  50%   { bottom:4.4rem; }
-  62.5% { bottom:4.3rem; }
-  75%   { bottom:4.2rem; }
-  87.5% { bottom:4.1rem; }
-  100%  {bottom:4rem;}
-}
-
-@-o-keyframes bounce {
   0%    { bottom:4rem; }
   12.5% { bottom:4.1rem; }
   25%   { bottom:4.2rem; }
@@ -613,6 +357,8 @@ footer {
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
   padding-bottom: 3.2rem;
   position: relative;
+  transform: translate3D(0, 0, 0);
+  transition: transform ease-in-out 0.35s;
 }
 
 .project-image {
@@ -623,7 +369,7 @@ footer {
   padding: 1.2rem 3.2rem 1rem;
 }
 
-.project-card h3 {
+.project-card .large-heading {
   margin: 2.4rem 3.2rem 0;
 }
 
@@ -689,7 +435,7 @@ footer {
   width: 28rem;
 }
 
-.about-hero-content h1 {
+.about-hero-content .home-about-title {
   position: absolute;
   top: 62.5rem;
 }
@@ -701,17 +447,12 @@ footer {
 }
 
 .read-more-element {
+  animation:bounce 1s infinite;
   bottom: 3.2rem;
   left: 50%;
   margin-left: -4.85rem;
   position: absolute;
   z-index: 4;
-
-  animation:bounce 1s infinite;
-  -webkit-animation: bounce 1s infinite;
-  -moz-animation: bounce 1s infinite;
-  -ms-animation: bounce 1s infinite;
-  -o-animation: bounce 1s infinite;
 }
 
 /*---BIO----------------------*/
@@ -720,6 +461,7 @@ footer {
   border: 0.4rem solid #FFFFFF;
   border-radius: 0.1rem;
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  margin: 0 auto;
 }
 
 .bio .img-container, .about-desktop-list-item {
@@ -799,7 +541,7 @@ blockquote {
     width: 40rem;
   }
 
-  .hero-content h1 {
+  .hero-content .home-about-title {
     margin-left: -16rem;
     top: 20rem;
   }
@@ -836,8 +578,8 @@ blockquote {
   .about-hero-content {
     height: 48rem;
     margin: -23rem 0 0 -27rem;
-    width: 54rem;
     top: 50%;
+    width: 54rem;
   }
 
   .profile-image {
@@ -848,7 +590,7 @@ blockquote {
     right: 20rem;
   }
 
-  .about-hero-content h1 {
+  .about-hero-content .home-about-title {
     left: 29rem;
     top: 16rem;
   }
@@ -905,6 +647,14 @@ blockquote {
     margin: 0 1.6rem;
   }
 
+  .nav-link a {
+    padding: 0;
+  }
+
+  .current-page {
+    border-bottom: solid;
+  }
+
   /*---CONTACT--------------------*/
 
   .contact-content {
@@ -914,14 +664,14 @@ blockquote {
   }
 
   .resume-email-element {
-    margin-left: -21.4rem;
+    margin-left: -23rem;
     top: 21rem;
   }
 
   .email-element, .resume-element {
     height: 16rem;
     margin: 0 5.9rem;
-    width: 9.6rem;
+    width: 11.2rem;
   }
 
   .email {
@@ -975,63 +725,7 @@ blockquote {
     }
   }
 
-  @-webkit-keyframes fadein {
-    0% {
-      opacity: 0;
-      width: 0;
-    }
-    30% {
-      opacity: 0;
-    }
-    60% {
-      opacity: 1;
-      width: 80rem;
-    }
-  }
-
-  @-moz-keyframes fadein {
-    0% {
-      opacity: 0;
-      width: 0;
-    }
-    30% {
-      opacity: 0;
-    }
-    60% {
-      opacity: 1;
-      width: 80rem;
-    }
-  }
-
-  @-ms-keyframes fadein {
-    0% {
-      opacity: 0;
-      width: 0;
-    }
-    30% {
-      opacity: 0;
-    }
-    60% {
-      opacity: 1;
-      width: 80rem;
-    }
-  }
-
-  @-o-keyframes fadein {
-    0% {
-      opacity: 0;
-      width: 0;
-    }
-    30% {
-      opacity: 0;
-    }
-    60% {
-      opacity: 1;
-      width: 80rem;
-    }
-  }
-
-  .hero-content h1 {
+  .hero-content .home-about-title {
     left: 0%;
     margin-left: 0;
     top: 9.5rem;
@@ -1086,59 +780,7 @@ blockquote {
   }
 
   .project-card:hover {
-    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.25);
-
-    animation: slidein 0.5s forwards;
-    -webkit-animation: slidein 0.5s forwards;
-    -moz-animation: slidein 0.5s forwards;
-    -ms-animation: slidein 0.5s forwards;
-    -o-animation: slidein 0.5s forwards;
-
-  }
-
-  @keyframes slidein {
-    from{
-    transform: translate(0, 0);
-    }
-    to{
-    transform: translate(-1rem, -1rem);
-    }
-  }
-
-  @-webkit-keyframes slidein {
-    from{
-    transform: translate(0, 0);
-    }
-    to{
-    transform: translate(-1rem, -1rem);
-    }
-  }
-
-  @-moz-keyframes slidein {
-    from{
-    transform: translate(0, 0);
-    }
-    to{
-    transform: translate(-1rem, -1rem);
-    }
-  }
-
-  @-ms-keyframes slidein {
-    from{
-    transform: translate(0, 0);
-    }
-    to{
-    transform: translate(-1rem, -1rem);
-    }
-  }
-
-  @-o-keyframes slidein {
-    from{
-    transform: translate(0, 0);
-    }
-    to{
-    transform: translate(-1rem, -1rem);
-    }
+    transform: translate3d(-1rem, -1rem, 0);
   }
 
   /*---ABOUT HERO-----------------*/
@@ -1173,7 +815,7 @@ blockquote {
     width: 49.5rem;
   }
 
-  .about-hero-content h1 {
+  .about-hero-content .home-about-title {
     left: 31rem;
     top: 20rem;
   }
@@ -1236,63 +878,7 @@ blockquote {
     }
   }
 
-  @-webkit-keyframes fadein {
-    0% {
-      opacity: 0;
-      width: 0;
-    }
-    30% {
-      opacity: 0;
-    }
-    60% {
-      opacity: 1;
-      width: 94.4rem;
-    }
-  }
-
-  @-moz-keyframes fadein {
-    0% {
-      opacity: 0;
-      width: 0;
-    }
-    30% {
-      opacity: 0;
-    }
-    60% {
-      opacity: 1;
-      width: 94.4rem;
-    }
-  }
-
-  @-ms-keyframes fadein {
-    0% {
-      opacity: 0;
-      width: 0;
-    }
-    30% {
-      opacity: 0;
-    }
-    60% {
-      opacity: 1;
-      width: 94.4rem;
-    }
-  }
-
-  @-o-keyframes fadein {
-    0% {
-      opacity: 0;
-      width: 0;
-    }
-    30% {
-      opacity: 0;
-    }
-    60% {
-      opacity: 1;
-      width: 94.4rem;
-    }
-  }
-
-  .hero-content h1 {
+  .hero-content .home-about-title {
     top: 11.2rem;
   }
 
@@ -1328,7 +914,7 @@ blockquote {
     width: 60.5rem;
   }
 
-  .about-hero-content h1 {
+  .about-hero-content .home-about-title {
     left: 36rem;
     top: 21.8rem;
   }

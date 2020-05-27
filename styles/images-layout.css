@@ -74,6 +74,10 @@ img {
   height: 12rem;
 }
 
+.comp-analy-screenshot-1, .comp-analy-screenshot-2, .comp-analy-screenshot-3 {
+  height: 24rem;
+}
+
 .user-persona {
   height: 27.2rem;
 }
@@ -180,6 +184,11 @@ img {
     height: 19rem;
   }
 
+
+  .comp-analy-screenshot-1, .comp-analy-screenshot-2, .comp-analy-screenshot-3 {
+    height: 38rem;
+  }
+
   .video-iframe {
     height: 29.05rem;
     width: 50rem;
@@ -237,6 +246,10 @@ img {
 
   .comp-analy-logo-1, .comp-analy-logo-2, .comp-analy-logo-3 {
     height: 25.5rem;
+  }
+
+  .comp-analy-screenshot-1, .comp-analy-screenshot-2, .comp-analy-screenshot-3 {
+    height: 50rem;
   }
 
   .basic-file-management-operations-user-flow {
