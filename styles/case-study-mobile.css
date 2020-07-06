@@ -894,17 +894,17 @@ ol {
 }
 
 .usability-test-img-overlay-4 {
-  height: 22.4rem;
+  height: 26.4rem;
   margin: 0 auto;
   position: relative;
-  width: 23.8rem;
+  width: 28.5rem;
 }
 
 .usability-test-img-overlay-5 {
-  height: 22.4rem;
+  height: 26.4rem;
   margin: 0 auto;
   position: relative;
-  width: 17.85rem;
+  width: 23rem;
 }
 
 .usability-testing-results-1, .usability-testing-results-2, .usability-testing-results-3,
@@ -948,7 +948,7 @@ ol {
 
 .usability-testing-results-9 {
   left: 50%;
-  margin-left: -4.6rem;
+  margin-left: -5.7rem;
   position: absolute;
   top: 2rem;
 }
@@ -984,7 +984,7 @@ ol {
 }
 
 .usability-test-img-overlay-4 .after {
-  left: 62%;
+  left: 61%;
 }
 
 /*---CONCLUSION---*/
