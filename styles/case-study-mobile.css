@@ -146,7 +146,7 @@
   text-align: center;
 }
 
-.stratus-logo {
+.case-study-logo {
   margin: 0 auto;
 }
 
@@ -155,7 +155,7 @@
   max-width: 85%;
 }
 
-.case-study-hero-img-container {
+.case-study-hero-img-container, .case-study-conclusion-img-container {
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -164,11 +164,15 @@
   width: 85%;
 }
 
+.chartchat-mobile-images {
+  padding-bottom: 0.8rem;
+}
+
 .stratus-desktop-1 {
   margin-top: 0.8rem;
 }
 
-.stratus-humaaans, .stratus-mobile {
+.stratus-humaaans, .stratus-mobile, .chartchat-mobile-2, .chartchat-mobile-3 {
   display: none;
 }
 
@@ -179,25 +183,11 @@
   width: 85%;
 }
 
-/*---FOR-PLACEHOLDER-PAGE:---*/
-
-.placeholder-project-image-hero {
-  border: 0.1rem solid #878787;
-  border-radius: 0.4rem;
-  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-  margin: 0 auto;
-  max-height: 40rem;
-}
-
-.placeholder-project-text-hero {
-  padding: 2.4rem 0;
-}
-
 /*---OVERVIEW------*/
 
 .roles-deliverables-tools {
   height: 82.5rem;
-  margin: 4rem auto 0rem;
+  margin: 4rem auto 0;
   position: relative;
   width: 30rem;
 }
@@ -304,7 +294,7 @@
 
 /*---USER-SURVEY---*/
 
-.chartjs-wrapper-1, .chartjs-wrapper-2 {
+.chartjs-wrapper-1, .chartjs-wrapper-2, .chartjs-wrapper-3, .chartjs-wrapper-4, .chartjs-wrapper-5, .chartjs-wrapper-6 {
   border-radius: 0.4rem;
   margin: 4rem auto 0;
   height: 45rem;
@@ -317,7 +307,27 @@
   padding: 2rem 5% 15.5rem;
 }
 
-.chartjs-wrapper-1 .sub-heading, .chartjs-wrapper-2 .sub-heading {
+.chartjs-wrapper-3 {
+  height: 40rem;
+}
+
+.chartjs-wrapper-4 {
+  height: 35rem;
+  padding: 2rem 5% 22rem;
+}
+
+.chartjs-wrapper-5 {
+  height: 35rem;
+  padding: 2rem 5% 24rem;
+}
+
+.chartjs-wrapper-6 {
+  height: 35rem;
+  padding: 2rem 5% 22rem;
+}
+
+.chartjs-wrapper-1 .sub-heading, .chartjs-wrapper-2 .sub-heading, .chartjs-wrapper-3 .sub-heading, .chartjs-wrapper-4 .sub-heading, .chartjs-wrapper-5 .sub-heading,
+.chartjs-wrapper-6 .sub-heading {
   margin: 0 auto;
   padding: 2rem 0 4rem;
   text-align: left;
@@ -340,14 +350,19 @@
 
 /*---COMP-ANALY----*/
 
-.comp-analy-images {
+.comp-analy-images, .comp-analy-images-2 {
   height: 27rem;
   margin: 0 auto;
   position: relative;
   width: 26rem;
 }
 
-.comp-analy-logo-1, .comp-analy-logo-2, .comp-analy-logo-3 {
+.comp-analy-images-2 {
+  height: 12.85rem;
+}
+
+.comp-analy-logo-1, .comp-analy-logo-2, .comp-analy-logo-3, .comp-analy-logo-4,.comp-analy-logo-5,
+ .comp-analy-logo-6, .comp-analy-logo-7, .comp-analy-logo-8, .comp-analy-logo-9 {
   border-radius: 0.4rem;
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
   position: absolute;
@@ -365,6 +380,34 @@
   bottom: 0.8rem;
   left: 50%;
   margin-left: -6rem;
+}
+
+.comp-analy-logo-4 {
+  left: 0;
+}
+
+.comp-analy-logo-5 {
+  left: 9.55rem
+}
+
+.comp-analy-logo-6 {
+  left: 0;
+  top: 4.55rem;
+}
+
+.comp-analy-logo-7 {
+  left: 7.675rem;
+  top: 4.55rem;
+}
+
+.comp-analy-logo-8 {
+  left: 0;
+  top: 9.1rem;
+}
+
+.comp-analy-logo-9 {
+  left: 8.3rem;
+  top: 9.1rem;
 }
 
 .comp-analy-screenshot-1, .comp-analy-screenshot-2, .comp-analy-screenshot-3 {
@@ -387,6 +430,10 @@
   overflow: auto;
   position: relative;
   width: 30rem;
+}
+
+.user-persona-card-height-2 {
+  height: 114rem;
 }
 
 .user-persona {
@@ -476,7 +523,7 @@
   margin-bottom: 1.6rem;
 }
 
-.basic-file-management-operations-user-flow, .sharing-links-user-flow {
+.basic-file-management-operations-user-flow, .sharing-links-user-flow, .export-chat-history-to-emr-user-flow, .send-chat-message-to-colleague-user-flow {
   border: 0.1rem solid #878787;
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
   margin-bottom: 1rem;
@@ -512,6 +559,11 @@
   border: 0.1rem solid #878787;
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
   margin-bottom: 1rem;
+}
+
+.digital-wireframe-5, .digital-wireframe-6, .digital-wireframe-7, .digital-wireframe-8, .digital-wireframe-9, .digital-wireframe-10 {
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  margin: 0 auto 1rem;
 }
 
 /*---USABILITY-TESTING-1---*/
@@ -572,12 +624,14 @@ ol {
   max-width: 37rem;
 }
 
-.branding-sketch-1, .branding-sketch-2, .branding-sketch-3, .branding-sketch-4 {
+.branding-sketch-1, .branding-sketch-2, .branding-sketch-3, .branding-sketch-4,
+ .branding-sketch-5, .branding-sketch-6, .branding-sketch-7, .branding-sketch-8 {
   border-radius: 0.2rem;
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
 }
 
-.moodboard, .logo-iterations, .brand-colors, .brand-typography {
+.moodboard-stratus, .logo-iterations-stratus, .brand-colors-stratus, .brand-typography-stratus,
+ .logo-iterations-chartchat, .brand-colors-chartchat, .brand-typography-chartchat {
   border: 0.1rem solid #878787;
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
 }
@@ -609,8 +663,24 @@ ol {
   width: 29rem;
 }
 
+.highfi-mockups-img-overlay-4 {
+  height: 47rem;
+  margin: 2rem auto 0;
+  position: relative;
+  width: 29rem;
+}
+
+.highfi-mockups-img-overlay-5 {
+  height: 22.4rem;
+  margin: 2rem auto 0;
+  position: relative;
+  width: 27.4rem;
+}
+
 .highfi-mockup-1, .highfi-mockup-2, .highfi-mockup-3, .highfi-mockup-4,
- .highfi-mockup-5, .highfi-mockup-6 {
+ .highfi-mockup-5, .highfi-mockup-6, .highfi-mockup-7, .highfi-mockup-8,
+  .highfi-mockup-9, .highfi-mockup-10, .highfi-mockup-11, .highfi-mockup-12,
+   .highfi-mockup-13, .highfi-mockup-14 {
   border: 0.1rem solid #878787;
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
 }
@@ -636,6 +706,56 @@ ol {
 .highfi-mockup-4, .highfi-mockup-6 {
   position: absolute;
   right: 0.5rem;
+  top: 2rem;
+}
+
+.highfi-mockup-7 {
+  left: 0;
+  position: absolute;
+  top: 2rem;
+}
+
+.highfi-mockup-8 {
+  left: 50%;
+  margin-left: -4.6rem;
+  position: absolute;
+  top: 2rem;
+}
+
+.highfi-mockup-9 {
+  position: absolute;
+  right: 0;
+  top: 2rem;
+}
+
+.highfi-mockup-10 {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.highfi-mockup-11 {
+  bottom: 0;
+  left: 50%;
+  margin-left: -4.6rem;
+  position: absolute;
+}
+
+.highfi-mockup-12 {
+  bottom: 0;
+  position: absolute;
+  right: 0;
+}
+
+.highfi-mockup-13 {
+  left: 2rem;
+  position: absolute;
+  top: 2rem;
+}
+
+.highfi-mockup-14 {
+  position: absolute;
+  right: 2rem;
   top: 2rem;
 }
 
@@ -675,6 +795,18 @@ ol {
 
 .highfi-mockups-img-overlay-3 .after {
   left: 54%;
+}
+
+.highfi-mockups-img-overlay-4 .after {
+  top: 54%;
+}
+
+.highfi-mockups-img-overlay-5 .before {
+  left: 8%;
+}
+
+.highfi-mockups-img-overlay-5 .after {
+  left: 60%;
 }
 
 /*---PREFERENCE-TESTING---*/
@@ -761,8 +893,23 @@ ol {
   width: 28.5rem;
 }
 
+.usability-test-img-overlay-4 {
+  height: 22.4rem;
+  margin: 0 auto;
+  position: relative;
+  width: 23.8rem;
+}
+
+.usability-test-img-overlay-5 {
+  height: 22.4rem;
+  margin: 0 auto;
+  position: relative;
+  width: 17.85rem;
+}
+
 .usability-testing-results-1, .usability-testing-results-2, .usability-testing-results-3,
- .usability-testing-results-4, .usability-testing-results-5, .usability-testing-results-6 {
+ .usability-testing-results-4, .usability-testing-results-5, .usability-testing-results-6,
+  .usability-testing-results-7, .usability-testing-results-8, .usability-testing-results-9 {
   border: 0.1rem solid #878787;
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
 }
@@ -785,6 +932,24 @@ ol {
 .usability-testing-results-6 {
   position: absolute;
   right: 0.5rem;
+  top: 2rem;
+}
+
+.usability-testing-results-7 {
+  position: absolute;
+  top: 2rem;
+}
+
+.usability-testing-results-8 {
+  position: absolute;
+  right: 0;
+  top: 2rem;
+}
+
+.usability-testing-results-9 {
+  left: 50%;
+  margin-left: -4.6rem;
+  position: absolute;
   top: 2rem;
 }
 
@@ -814,10 +979,22 @@ ol {
   left: 52.5%;
 }
 
+.usability-test-img-overlay-4 .before {
+  left: 0.5%;
+}
+
+.usability-test-img-overlay-4 .after {
+  left: 62%;
+}
+
 /*---CONCLUSION---*/
 
 .stratus-desktop-2 {
   margin: 0 auto -2rem;
+}
+
+.chartchat-mobile-5, .chartchat-mobile-6 {
+  display: none;
 }
 
 .final-thanks {
@@ -875,6 +1052,16 @@ ol {
     padding: 0 1rem;
   }
 
+  /*---CASE-STUDY-"HERO"---*/
+
+  .chartchat-mobile-2, .chartchat-mobile-3 {
+    display: block;
+  }
+
+  .chartchat-mobile-5, .chartchat-mobile-6 {
+    display: block;
+  }
+
   /*---OVERVIEW------*/
 
   .roles-deliverables-tools {
@@ -928,7 +1115,7 @@ ol {
 
   /*---USER-SURVEY---*/
 
-  .chartjs-wrapper-1, .chartjs-wrapper-2 {
+  .chartjs-wrapper-1, .chartjs-wrapper-2, .chartjs-wrapper-3, .chartjs-wrapper-4, .chartjs-wrapper-5, .chartjs-wrapper-6 {
     max-width: 54rem;
     padding-bottom: 16rem;
   }
@@ -937,7 +1124,21 @@ ol {
     height: 50rem;
   }
 
-  .chartjs-wrapper-1 .sub-heading, .chartjs-wrapper-2 .sub-heading {
+  .chartjs-wrapper-4 {
+    height: 40rem;
+  }
+
+  .chartjs-wrapper-5 {
+    padding: 2rem 5% 20rem;
+  }
+
+  .chartjs-wrapper-6 {
+    height: 50rem;
+    padding: 2rem 5% 20rem;
+  }
+
+  .chartjs-wrapper-1 .sub-heading, .chartjs-wrapper-2 .sub-heading, .chartjs-wrapper-3 .sub-heading, .chartjs-wrapper-4 .sub-heading, .chartjs-wrapper-5 .sub-heading,
+  .chartjs-wrapper-6 .sub-heading {
     max-width: 50rem;
     text-align: center;
   }
@@ -948,10 +1149,14 @@ ol {
 
   /*---COMP-ANALY----*/
 
-  .comp-analy-images {
+  .comp-analy-images, .comp-analy-images-2 {
     height: 41rem;
     margin: 0 2rem;
     width: 41rem;
+  }
+
+  .comp-analy-images-2 {
+    height: 19.6rem;
   }
 
   .comp-analy-logo-1 {
@@ -966,6 +1171,34 @@ ol {
     margin-left: -9.5rem;
   }
 
+  .comp-analy-logo-4 {
+    left: 0;
+  }
+
+  .comp-analy-logo-5 {
+    left: 14.8rem
+  }
+
+  .comp-analy-logo-6 {
+    left: 0;
+    top: 6.8rem;
+  }
+
+  .comp-analy-logo-7 {
+    left: 11.8rem;
+    top: 6.8rem;
+  }
+
+  .comp-analy-logo-8 {
+    left: 0;
+    top: 13.6rem;
+  }
+
+  .comp-analy-logo-9 {
+    left: 12.8rem;
+    top: 13.6rem;
+  }
+
   .comp-analy-screenshots {
     margin-top: -3.2rem;
     padding-bottom: 0.8rem;
@@ -975,6 +1208,12 @@ ol {
 
   .user-personas .flex-content {
     width: 85%;
+  }
+
+  /*---WIREFRAMES----*/
+
+  .chartchat-digital-wireframes {
+    max-width: 105.4rem;
   }
 
   /*---USABILITY-TESTING-1---*/
@@ -987,6 +1226,10 @@ ol {
   /*---BRANDING------*/
 
   .branding-sketch-1 {
+    margin-bottom: -4rem;
+  }
+
+  .branding-sketch-5 {
     margin-bottom: -4rem;
   }
 

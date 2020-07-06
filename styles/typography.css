@@ -35,6 +35,10 @@ body, p, div {
   line-height: 120%;
 }
 
+.case-study-intro {
+  font-size: 2.4rem;
+}
+
 .main-heading {
   font-size: 2.4rem;
   line-height: 120%;
@@ -118,7 +122,8 @@ blockquote p {
   font-size: 1.4rem;
 }
 
-.chartjs-wrapper-1 .sub-heading, .chartjs-wrapper-2 .sub-heading {
+.chartjs-wrapper-1 .sub-heading, .chartjs-wrapper-2 .sub-heading, .chartjs-wrapper-3 .sub-heading, .chartjs-wrapper-4 .sub-heading, .chartjs-wrapper-5 .sub-heading,
+.chartjs-wrapper-6 .sub-heading {
   font-size: 1.8rem;
   line-height: 160%;
 }
@@ -202,6 +207,10 @@ blockquote p {
     line-height: 180%;
   }
 
+  .case-study-intro {
+    font-size: 3.4rem;
+  }
+
   .nav-link {
     font-size: 2rem;
   }
@@ -227,7 +236,8 @@ blockquote p {
     font-size: 2rem;
   }
 
-  .chartjs-wrapper-1 .sub-heading, .chartjs-wrapper-2 .sub-heading {
+  .chartjs-wrapper-1 .sub-heading, .chartjs-wrapper-2 .sub-heading, .chartjs-wrapper-3 .sub-heading, .chartjs-wrapper-4 .sub-heading, .chartjs-wrapper-5 .sub-heading,
+  .chartjs-wrapper-6 .sub-heading {
     font-size: 2.4rem;
     line-height: 167.2%;
   }

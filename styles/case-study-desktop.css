@@ -48,11 +48,15 @@
 
   .case-study-intro {
     margin-top: 3.2rem;
-    width: 62.5rem;
+    width: 80rem;
   }
 
-  .case-study-hero-img-container {
+  .case-study-hero-img-container, .case-study-conclusion-img-container {
     max-width: 126rem;
+  }
+
+  .chartchat-mobile-images {
+    max-width: 110rem;
   }
 
   .stratus-humaaans {
@@ -86,16 +90,17 @@
 
   /*---USER SURVEY---*/
 
-  .chartjs-wrapper-1, .chartjs-wrapper-2 {
+  .chartjs-wrapper-1, .chartjs-wrapper-2, .chartjs-wrapper-3, .chartjs-wrapper-4, .chartjs-wrapper-5, .chartjs-wrapper-6 {
     margin: 4rem 2rem 0;
-  }
-
-  .chartjs-wrapper-1 {
     padding-bottom: 23rem;
   }
 
   .chartjs-wrapper-2 {
     padding-bottom: 18rem;
+  }
+
+  .chartjs-wrapper-5 {
+    height: 50rem;
   }
 
   .user-survey-stat {
@@ -104,10 +109,14 @@
 
   /*---COMP-ANALY----*/
 
-  .comp-analy-images {
+  .comp-analy-images, .comp-analy-images-2 {
     height: 54rem;
     margin: 0 2rem;
     width: 53rem;
+  }
+
+  .comp-analy-images-2 {
+    height: 25.6rem;
   }
 
   .comp-analy-logo-1 {
@@ -122,11 +131,43 @@
     margin-left: -12.8rem;
   }
 
+  .comp-analy-logo-4 {
+    left: 0;
+  }
+
+  .comp-analy-logo-5 {
+    left: 19.5rem
+  }
+
+  .comp-analy-logo-6 {
+    left: 0;
+    top: 8.8rem;
+  }
+
+  .comp-analy-logo-7 {
+    left: 15.5rem;
+    top: 8.8rem;
+  }
+
+  .comp-analy-logo-8 {
+    left: 0;
+    top: 17.6rem;
+  }
+
+  .comp-analy-logo-9 {
+    left: 16.8rem;
+    top: 17.6rem;
+  }
+
   /*---USER-PERSONAS---*/
 
   .user-persona-card {
     height: 115rem;
     width: 32.7rem;
+  }
+
+  .user-persona-card-height-2 {
+    height: 123.2rem;
   }
 
   .persona-background {
@@ -253,6 +294,24 @@
     transform: rotate(5deg);
   }
 
+  .branding-sketch-5 {
+    margin: 2rem 2rem -10rem;
+  }
+
+  .branding-sketch-6 {
+    transform: rotate(-10deg);
+  }
+
+  .branding-sketch-7 {
+    margin: -8rem 0 0 0;
+    transform: rotate(0deg);
+  }
+
+  .branding-sketch-8 {
+    margin: -4rem 0 0 -4rem;
+    transform: rotate(5deg);
+  }
+
   /*---HIGHFI-MOCKUPS---*/
 
   .highfi-mockups-img-overlay-1 {
@@ -268,6 +327,16 @@
   .highfi-mockups-img-overlay-3 {
     height: 39.6rem;
     width: 44.2rem;
+  }
+
+  .highfi-mockups-img-overlay-4 {
+    height: 110rem;
+    width: 75.4rem;
+  }
+
+  .highfi-mockups-img-overlay-5 {
+    height: 52.5rem;
+    width: 57.5rem;
   }
 
   .highfi-mockup-1, .highfi-mockup-2 {
@@ -288,6 +357,31 @@
 
   .highfi-mockup-6 {
     right: 0.75rem;
+  }
+
+  .highfi-mockup-7 {
+    top: 2.5rem;
+  }
+
+  .highfi-mockup-8 {
+    margin-left: -11.6rem;
+    top: 2.5rem;
+  }
+
+  .highfi-mockup-9 {
+    top: 2.5rem;
+  }
+
+  .highfi-mockup-11 {
+    margin-left: -11.6rem;
+  }
+
+  .highfi-mockup-13 {
+    top: 2.5rem;
+  }
+
+  .highfi-mockup-14 {
+    top: 2.5rem;
   }
 
   .down-arrow, .right-arrow {
@@ -321,6 +415,22 @@
 
   .highfi-mockups-img-overlay-3 .after {
     left: 53.5%;
+  }
+
+  .highfi-mockups-img-overlay-4 .before {
+    left: 0;
+  }
+
+  .highfi-mockups-img-overlay-4 .after {
+    top: 52.25%;
+  }
+
+  .highfi-mockups-img-overlay-5 .before {
+    left: 4%;
+  }
+
+  .highfi-mockups-img-overlay-5 .after {
+    left: 56.5%;
   }
 
   /*---PREFERENCE-TESTING---*/
@@ -374,6 +484,16 @@
     width: 42.4rem;
   }
 
+  .usability-test-img-overlay-4 {
+    height: 52.5rem;
+    width: 53.5rem;
+  }
+
+  .usability-test-img-overlay-5 {
+    height: 52.5rem;
+    width: 40.125rem;
+  }
+
   .usability-testing-results-1, .usability-testing-results-3 {
     top: 2.5rem;
   }
@@ -386,12 +506,36 @@
     left: 0;
   }
 
+  .usability-testing-results-7 {
+    position: absolute;
+    top: 2.5rem;
+  }
+
+  .usability-testing-results-8 {
+    position: absolute;
+    top: 2.5rem;
+  }
+
+  .usability-testing-results-9 {
+    margin-left: -11.6rem;
+    position: absolute;
+    top: 2.5rem;
+  }
+
   .usability-test-img-overlay-1 .after {
     top: 50.2%;
   }
 
   .usability-test-img-overlay-2 .after {
     top: 50%;
+  }
+
+  .usability-test-img-overlay-4 .before {
+    left: 0.5%;
+  }
+
+  .usability-test-img-overlay-4 .after {
+    left: 57%;
   }
 
   /*---CONCLUSION---*/
@@ -488,11 +632,12 @@
     margin-top: 5.6rem;
   }
 
-  .logo-iterations, .brand-colors, .brand-typography {
+  .logo-iterations-stratus, .brand-colors-stratus, .brand-typography-stratus,
+   .logo-iterations-chartchat, .brand-colors-chartchat, .brand-typography-chartchat {
     margin-bottom: -4rem;
   }
 
-  .moodboard {
+  .moodboard-stratus {
     margin: -2rem 0 -8rem;
   }
 
@@ -500,4 +645,44 @@
     margin-top: 5.6rem;
   }
 
+}
+
+@media screen and (min-width: 1400px) {
+
+/*---COMP-ANALY----*/
+
+  .comp-analy-images-2 {
+    height: 52rem;
+    margin: 0 4rem;
+    width: 32rem;
+  }
+
+  .comp-analy-logo-4 {
+    left: 0;
+  }
+
+  .comp-analy-logo-5 {
+    left: 0;
+    top: 8.8rem;
+  }
+
+  .comp-analy-logo-6 {
+    left: 0;
+    top: 17.6rem;
+  }
+
+  .comp-analy-logo-7 {
+    left: 0;
+    top: 26.4rem;
+  }
+
+  .comp-analy-logo-8 {
+    left: 0;
+    top: 35.2rem;
+  }
+
+  .comp-analy-logo-9 {
+    left: 0;
+    top: 44rem;
+  }
 }

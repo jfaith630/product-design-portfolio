@@ -5,54 +5,9 @@ Chart.defaults.global.defaultFontColor = '#000000';
 Chart.defaults.global.defaultLineHeight = 1.4;
 
 //CHART #1
-//How do you organize your files in your cloud storage application of choice? (Please select all that apply.)
+//How important are collaborative features to you in a cloud storage application?
 var ctxOne = document.getElementById('chart-1').getContext('2d');
 var chart = new Chart(ctxOne, {
-    // The type of chart we want to create
-    type: 'bar',
-
-    // The data for our dataset
-    data: {
-        labels: [['Category/', 'Group Tags'], ['Favorite', 'Tags'], 'Folders', ['I don\'t organize', 'my files']],
-        datasets: [{
-            label: '# of Votes',
-            backgroundColor: ['#45266A', '#E1261C', '#00796B', '#878787'],
-            data: [5, 1, 11, 2]
-        }]
-    },
-
-    // Configuration options go here
-    options: {
-      maintainAspectRatio: false,
-      legend: {
-        display: false,
-      },
-      tooltips: {
-        enabled: false
-      },
-      scales: {
-        yAxes: [{
-          ticks: {
-            beginAtZero: true
-          }
-        }],
-        xAxes: [{
-          ticks: {
-            fontSize: 14,
-            lineHeight: 1.1,
-          }
-        }]
-      },
-      plugins: {
-        datalabels: false
-      }
-    }
-});
-
-//CHART #2
-//How important are collaborative features to you in a cloud storage application?
-var ctxTwo = document.getElementById('chart-2').getContext('2d');
-var chart = new Chart(ctxTwo, {
     // The type of chart we want to create
     type: 'pie',
 
@@ -97,6 +52,51 @@ var chart = new Chart(ctxTwo, {
           },
           color: '#fff',
         }
+      }
+    }
+});
+
+//CHART #2
+//How do you organize your files in your cloud storage application of choice? (Please select all that apply.)
+var ctxTwo = document.getElementById('chart-2').getContext('2d');
+var chart = new Chart(ctxTwo, {
+    // The type of chart we want to create
+    type: 'bar',
+
+    // The data for our dataset
+    data: {
+        labels: [['Category/', 'Group Tags'], ['Favorite', 'Tags'], 'Folders', ['I don\'t organize', 'my files']],
+        datasets: [{
+            label: '# of Votes',
+            backgroundColor: ['#45266A', '#E1261C', '#00796B', '#878787'],
+            data: [5, 1, 11, 2]
+        }]
+    },
+
+    // Configuration options go here
+    options: {
+      maintainAspectRatio: false,
+      legend: {
+        display: false,
+      },
+      tooltips: {
+        enabled: false
+      },
+      scales: {
+        yAxes: [{
+          ticks: {
+            beginAtZero: true
+          }
+        }],
+        xAxes: [{
+          ticks: {
+            fontSize: 14,
+            lineHeight: 1.1,
+          }
+        }]
+      },
+      plugins: {
+        datalabels: false
       }
     }
 });

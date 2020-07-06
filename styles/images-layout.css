@@ -50,7 +50,7 @@ img {
 
 /*---CASE STUDY-----------------*/
 
-.stratus-logo {
+.case-study-logo {
   height: 5rem;
 }
 
@@ -74,6 +74,10 @@ img {
   height: 12rem;
 }
 
+.comp-analy-logo-4, .comp-analy-logo-5, .comp-analy-logo-6, .comp-analy-logo-7, .comp-analy-logo-8, .comp-analy-logo-9 {
+  height: 3.75rem;
+}
+
 .comp-analy-screenshot-1, .comp-analy-screenshot-2, .comp-analy-screenshot-3 {
   height: 24rem;
 }
@@ -86,10 +90,15 @@ img {
   height: 3.2rem;
 }
 
-.basic-file-management-operations-user-flow, .sharing-links-user-flow, .wireframe-sketch-1,
- .wireframe-sketch-2, .wireframe-sketch-3, .wireframe-sketch-4, .digital-wireframe-1,
-  .digital-wireframe-2, .digital-wireframe-3, .digital-wireframe-4 {
+.basic-file-management-operations-user-flow, .sharing-links-user-flow, .export-chat-history-to-emr-user-flow,
+ .send-chat-message-to-colleague-user-flow, .wireframe-sketch-1, .wireframe-sketch-2, .wireframe-sketch-3, .wireframe-sketch-4,
+  .digital-wireframe-1, .digital-wireframe-2, .digital-wireframe-3, .digital-wireframe-4, .digital-wireframe-5, .digital-wireframe-6,
+   .digital-wireframe-7, .digital-wireframe-8, .digital-wireframe-9, .digital-wireframe-10 {
   width: auto;
+}
+
+.digital-wireframe-5, .digital-wireframe-6, .digital-wireframe-7, .digital-wireframe-8, .digital-wireframe-9, .digital-wireframe-10 {
+  height: 50rem;
 }
 
 .usability-testing-persona {
@@ -101,11 +110,13 @@ img {
   width: 30rem;
 }
 
-.branding-sketch-1, .branding-sketch-2, .branding-sketch-3, .branding-sketch-4 {
+.branding-sketch-1, .branding-sketch-2, .branding-sketch-3, .branding-sketch-4,
+ .branding-sketch-5, .branding-sketch-6, .branding-sketch-7, .branding-sketch-8 {
   width: auto;
 }
 
-.moodboard, .logo-iterations, .brand-colors, .brand-typography {
+.moodboard-stratus, .logo-iterations-stratus, .brand-colors-stratus, .brand-typography-stratus,
+ .logo-iterations-chartchat, .brand-colors-chartchat, .brand-typography-chartchat {
   width: auto;
 }
 
@@ -129,6 +140,11 @@ img {
   width: 12.82rem;
 }
 
+.highfi-mockup-7, .highfi-mockup-8, .highfi-mockup-9, .highfi-mockup-10,
+ .highfi-mockup-11, .highfi-mockup-12, .highfi-mockup-13, .highfi-mockup-14 {
+  width: 9rem;
+}
+
 .preference-testing-1, .preference-testing-2 {
   width: 28rem;
 }
@@ -144,6 +160,10 @@ img {
 
 .usability-testing-results-5, .usability-testing-results-6 {
   width: 13rem;
+}
+
+.usability-testing-results-7, .usability-testing-results-8, .usability-testing-results-9 {
+  width: 9rem;
 }
 
 .stratus-desktop-2 {
@@ -184,6 +204,9 @@ img {
     height: 19rem;
   }
 
+  .comp-analy-logo-4, .comp-analy-logo-5, .comp-analy-logo-6, .comp-analy-logo-7, .comp-analy-logo-8, .comp-analy-logo-9 {
+    height: 6rem;
+  }
 
   .comp-analy-screenshot-1, .comp-analy-screenshot-2, .comp-analy-screenshot-3 {
     height: 38rem;
@@ -228,7 +251,7 @@ img {
 
   /*---CASE STUDY-----------------*/
 
-  .stratus-logo {
+  .case-study-logo {
     height: 7.4rem;
   }
 
@@ -244,8 +267,16 @@ img {
     max-height: 40rem;
   }
 
+  .chartchat-mobile-1, .chartchat-mobile-2, .chartchat-mobile-3, .chartchat-mobile-4 {
+    max-height: 50rem;
+  }
+
   .comp-analy-logo-1, .comp-analy-logo-2, .comp-analy-logo-3 {
     height: 25.5rem;
+  }
+
+  .comp-analy-logo-4, .comp-analy-logo-5, .comp-analy-logo-6, .comp-analy-logo-7, .comp-analy-logo-8, .comp-analy-logo-9 {
+    height: 8rem;
   }
 
   .comp-analy-screenshot-1, .comp-analy-screenshot-2, .comp-analy-screenshot-3 {
@@ -258,6 +289,14 @@ img {
 
   .sharing-links-user-flow {
     height: 59.8rem;
+  }
+
+  .export-chat-history-to-emr-user-flow {
+    height: 90.6rem;
+  }
+
+  .send-chat-message-to-colleague-user-flow {
+    height: 69.8rem;
   }
 
   .wireframe-sketch-1, .wireframe-sketch-2, .wireframe-sketch-3, .wireframe-sketch-4 {
@@ -301,20 +340,52 @@ img {
     max-width: none;
   }
 
-  .moodboard {
+  .branding-sketch-5 {
+    height: 45rem;
+  }
+
+  .branding-sketch-6 {
+    height: 50rem;
+    max-width: none;
+  }
+
+  .branding-sketch-7 {
+    height: 50rem;
+    max-width: none;
+  }
+
+  .branding-sketch-8 {
+    height: 50rem;
+    max-width: none;
+  }
+
+  .moodboard-stratus {
     height: 38.7rem;
   }
 
-  .logo-iterations {
+  .logo-iterations-stratus {
     height: 37.2rem;
   }
 
-  .brand-colors {
+  .logo-iterations-chartchat {
+    height: 44.2rem;
+  }
+
+  .brand-colors-stratus {
     height: 18.4rem;
   }
 
-  .brand-typography {
-    height: 23.3rem;
+  .brand-colors-chartchat {
+    height: 24.65rem;
+  }
+
+  .brand-typography-stratus {
+    height: 23.6rem;
+    width: auto;
+  }
+
+  .brand-typography-chartchat {
+    height: 23.65rem;
     width: auto;
   }
 
@@ -339,6 +410,11 @@ img {
   .highfi-mockup-5, .highfi-mockup-6 {
     height: 38.6rem;
     width: auto;
+  }
+
+  .highfi-mockup-7, .highfi-mockup-8, .highfi-mockup-9, .highfi-mockup-10,
+   .highfi-mockup-11, .highfi-mockup-12, .highfi-mockup-13, .highfi-mockup-14 {
+    width: 23rem;
   }
 
   .preference-testing-1 {
@@ -392,6 +468,14 @@ img {
   .usability-testing-results-6 {
     height: 35rem;
     width: auto;
+  }
+
+  .usability-testing-results-7, .usability-testing-results-8, .usability-testing-results-9 {
+    width: 23rem;
+  }
+
+  .chartchat-mobile-5, .chartchat-mobile-6, .chartchat-mobile-7, .chartchat-mobile-8 {
+    max-height: 50rem;
   }
 
 }
